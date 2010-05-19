@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<Resources name="WEEK 2">
+	<footer>
+		<textField>
+			<fb><![CDATA[Share on]]></fb>
+			<fan><![CDATA[Become a fan]]></fan>
+		</textField>
+		<button>
+			<profil><![CDATA[My profile]]></profil>
+			<trad><![CDATA[]]></trad>
+			<mentions><![CDATA[Legal Mentions]]></mentions>
+			<evian><![CDATA[Learn more about evian]]></evian>
+		</button>
+	</footer>
+	<curve_pinkLight>
+	</curve_pinkLight>
+	<intro>
+		<videoUrl><![CDATA[02_41_titouan.mp4]]></videoUrl>
+		<textField>
+			<week><![CDATA[Week 2]]></week>
+			<title><![CDATA[Keep up that<br>young attitude]]></title>
+			<subTitle><![CDATA[A week to focus on cultivating a youthful mindset!<br>Look at the bright side of life, perhaps that's the key to staying young at heart...<br>So this week's workout involves a great deal of laughter!<br>Are you ready?]]></subTitle>
+		</textField>
+		<button>
+			<bt><![CDATA[Go]]></bt>
+		</button>
+	</intro>
+	<laugh>
+		<textField >
+			<title>
+				<text><![CDATA[Funny Week]]></text>
+				<text><![CDATA[Keep up that young attitude]]></text>
+			</title>
+			<game><![CDATA[<font face="Chalet-NewYorkNineteenSixty" >Make it laugh...</font> Using your mouse, search for<br>the body's most ticklish spot !<br><br>They say laughter is contagious...<br><font color="#E72562" >Keep an eye on your email inbox every day<br>this week.</font>]]></game>
+		</textField>
+		<button>
+			<bt><![CDATA[Next]]></bt>
+		</button>
+	</laugh>
+	<congratulation>
+		<videoUrl><![CDATA[01_82_jules.mp4]]></videoUrl>
+		<textField >
+			<title><![CDATA[Congratulations,]]></title>
+			<subTitle><![CDATA[you done a great job. Continue to improve your Youth Quotient and keep<br>an eye on your email inbox every day this week.]]></subTitle>
+		</textField>
+		<button>
+			<bt><![CDATA[My profile]]></bt>
+		</button>
+	</congratulation>
+	<profil>
+		<textField gap="0">
+			<title1><![CDATA[My]]></title1>
+			<title1><![CDATA[profile]]></title1>
+			<sub><![CDATA[Check your evolution along your Live Young Training.]]></sub>
+			<bubble>
+				<text><![CDATA[Your Youth<br>Quotient]]></text>
+				<text><![CDATA[years old]]></text>
+			</bubble>
+			<profil>
+				<sex male="male" female="female"><![CDATA[Gender]]></sex>
+				<age><![CDATA[years old]]></age>
+				<height><![CDATA[cm]]></height>
+				<weight><![CDATA[kg]]></weight>
+				<style title="Lifestyle">
+					<kind><![CDATA[Sedentary]]></kind>
+					<kind><![CDATA[Slightly active]]></kind>
+					<kind><![CDATA[Moderately active]]></kind>
+					<kind><![CDATA[Highly active]]></kind>
+				</style>
+			</profil>
+			<graphic year="years old">
+				<week0><![CDATA[Beginning]]></week0>
+				<week1><![CDATA[Week 1]]></week1>
+				<week2><![CDATA[Week 2]]></week2>
+				<week3><![CDATA[Week 3]]></week3>
+				<week4><![CDATA[Week 4]]></week4>
+				<week5><![CDATA[Week 5]]></week5>
+			</graphic>
+			<bottles>
+				<text_bottle><![CDATA[intellectual<br>agility]]></text_bottle>
+				<text_bottle><![CDATA[physical<br>capacities]]></text_bottle>
+				<text_bottle><![CDATA[mindset]]></text_bottle>
+			</bottles>
+		</textField>
+		<button>
+			<bt><![CDATA[Back]]></bt>
+		</button>
+	</profil>
+	<translation>
+		<textField >
+			<title><![CDATA[Translation]]></title>
+			<translate>
+				<word>
+					<ref><![CDATA[The Live Young Training]]></ref>
+					<trans><![CDATA[L'entrainement Jeunesse Evian]]></trans>
+				</word>
+			</translate>
+		</textField >
+		<button>
+			<bt><![CDATA[Close]]></bt>
+		</button>
+	</translation>
+	<mentions>
+		<textField >
+			<title><![CDATA[Legal mentions]]></title>
+			<text><![CDATA[All information contained on this website is intended to be fun and is provided for entertainment and general educational information only, and shall not be treated as substitutes for professional medical advice and care.<br/><br/>If you have any concerns about your health, diet, lifestyle, or fitness routine, you should consult a healthcare professional.<br/><br/>This web site and its creators assume no responsibility for consequences resulting from the use of this website and information contained herein, and it expressly disclaims all liability for injury or DIRECT, INDIRECT, INCIDENTAL, SPECIAL, or CONSEQUENTIAL damages or LOST PROFITS arising out of use, reference to, reliance on, or performance of such information.<br/><br/>This web site is provided on an "as is", "as available" basis without warranties of any kind, express or implied.]]></text>
+		</textField >
+		<button>
+			<bt><![CDATA[Close]]></bt>
+		</button>
+	</mentions>
+</Resources>

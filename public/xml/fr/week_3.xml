@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Resources name="WEEK 3">
+	<footer>
+		<textField>
+			<fb><![CDATA[Partager sur]]></fb>
+			<fan><![CDATA[Devenir fan]]></fan>
+		</textField>
+		<button>
+			<profil><![CDATA[Mon profil]]></profil>
+			<trad><![CDATA[*Traduction]]></trad>
+			<mentions><![CDATA[Mentions Légales]]></mentions>
+			<evian><![CDATA[En savoir plus sur evian]]></evian>
+		</button>
+	</footer>
+	<curve_pinkLight>
+	</curve_pinkLight>
+	<FunnyWeek>
+		<videoUrl><![CDATA[01_51_titouan.mp4]]></videoUrl>
+		<textField >
+			<title><![CDATA[Combien de fois avez-vous ri<br>la semaine dernière ?]]></title>
+			<game>
+				<resp value="a"><![CDATA[Moins d'une fois...]]></resp>
+				<resp value="b"><![CDATA[Les vidéos des<br/>bébés vous<br/>ont fait rire.]]></resp>
+				<resp value="c"><![CDATA[Plusieurs fois,<br>c'était une bonne<br>semaine.]]></resp>
+				<resp value="d"><![CDATA[Trop de fois<br>vous en avez encore<br>des crampes à<br>l'estomac !]]></resp>
+			</game>
+		</textField>
+		<button>
+			<bt><![CDATA[La suite]]></bt>
+		</button>
+	</FunnyWeek>
+	<intro>
+		<videoUrl><![CDATA[03_11_matheo.mp4]]></videoUrl>
+		<textField>
+			<week><![CDATA[semaine 3]]></week>
+			<title><![CDATA[Entretenez vos<br>capacités physiques]]></title>
+			<subTitle><![CDATA[C'est parti pour la forme !<br>Une semaine sous le signe de la persévérence, de la <br>performance et du plaisir... Vous êtes prêt ?]]></subTitle>
+		</textField>
+		<button>
+			<bt><![CDATA[Go]]></bt>
+		</button>
+	</intro>
+	<training1>
+		<videoUrl><![CDATA[03_21_jules.mp4]]></videoUrl>
+		<textField>
+			<title num="#1"><![CDATA[Happy training]]></title>
+			<subTitle><![CDATA[Entretenez vos capacités physiques]]></subTitle>
+			<game>
+				<text><![CDATA[Profitez de vos pauses Facebook pour<br>faire une séance d'abdominaux.]]></text>
+				<text><![CDATA[<textformat leading="-4"><font face="Chalet-LondonNineteenSixty" color="#616161">Exercez vous </font><font face="Chalet-NewYorkNineteenSixty" color="#616161">tout de suite : </font><br/><br/></textformat><textformat leading="1.5"><font face="Chalet-LondonNineteenSixty" color="#8E8E8E">Le buste légèrement incliné vers l'avant, maintenez<br/>vos jambes tendues en l'air, les pieds croisés,<br/>pendant 30 secondes. Faites l'exercice 3 fois.</textformat>]]></text>
+				<text><![CDATA[Continuez régulièrement cet exercice toute la<br/>semaine pour progresser.]]></text>
+			</game>
+		</textField>
+		<button>
+			<bt><![CDATA[Commencer l'exercice]]></bt>
+			<bt><![CDATA[Valider l'exercice]]></bt>
+			<bt><![CDATA[Recommencer l'exercice]]></bt>			
+		</button>
+	</training1>
+	<waveInfo>
+		<textField>
+			<title><![CDATA[Saviez-vous que nos muscles sont<br/>composés à 75% d'eau ?]]></title>
+			<text><![CDATA[Cette eau, indispensable au tonus musculaire, se<br/>renouvelle principalement avec celle que nous<br/>buvons. D'où l'intérêt de boire Evian, naturellement<br/>pure et équilibrée en minéraux.]]></text>
+		</textField>
+		<button><![CDATA[Continuer]]></button>
+	</waveInfo>
+	<training2>
+		<videoUrl><![CDATA[03_51_jules.mp4]]></videoUrl>
+		<textField>
+			<title num="#2"><![CDATA[L’exercice de la chaise]]></title>
+			<subTitle><![CDATA[entretenez vos capacités physiques]]></subTitle>
+			<game>
+				<text><![CDATA[Pour des cuisses fuselées !]]></text>
+				<text><![CDATA[<textformat leading="-4"><font face="Chalet-LondonNineteenSixty" color="#616161">Exercez vous </font><font face="Chalet-NewYorkNineteenSixty" color="#616161">tout de suite : </font><br/><br/></textformat><textformat leading="1.5"><font face="Chalet-LondonNineteenSixty" color="#8E8E8E">Le dos bien droit, laissez-vous glisser le long<br/>d’un mur jusqu’à vous retrouver en position<br/>assise. Gardez cette position 30 secondes.<br/>Remontez, dégourdissez vous les jambes<br/>puis recommencez. </textformat>]]></text>
+				<text><![CDATA[Exercez-vous régulièrement toute la semaine<br/>pour progresser.]]></text>
+			</game>
+		</textField>
+		<button>
+			<bt><![CDATA[Commencer l'exercice]]></bt>
+			<bt><![CDATA[Valider l'exercice]]></bt>
+			<bt><![CDATA[Recommencer l'exercice]]></bt>			
+		</button>
+		<bubble>
+			<text><![CDATA[L'Organisation<br/>Mondiale de la Santé<br/>recommande de<br/>boire 1.5L d'eau par<br/>jour en moyenne.]]></text>
+			<text><![CDATA[1 verre ça va,<br/>2 verres ça va,<br/>3, 4, 5…verres, ça<br/>va encore mieux !]]></text>
+		</bubble>
+	</training2>
+	
+	<congratulation>
+		<videoUrl><![CDATA[01_82_jules.mp4]]></videoUrl>
+		<textField>
+			<title><![CDATA[Félicitations,]]></title>
+			<subTitle><![CDATA[vous avez bien travaillé. Mais ne vous arrêtez pas en si bon chemin…<br>Poursuivez vos efforts afin d’améliorer votre Quotient Jeunesse<br>et continuez régulièrement vos exercices toute la semaine pour progresser.]]></subTitle>
+		</textField>
+		<button>
+			<bt><![CDATA[Mon profil]]></bt>
+		</button>
+	</congratulation>
+	<profil>
+		<textField gap="0">
+			<title1><![CDATA[Mon]]></title1>
+			<title1><![CDATA[profil]]></title1>
+			<sub><![CDATA[Suivez votre évolution tout au long de votre Live Young Training*.]]></sub>
+			<bubble>
+				<text><![CDATA[Votre Quotient<br>Jeunesse]]></text>
+				<text><![CDATA[ans]]></text>
+			</bubble>
+			<profil>
+				<sex male="masculin" female="féminin"><![CDATA[sexe]]></sex>
+				<age><![CDATA[ans]]></age>
+				<height><![CDATA[cm]]></height>
+				<weight><![CDATA[kg]]></weight>
+				<style title="Style de vie">
+					<kind><![CDATA[Sédentaire]]></kind>
+					<kind><![CDATA[Assez actif]]></kind>
+					<kind><![CDATA[Actif]]></kind>
+					<kind><![CDATA[Très actif]]></kind>
+				</style>
+			</profil>
+			<graphic year="ans">
+				<week0><![CDATA[Début]]></week0>
+				<week1><![CDATA[Semaine 1]]></week1>
+				<week2><![CDATA[Semaine 2]]></week2>
+				<week3><![CDATA[Semaine 3]]></week3>
+				<week4><![CDATA[Semaine 4]]></week4>
+				<week5><![CDATA[Semaine 5]]></week5>
+			</graphic>
+			<bottles>
+				<text_bottle><![CDATA[agilité<br>intellectuelle]]></text_bottle>
+				<text_bottle><![CDATA[capacités<br>physiques]]></text_bottle>
+				<text_bottle><![CDATA[jeunesse<br>d'esprit]]></text_bottle>
+			</bottles>
+		</textField>
+		<button>
+			<bt><![CDATA[Retour]]></bt>
+		</button>
+	</profil>
+	<translation>
+		<textField >
+			<title><![CDATA[Traduction]]></title>
+			<translate>
+				<word>
+					<ref><![CDATA[The Live Young Training]]></ref>
+					<trans><![CDATA[Le Programme Jeunesse evian]]></trans>
+				</word>
+				<word>
+					<ref><![CDATA[Coaching]]></ref>
+					<trans><![CDATA[Entraînement]]></trans>
+				</word>
+			</translate>
+		</textField >
+		<button>
+			<bt><![CDATA[Fermer]]></bt>
+		</button>
+	</translation>
+	<mentions>
+		<textField >
+			<title><![CDATA[Mentions légales]]></title>
+			<text><![CDATA[Ce site a pour seul but de fournir des informations générales, à titre éducatif, et ne remplace, en aucun cas, l'avis ou l'intervention d'un professionnel de la santé.<br/><br>Cet outil doit être utilisé, à titre indicatif, pour calculer les besoins d'hydradation d'un adulte sain agé de 18 à 75 ans, dans des conditions normales.<br/><br>En cas de traitements médicaux spécifiques, ou en cas de besoin d'information médicale plus précise, consultez un médecin ou un diététicien.<br/><br>Aucune responsabilité à l'encontre des auteurs ou de la société éditrice de ce site ne peut être retenue pour une quelconque utilisation du site ou de son contenu, tant en matière de dommages directs, indirects, accessoires, punitifs ou consécutifs ou manque à gagner causés par l'utilisation, la référence, ou l'exploitation de ce site ou de ses  informations.<br/><br>Ce site est consultable "en l'état", sans aucune garantie de quelque nature que ce soit, expresse ou implicite.]]></text>
+		</textField >
+		<button>
+			<bt><![CDATA[Fermer]]></bt>
+		</button>
+	</mentions>
+</Resources>

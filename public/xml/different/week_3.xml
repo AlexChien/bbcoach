@@ -1,0 +1,70 @@
+12c12
+< 			<evian><![CDATA[En savoir plus sur evian]]></evian>
+---
+> 			<evian><![CDATA[En savoir plus sur Evian]]></evian>
+18c18
+< 		<videoUrl><![CDATA[01_51_titouan.mp4]]></videoUrl>
+---
+> 	<videoUrl><![CDATA[01_51_titouan.mp4]]></videoUrl>
+90c90
+< 		<videoUrl><![CDATA[01_82_jules.mp4]]></videoUrl>
+---
+> 		<videoUrl><![CDATA[01_81_titouan.mp4]]></videoUrl>
+144c144
+< 					<trans><![CDATA[Le Programme Jeunesse evian]]></trans>
+---
+> 					<trans><![CDATA[L'entrainement Jeunesse Evian]]></trans>
+147,148c147,192
+< 					<ref><![CDATA[Coaching]]></ref>
+< 					<trans><![CDATA[Entraînement]]></trans>
+---
+> 					<ref><![CDATA[Funny Week]]></ref>
+> 					<trans><![CDATA[Semaine du rire]]></trans>
+> 				</word>
+> 				<word>
+> 					<ref><![CDATA[Aqua Box]]></ref>
+> 					<trans><![CDATA[Boite à eau]]></trans>
+> 				</word>
+> 				<word>
+> 					<ref><![CDATA[Lorem ipsum]]></ref>
+> 					<trans><![CDATA[jasjajze ddsds dsds]]></trans>
+> 				</word>
+> 				<word>
+> 					<ref><![CDATA[Lorem ipsum]]></ref>
+> 					<trans><![CDATA[jasjajze ddsds dsds]]></trans>
+> 				</word>
+> 				<word>
+> 					<ref><![CDATA[The Live Young Training]]></ref>
+> 					<trans><![CDATA[L'entrainement Jeunesse Evian]]></trans>
+> 				</word>
+> 				<word>
+> 					<ref><![CDATA[Funny Week]]></ref>
+> 					<trans><![CDATA[Semaine du rire]]></trans>
+> 				</word>
+> 				<word>
+> 					<ref><![CDATA[Aqua Box]]></ref>
+> 					<trans><![CDATA[Boite à eau]]></trans>
+> 				</word>
+> 				<word>
+> 					<ref><![CDATA[Lorem ipsum]]></ref>
+> 					<trans><![CDATA[jasjajze ddsds dsds]]></trans>
+> 				</word>
+> 				<word>
+> 					<ref><![CDATA[Lorem ipsum]]></ref>
+> 					<trans><![CDATA[jasjajze ddsds dsds]]></trans>
+> 				</word>
+> 				<word>
+> 					<ref><![CDATA[Aqua Box]]></ref>
+> 					<trans><![CDATA[Boite à eau]]></trans>
+> 				</word>
+> 				<word>
+> 					<ref><![CDATA[Lorem ipsum]]></ref>
+> 					<trans><![CDATA[jasjajze ddsds dsds]]></trans>
+> 				</word>
+> 				<word>
+> 					<ref><![CDATA[Lorem ipsum]]></ref>
+> 					<trans><![CDATA[jasjajze ddsds dsds]]></trans>
+159c203
+< 			<text><![CDATA[Ce site a pour seul but de fournir des informations générales, à titre éducatif, et ne remplace, en aucun cas, l'avis ou l'intervention d'un professionnel de la santé.<br/><br>Cet outil doit être utilisé, à titre indicatif, pour calculer les besoins d'hydradation d'un adulte sain agé de 18 à 75 ans, dans des conditions normales.<br/><br>En cas de traitements médicaux spécifiques, ou en cas de besoin d'information médicale plus précise, consultez un médecin ou un diététicien.<br/><br>Aucune responsabilité à l'encontre des auteurs ou de la société éditrice de ce site ne peut être retenue pour une quelconque utilisation du site ou de son contenu, tant en matière de dommages directs, indirects, accessoires, punitifs ou consécutifs ou manque à gagner causés par l'utilisation, la référence, ou l'exploitation de ce site ou de ses  informations.<br/><br>Ce site est consultable "en l'état", sans aucune garantie de quelque nature que ce soit, expresse ou implicite.]]></text>
+---
+> 			<text><![CDATA[Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut<br>labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud<br>exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu<br>fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,<br>sunt in culpa qui officia deserunt mollit anim id est laborum.]]></text>

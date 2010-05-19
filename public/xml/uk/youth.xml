@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<Resources name="YOUTH QUOTIENT">
+	<footer>
+		<textField>
+			<fb><![CDATA[Auf Facebook teilen]]></fb>
+			<fan><![CDATA[Fan werden]]></fan>
+		</textField>
+		<button>
+			<trad><![CDATA[Übersetzungen]]></trad>
+			<mentions><![CDATA[Legal Mentions]]></mentions>
+			<evian><![CDATA[Mehr Infos über evian]]></evian>
+		</button>
+	</footer>
+	<curve_pinkLight>
+		<textField>
+			<text><![CDATA[Errechnen Sie Ihren Jugendlichkeitsquotienten]]></text>
+		</textField>
+	</curve_pinkLight>
+	<valid>
+		<textField >
+			<win>
+				<title><![CDATA[Bravo,]]></title>
+				<text><![CDATA[Sie haben gewonnen.]]></text>
+			</win>
+			<lose>
+				<title><![CDATA[Schade,]]></title>
+				<text><![CDATA[Sie haben verloren.]]></text>
+			</lose>
+		</textField>
+		<button>
+			<bt_next><![CDATA[Weiter]]></bt_next>
+			<bt_back><![CDATA[Lösung]]></bt_back>
+		</button>
+	</valid>
+	<intro>
+		<textField>
+			<text><![CDATA[Errechnen Sie Ihren Jugendlichkeitsquotienten]]></text>
+			<text><![CDATA[Wenn Sie jung sein und jung bleiben möchten, gilt es, einige Regeln zu beachten! Lassen Sie Ihre Muskeln spielen, trainieren Sie Ihre grauen Zellen und bewahren Sie sich ein kindliches Gemüt.<br>Bevor wir zu den praktischen Übungen übergehen, errechnen wir erst einmal Ihren Jugendlichkeitsquotienten!]]></text>
+			<text_bottle><![CDATA[geistige<br>Flexibilität]]></text_bottle>
+			<text_bottle><![CDATA[körperliche<br>Fähigkeiten]]></text_bottle>
+			<text_bottle><![CDATA[seelische<br>Verfassung]]></text_bottle>
+		</textField>
+		<button>
+			<bt><![CDATA[Errechnen Sie Ihren Jugendlichkeitsquotienten]]></bt>
+		</button>
+	</intro>
+	<logicBaby>
+		<textField >
+			<title num="#1" quotient="1/3">
+				<text><![CDATA[Berechnen Sie Ihre]]></text>
+				<text><![CDATA[geistige<br>Flexibilität]]></text>
+			</title>
+			<text><![CDATA[Wie geht's logisch weiter?]]></text>
+			<text><![CDATA[Klicken Sie auf die richtige Antwort]]></text>
+			<text><![CDATA[Babys und Flaschen wechseln sich ab. Also kommt ein Baby an die letzte Position.<br>Mal krabbelt es, mal sitzt es, das auszuwählende Baby muss also sitzen!"]]></text>
+		</textField>
+		<button>
+			<bt><![CDATA[Bestätigen]]></bt>
+			<bt><![CDATA[Weiter]]></bt>
+		</button>
+	</logicBaby>
+	<speedMatch>
+		<textField >
+			<title num="#1" quotient="2/3">
+				<text><![CDATA[Berechnen Sie Ihre]]></text>
+				<text><![CDATA[geistige<br>Flexibilität]]></text>
+			</title>
+			<game>
+				<screen1>
+					<title><![CDATA[Wie schnell sind Sie?]]></title>
+					<text><![CDATA[To start, we will play with your memory.]]></text>
+					<bt><![CDATA[Hier klicken]]></bt>
+				</screen1>
+				<screen2>
+					<title><![CDATA[Ist dieses Bild identisch<br>mit dem vorherigen?]]></title>
+					<bt_yes><![CDATA[JA]]></bt_yes>
+					<bt_no><![CDATA[NEIN]]></bt_no>
+					<bt_next><![CDATA[Starten!]]></bt_next>
+					<score><![CDATA[WERT]]></score>
+					<explain><![CDATA[And you, try to be the fastest you can.<br>You have 20 secondes to make the high score.]]></explain>
+					<countDown time="3"><![CDATA[Los]]></countDown>
+					<timer time="20" singular="seconde" ><![CDATA[Sekunden]]></timer>
+				</screen2>
+			</game>
+		</textField>
+		<button>
+			<bt><![CDATA[Weiter]]></bt>
+		</button>
+	</speedMatch>
+	<logicNumber>
+		<textField >
+			<title num="#1" quotient="3/3">
+				<text><![CDATA[Berechnen Sie Ihre]]></text>
+				<text><![CDATA[geistige<br>Flexibilität]]></text>
+			</title>
+			<text><![CDATA[Wie geht's logisch weiter?]]></text>
+			<text><![CDATA[Klicken Sie auf die richtige Antwort]]></text>
+			<resp><![CDATA[also]]></resp>
+		</textField>
+		<button>
+			<bt><![CDATA[Bestätigen]]></bt>
+			<bt><![CDATA[Weiter]]></bt>
+		</button>
+	</logicNumber>
+	<walk>
+		<videoUrl><![CDATA[01_21_jules.mp4]]></videoUrl>
+		<textField >
+			<title num="#2" quotient="1/3">
+				<text><![CDATA[testen Sie Ihre]]></text>
+				<text><![CDATA[körperliche<br>Fitness]]></text>
+			</title>
+			<text><![CDATA[Wer jung sein möchte, sollte in Top-Form sein...<br>Wie steht's mit Ihnen?]]></text>
+			<text><![CDATA[Wie lange gehen Sie am Tag?]]></text>
+			<text_scroll name="Walk day">
+				<text><![CDATA[weniger als 15 Minuten]]></text>
+				<text><![CDATA[15 Minuten täglich]]></text>
+				<text><![CDATA[½ Stunde]]></text>
+				<text><![CDATA[1 Stunde<br>am Tag]]></text>
+				<text><![CDATA[mehr als 1 Stunde]]></text>
+			</text_scroll>
+		</textField>
+		<button>
+			<bt><![CDATA[Bestätigen]]></bt>
+		</button>
+	</walk>
+	<suppleness>
+		<videoUrl><![CDATA[01_31_noan.mp4]]></videoUrl>
+		<textField >
+			<title num="#2" quotient="2/3">
+				<text><![CDATA[testen Sie Ihre]]></text>
+				<text><![CDATA[körperliche<br>Fitness]]></text>
+			</title>
+			<text><![CDATA[Wie beweglich sind Sie?]]></text>
+			<text><![CDATA[Stellen Sie sich aufrecht hin, Beine gerade, und berühren Sie Ihre Füße, ohne die Knie zu beugen. Markieren Sie Ihr Ergebnis mit dem Pfeil.]]></text>
+			<text_scroll name="Suppleness">
+				<text><![CDATA[Sie hätten nie gedacht,<br>dass Ihre Knie so weit unten sind]]></text>
+				<text><![CDATA[Knie... Schienbein...<br> das war's!]]></text>
+				<text><![CDATA[Um Haaresbreite hätten<br>Sie's geschafft.]]></text>
+				<text><![CDATA[Sie sollten<br>Profi-Turner werden.]]></text>
+			</text_scroll>
+		</textField>
+		<button>
+			<bt><![CDATA[Bestätigen]]></bt>
+		</button>
+	</suppleness>
+	<flexion>
+		<videoUrl><![CDATA[01_41_jules.mp4]]></videoUrl>
+		<textField >
+			<title num="#2" quotient="3/3">
+				<text><![CDATA[testen Sie Ihre]]></text>
+				<text><![CDATA[körperliche<br>Fitness]]></text>
+			</title>
+			<text><![CDATA[Wie ist Ihre Kondition?]]></text>
+			<text><![CDATA[Stellen Sie sich aufrecht hin, Rücken gerade, Arme nach vorne gestreckt und:<br/> Kniebeugen! Zählen Sie und geben Sie an,<br/>wieviele Kniebeugen Sie schaffen, bevor Sie außer Atem geraten. ]]></text>
+			<text_scroll name="flexion" >
+				<text><![CDATA[weniger als 5 Kniebeugen.]]></text>
+				<text><![CDATA[zwischen 5 und 10 Kniebeugen.]]></text>
+				<text><![CDATA[zwischen 11 und 20 Kniebeugen.]]></text>
+				<text><![CDATA[zwischen 21 und 30 Kniebeugen.]]></text>
+				<text><![CDATA[Mehr als 30 Kniebeugen.]]></text>
+			</text_scroll>
+		</textField>
+		<button>
+			<bt><![CDATA[Bestätigen]]></bt>
+		</button>
+	</flexion>
+	<laugh>
+		<videoUrl><![CDATA[01_51_titouan.mp4]]></videoUrl>
+		<textField >
+			<title num="#3" quotient="1/3">
+				<text><![CDATA[Wie ist Ihre]]></text>
+				<text><![CDATA[seelische Verfassung]]></text>
+			</title>
+			<text><![CDATA[Jugend beginnt im Kopf... Oder?]]></text>
+			<text><![CDATA[Wie oft lachen Sie<br>am Tag?]]></text>
+			<text_scroll name="Laught">
+				<text><![CDATA[Lachen, wozu?]]></text>
+				<text><![CDATA[Nicht mehr als zwei Mal Lächeln<br>am Tag, am Wochenende drei Mal.]]></text>
+				<text><![CDATA[Ein Tag ohne Lachen<br>ist ein verlorener Tag.]]></text>
+				<text><![CDATA[Sie lachen<br>ununterbrochen.]]></text>
+			</text_scroll>
+		</textField>
+		<button>
+			<bt><![CDATA[Bestätigen]]></bt>
+		</button>
+	</laugh>
+	<wish>
+		<videoUrl><![CDATA[01_61_matheo.mp4]]></videoUrl>
+		<textField >
+			<title num="#3" quotient="2/3">
+				<text><![CDATA[Wie ist Ihre]]></text>
+				<text><![CDATA[seelische Verfassung]]></text>
+			</title>
+			<text><![CDATA[Wann haben Sie sich<br>das letzte Mal etwas gewünscht?]]></text>
+			<text><![CDATA[Es war...]]></text>
+			<text_scroll name="wish">
+				<text><![CDATA[Nie - klappt ja doch nicht! Jeder<br>ist seines eigenen Glückes Schmied.]]></text>
+				<text><![CDATA[Nur wenn Sie eine<br>Sternschnuppe sehen.]]></text>
+				<text><![CDATA[An Ihrem Geburtstag.<br>Wie jedes Jahr!]]></text>
+				<text><![CDATA[Gestern abend... Vor dem Einschlafen<br>wünschen Sie sich immer noch etwas Schönes.]]></text>
+			</text_scroll>
+		</textField>
+		<button>
+			<bt><![CDATA[Bestätigen]]></bt>
+		</button>
+	</wish>
+	<tongue>
+		<videoUrl><![CDATA[01_71_jules.mp4]]></videoUrl>
+		<textField >
+			<title num="#3" quotient="3/3">
+				<text><![CDATA[Wie ist Ihre]]></text>
+				<text><![CDATA[seelische Verfassung]]></text>
+			</title>
+			<text><![CDATA[Ein bisschen Spaß muss sein]]></text>
+			<text><![CDATA[Versuchen Sie doch mal, mit Ihrer Zunge Ihre Nasenspitze zu berühren!]]></text>
+			<text_scroll name="tongue">
+				<text><![CDATA[Unmöglich! Verlangen Sie<br>etwas Leichteres von mir!]]></text>
+				<text><![CDATA[Fast geschafft - nur noch<br>ein bisschen üben...]]></text>
+				<text><![CDATA[Ist doch kinderleicht!]]></text>
+			</text_scroll>
+		</textField>
+		<button>
+			<bt><![CDATA[Bestätigen]]></bt>
+		</button>
+	</tongue>
+	<profil>
+		<textField >
+			<title><![CDATA[Ihr persönliches Profil]]></title>
+			<text_scroll name="Größe" min="140" max="210" incr="1" unity="cm"></text_scroll>
+			<text_scroll name="Gewicht"  min="45" max="115" incr="1" unity="kg"></text_scroll>
+			<text_scroll name="Familienstand">
+				<text><![CDATA[Mann]]></text>
+				<text><![CDATA[Frau]]></text>
+				<text><![CDATA[Schwanger]]></text>
+				<text><![CDATA[Stillend]]></text>
+			</text_scroll>
+			<text_scroll name="Age" min="18" max="70" incr="1" unity="Jahre"></text_scroll>
+			<text_scroll name="Lifestyle">
+				<text><![CDATA[Kaum aktiv]]></text>
+				<text><![CDATA[Ein bisschen aktiv]]></text>
+				<text><![CDATA[Aktiv]]></text>
+				<text><![CDATA[Sehr aktiv]]></text>
+			</text_scroll>
+		</textField>
+		<button>
+			<bt><![CDATA[Bestätigen]]></bt>
+		</button>
+	</profil>
+	<drinks>
+		<textField >
+			<title><![CDATA[Ihr täglicher Verbrauch]]></title>
+			<drink info="choose">
+				<water><![CDATA[Wasser]]></water>
+				<juice><![CDATA[Fruchtsäfte]]></juice>
+				<soda><![CDATA[Softdrinks]]></soda>
+				<sodaLight><![CDATA[Kalorienreduzierte Softdrinks]]></sodaLight>
+				<coffeTsugar><![CDATA[Tee/Kaffee<br>mit Zucker]]></coffeTsugar>
+				<coffeTea><![CDATA[Tee/Kaffee<br>ohne Zucker]]></coffeTea>
+				<wine><![CDATA[Wein]]></wine>
+				<beer><![CDATA[Bier]]></beer>
+				<sport><![CDATA[Isotonische<br>Getränke]]></sport>
+				<energy><![CDATA[Energy<br>Drinks]]></energy>
+			</drink>
+		</textField>
+		<button>
+			<bt><![CDATA[Bestätigen]]></bt>
+		</button>
+	</drinks>
+	<screen_result>
+		<videoUrl><![CDATA[01_91_noan.mp4]]></videoUrl>
+		<textField >
+			<title unity="years old"><![CDATA[Ihr Jugendlichkeitsquotient]]></title>
+			<text_bottle><![CDATA[geistige<br>Flexibilität]]></text_bottle>
+			<text_bottle><![CDATA[körperliche<br>Fähigkeiten]]></text_bottle>
+			<text_bottle><![CDATA[seelische<br>Verfassung]]></text_bottle>
+		</textField>
+		<button>
+			<bt><![CDATA[Auf Facebook teilen]]></bt>
+			<bt><![CDATA[Meinen Wert verbessern]]></bt>
+		</button>
+	</screen_result>
+	<result2>
+		<videoUrl><![CDATA[01_91_noan.mp4]]></videoUrl>
+		<textField >
+			<title><![CDATA[Training starten]]></title>
+			<text><![CDATA[Sie möchten Ihren Jugendlichkeitsquotienten verbessern?<br>Dann sollten Sie am Live Young Training teilnehmen!<br> Vier Wochen lang lassen wir Ihre grauen<br>Zellen qualmen und ihre Muskeln arbeiten - Lachmuskeln inklusive!]]></text>
+			<bubble>
+				<text><![CDATA[Hätten Sie's gewusst?<br>Ihr Flüssigkeitshaushalt spielt eine wichtige Rolle für Ihre<br>körperliche und geistige Leistungsfähigkeit.]]></text>
+				<bt><![CDATA[Erfahren Sie mehr über<br>Ihren Flüssigkeitshaushalt]]></bt>
+			</bubble>
+		</textField>
+		<button>
+			<bt><![CDATA[Live Young Training Starten]]></bt>
+			<bt><![CDATA[Meinen Wert verbessern]]></bt>
+		</button>
+	</result2>
+	<login>
+		<videoUrl><![CDATA[01_81_titouan.mp4]]></videoUrl>
+		<textField >
+			<title><![CDATA[Am Live Young Training teilnehmen]]></title>
+			<subTitle><![CDATA[Ihre E-Mail-Adresse benötigen wir, um Sie über die nächsten Trainings-Stufen informieren zu können.<br>Wenn Sie Ihr Training fortsetzen möchten, registrieren Sie sich bitte hier.]]></subTitle>
+			<firstname><![CDATA[Ihr Vorname]]></firstname>
+			<familyname><![CDATA[Ihr Name]]></familyname>
+			<email><![CDATA[Ihre E-Mail-Adresse]]></email>
+			<confirmEmail><![CDATA[Bitte bestätigen Sie Ihre E-Mail-Adress]]></confirmEmail>
+			<pass><![CDATA[Ihr Passwort]]></pass>
+			<confirmPass><![CDATA[Bitte bestätigen Sie Ihr Passwort]]></confirmPass>
+			<tick_1><![CDATA[Ja, ich bin einverstanden, weitere Informationen von evian zu erhalten.]]></tick_1>
+			<response>
+				<missfield><![CDATA[Bitte füllen Sie alle Felder mit aus]]></missfield>
+				<LilPass><![CDATA[Ihr Passwort soll länger als 4 Zeichen sein.]]></LilPass>
+				<sameMail><![CDATA[Bitte bestätigen Sie Ihre E-Mail-Adress]]></sameMail>
+				<samePass><![CDATA[Bitte bestätigen Sie Ihr Passwort]]></samePass>
+				<unvalidMail><![CDATA[Bitte geben Sie eine gültige E-Mail-Adresse ein]]></unvalidMail>
+				<existMail><![CDATA[Ein Konto ist schon mit dieser E-Mail-Adresse verbunden.]]></existMail>
+				<connexion><![CDATA[Verbindung Fehler.]]></connexion>
+				<RDBMS><![CDATA[Datenbank Fehler.]]></RDBMS>
+				<valid><![CDATA[<br>Ihre Registrierung wird Ihnen per E-Mail bestätigt.<br>]]></valid>
+			</response>
+		</textField>
+		<button>
+			<bt><![CDATA[Training starten]]></bt>
+		</button>
+	</login>
+	<profil_hydr>
+		<textField gap="0">
+			<title1><![CDATA[Wie steht es um Ihren]]></title1>
+			<title1><![CDATA[Flüssigkeitshaushalt?]]></title1>
+			<sub>
+				<good><![CDATA[Glückwunsch,]]></good>
+				<good><![CDATA[anscheinend nehmen Sie bereits ausreichend Flüssigkeit zu sich.]]></good>
+				<bad><![CDATA[Achtung:]]></bad>
+				<bad><![CDATA[Sie sollten vielleicht etwas mehr Flüssigkeit zu sich nehmen, als Sie es bisher tun!]]></bad>
+			</sub>
+			<bubble>
+				<text><![CDATA[Ihr Jugendlichleitsquotient]]></text>
+				<text><![CDATA[Jahre]]></text>
+			</bubble>
+			<profil>
+				<sex male="männlich" female="weiblich"><![CDATA[sex]]></sex>
+				<age><![CDATA[Jahre]]></age>
+				<style><![CDATA[Lifestyle]]></style>
+			</profil>
+			<explain unity="L">
+				<title><![CDATA[Erfahren Sie mehr über Ihren Flüssigkeitshaushalt:]]></title>
+				<line1><![CDATA[Sie nehmen etwa]]></line1>
+				<line1><![CDATA[Liter Flüssigkeit zu sich.]]></line1>
+				<line2><![CDATA[Sie nehmen etwa]]></line2>
+				<line2><![CDATA[Liter Wasser durch das Essen auf]]></line2>
+				<line3><![CDATA[Sie verlieren täglich etwa]]></line3>
+				<line3><![CDATA[Liter Wasser]]></line3>
+				<good><![CDATA[Your hydratation is adequate!]]></good>
+				<bad><![CDATA[Your hydratation is inadequate!]]></bad>
+				<line5><![CDATA[Your ideal water consumption level is]]></line5>
+				<line5><![CDATA[a day]]></line5>
+			</explain>
+		</textField>
+		<button>
+			<bt><![CDATA[Back]]></bt>
+		</button>
+	</profil_hydr>
+	<translation>
+		<textField >
+			<title><![CDATA[Traduction]]></title>
+			<translate>
+				<word>
+					<ref><![CDATA[The Live Young Training]]></ref>
+					<trans><![CDATA[L'entrainement Jeunesse Evian]]></trans>
+				</word>
+				<word>
+					<ref><![CDATA[Funny Week]]></ref>
+					<trans><![CDATA[Semaine du rire]]></trans>
+				</word>
+				<word>
+					<ref><![CDATA[Aqua Box]]></ref>
+					<trans><![CDATA[Boite à eau]]></trans>
+				</word>
+				<word>
+					<ref><![CDATA[Lorem ipsum]]></ref>
+					<trans><![CDATA[jasjajze ddsds dsds]]></trans>
+				</word>
+				<word>
+					<ref><![CDATA[Lorem ipsum]]></ref>
+					<trans><![CDATA[jasjajze ddsds dsds]]></trans>
+				</word>
+				<word>
+					<ref><![CDATA[The Live Young Training]]></ref>
+					<trans><![CDATA[L'entrainement Jeunesse Evian]]></trans>
+				</word>
+				<word>
+					<ref><![CDATA[Funny Week]]></ref>
+					<trans><![CDATA[Semaine du rire]]></trans>
+				</word>
+				<word>
+					<ref><![CDATA[Aqua Box]]></ref>
+					<trans><![CDATA[Boite à eau]]></trans>
+				</word>
+				<word>
+					<ref><![CDATA[Lorem ipsum]]></ref>
+					<trans><![CDATA[jasjajze ddsds dsds]]></trans>
+				</word>
+				<word>
+					<ref><![CDATA[Lorem ipsum]]></ref>
+					<trans><![CDATA[jasjajze ddsds dsds]]></trans>
+				</word>
+				<word>
+					<ref><![CDATA[Aqua Box]]></ref>
+					<trans><![CDATA[Boite à eau]]></trans>
+				</word>
+				<word>
+					<ref><![CDATA[Lorem ipsum]]></ref>
+					<trans><![CDATA[jasjajze ddsds dsds]]></trans>
+				</word>
+				<word>
+					<ref><![CDATA[Lorem ipsum]]></ref>
+					<trans><![CDATA[jasjajze ddsds dsds]]></trans>
+				</word>
+				<word>
+					<ref><![CDATA[The Live Young Training]]></ref>
+					<trans><![CDATA[L'entrainement Jeunesse Evian]]></trans>
+				</word>
+				<word>
+					<ref><![CDATA[Funny Week]]></ref>
+					<trans><![CDATA[Semaine du rire]]></trans>
+				</word>
+				<word>
+					<ref><![CDATA[Aqua Box]]></ref>
+					<trans><![CDATA[Boite à eau]]></trans>
+				</word>
+				<word>
+					<ref><![CDATA[Lorem ipsum]]></ref>
+					<trans><![CDATA[jasjajze ddsds dsds]]></trans>
+				</word>
+				<word>
+					<ref><![CDATA[Lorem ipsum]]></ref>
+					<trans><![CDATA[jasjajze ddsds dsds]]></trans>
+				</word>
+			</translate>
+		</textField >
+		<button>
+			<bt><![CDATA[Close]]></bt>
+		</button>
+	</translation>
+	<mentions>
+		<textField >
+			<title><![CDATA[Legal mentions]]></title>
+			<text><![CDATA[Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut<br>labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud<br>exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu<br>fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,<br>sunt in culpa qui officia deserunt mollit anim id est laborum.]]></text>
+		</textField >
+		<button>
+			<bt><![CDATA[Close]]></bt>
+		</button>
+	</mentions>
+</Resources>

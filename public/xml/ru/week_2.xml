@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8?>
+<Resources name="WEEK 2">
+	<footer>
+		<textField>
+			<fb><![CDATA[Поделиться]]></fb>
+			<fan><![CDATA[Фан-клуб]]></fan>
+		</textField>
+		<button>
+			<profil><![CDATA[Мой профпайл]]></profil>
+			<trad><![CDATA[*Переводы]]></trad>
+			<mentions><![CDATA[Юридическая информация]]></mentions>
+			<evian><![CDATA[Узнать больше об Evian]]></evian>
+		</button>
+	</footer>
+	<curve_pinkLight>
+	</curve_pinkLight>
+	<intro>
+		<videoUrl><![CDATA[02_41_titouan.mp4]]></videoUrl>
+		<textField>
+			<week><![CDATA[Неделя 2]]></week>
+			<title><![CDATA[Какое у Вас<br>состояние души?]]></title>
+			<subTitle><![CDATA[На этой неделе мы поработаем над состоянием души!<br>Мыслить позитивно - значит сохранять молодость духа.<br>Поэтому на этой неделе мы будем в основном…смеяться! Готовы?]]></subTitle>
+		</textField>
+		<button>
+			<bt><![CDATA[Вперед]]></bt>
+		</button>
+	</intro>
+	<laugh>
+		<textField >
+			<title>
+				<text><![CDATA[Забавная неделя*]]></text>
+				<text><![CDATA[Какое у Вас состояние души?]]></text>
+			</title>
+			<game><![CDATA[<font face="Chalet-NewYorkNineteenSixty" >Заставьте его смеяться… </font> С помощью мышки,<br><font color="#E72562" >найдите на теле самые чувствительные к щекотке места!</font>]]></game>
+		</textField>
+		<button>
+			<bt><![CDATA[Следующий]]></bt>
+		</button>
+	</laugh>
+	<congratulation>
+		<videoUrl><![CDATA[01_82_jules.mp4]]></videoUrl>
+		<textField >
+			<title><![CDATA[Поздравляем!]]></title>
+			<subTitle><![CDATA[Вы отлично потрудились.<br>Продолжайте выполнять упражнения для повышения<br>коэффициента молодости и не забывайте проверять почту<br>на этой неделе.]]></subTitle>
+		</textField>
+		<button>
+			<bt><![CDATA[Мой профайл]]></bt>
+		</button>
+	</congratulation>
+	<profil>
+		<textField gap="0">
+			<title1><![CDATA[Мой]]></title1>
+			<title1><![CDATA[профайл]]></title1>
+			<sub><![CDATA[Следите за своими успехами на протяжение всего тренинга.]]></sub>
+			<bubble>
+				<text><![CDATA[Сейчас Ваш коэффициент<br>молодости]]></text>
+				<text><![CDATA[лет]]></text>
+			</bubble>
+			<profil>
+				<sex male="мужской" female="женcкий"><![CDATA[пол]]></sex>
+				<age><![CDATA[лет]]></age>
+				<height><![CDATA[рост (см)]]></height>
+				<weight><![CDATA[вес (кг)]]></weight>
+				<style title="Образ жизни">
+					<kind><![CDATA[Сидячий]]></kind>
+					<kind><![CDATA[Малоподвижный]]></kind>
+					<kind><![CDATA[Умеренно подвижный]]></kind>
+					<kind><![CDATA[Очень активный]]></kind>
+				</style>
+			</profil>
+			<graphic year="лет">
+				<week0><![CDATA[Вернуться к началу]]></week0>
+				<week1><![CDATA[Неделя 1]]></week1>
+				<week2><![CDATA[Неделя 2]]></week2>
+				<week3><![CDATA[Неделя 3]]></week3>
+				<week4><![CDATA[Неделя 4]]></week4>
+				<week5><![CDATA[Неделя 5]]></week5>
+			</graphic>
+			<bottles>
+				<text_bottle><![CDATA[Быстрота<br>ума]]></text_bottle>
+				<text_bottle><![CDATA[Физические<br>возможности]]></text_bottle>
+				<text_bottle><![CDATA[Молодость<br>духа]]></text_bottle>
+			</bottles>
+		</textField>
+		<button>
+			<bt><![CDATA[Назад]]></bt>
+		</button>
+	</profil>
+	<translation>
+		<textField >
+			<title><![CDATA[Переводы]]></title>
+			<translate>
+				<word>
+					<ref><![CDATA[The Live Young Training]]></ref>
+					<trans><![CDATA[Тренинг "Оставайся молодым от Evian"]]></trans>
+				</word>
+				<word>
+					<ref><![CDATA[Coaching]]></ref>
+					<trans><![CDATA[Тренировка]]></trans>
+				</word>
+				<word>
+					<ref><![CDATA[Aqua Box]]></ref>
+					<trans><![CDATA[Аква бокс]]></trans>
+				</word>
+			</translate>
+		</textField>
+		<button>
+			<bt><![CDATA[Закрыть]]></bt>
+		</button>
+	</translation>
+	<mentions>
+		<textField >
+			<title><![CDATA[Юридическая информация]]></title>
+			<text><![CDATA[Представленная на настоящем сайте информация носит исключительно общий ознакомительный характер и не может быть использована в качестве медицинской рекомендации.<br/><br>Настоящий продукт используется для подсчета необходимого количества жидкости для взрослого здорового человека в возрасте от 18 до 75 лет в нормальных условиях.<br/><br>Для получения более точной информации проконсультируйтесь с врачом или диетологом.<br/><br>Разработчики и авторы сайта не несут никакой ответственности  за использование информации с сайта, к каким бы последствиям оно не приводило.<br/><br>Информация, представленная на настоящем сайте, не является непосредственным руководством к действию.]]></text>
+		</textField >
+		<button>
+			<bt><![CDATA[Закрыть]]></bt>
+		</button>
+	</mentions>
+</Resources>

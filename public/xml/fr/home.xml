@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<Resources>
+	<home>
+		<textField name="The Live Young Training">
+			<text><![CDATA[Quoi de plus précieux que la jeunesse ? Heureusement nous pouvons tous la préserver avec un  brin de motivation !<br>Avec les Bébés evian, laissez-vous coacher pour cultiver et entretenir votre jeunesse !]]></text>
+			<logMsg><![CDATA[Déjà inscrit ?]]></logMsg>
+			<mail><![CDATA[Email]]></mail>
+			<pass><![CDATA[Mot de passe]]></pass>
+			<mailUnvalid><![CDATA[Veuillez entrer un e-mail valide.]]></mailUnvalid>
+			<passShort><![CDATA[Veuillez entrer mot de pass valide.]]></passShort>
+			<passMailUnvalid><![CDATA[Votre email ou votre mot de pass n'est pas valide.]]></passMailUnvalid>	
+		</textField>
+		<button>
+			<bt><![CDATA[Go]]></bt>
+			<bt><![CDATA[Démarrez !]]></bt>
+		</button>
+	</home>
+</Resources>

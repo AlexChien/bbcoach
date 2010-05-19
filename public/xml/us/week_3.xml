@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Resources name="WEEK 3">
+	<footer>
+		<textField>
+			<fb><![CDATA[Share on]]></fb>
+			<fan><![CDATA[Become a fan]]></fan>
+		</textField>
+		<button>
+			<profil><![CDATA[My profile]]></profil>
+			<trad><![CDATA[]]></trad>
+			<mentions><![CDATA[Legal Mentions]]></mentions>
+			<evian><![CDATA[Learn more about evian]]></evian>
+		</button>
+	</footer>
+	<curve_pinkLight>
+	</curve_pinkLight>
+	<FunnyWeek>
+	<videoUrl><![CDATA[01_51_titouan.mp4]]></videoUrl>
+		<textField >
+			<title><![CDATA[How many times did you<br>laugh last week ?]]></title>
+			<game>
+				<resp value="a"><![CDATA[Less than once...]]></resp>
+				<resp value="b"><![CDATA[The baby videos<br>made me laugh.]]></resp>
+				<resp value="c"><![CDATA[Many times,<br>this week was good.]]></resp>
+				<resp value="d"><![CDATA[So much that your<br>sides still ache!]]></resp>
+			</game>
+		</textField>
+		<button>
+			<bt><![CDATA[Next]]></bt>
+		</button>
+	</FunnyWeek>
+	<intro>
+		<videoUrl><![CDATA[03_11_matheo.mp4]]></videoUrl>
+		<textField>
+			<week><![CDATA[Week 3]]></week>
+			<title><![CDATA[Build your physical<br>strength]]></title>
+			<subTitle><![CDATA[It's physical fitness time !<br>Here's to a week of endurance training, high performance<br>and pure pleasure… Are you ready ?]]></subTitle>
+		</textField>
+		<button>
+			<bt><![CDATA[Go]]></bt>
+		</button>
+	</intro>
+	<training1>
+		<videoUrl><![CDATA[03_21_jules.mp4]]></videoUrl>
+		<textField>
+			<title num="#1"><![CDATA[Happy training]]></title>
+			<subTitle><![CDATA[Build your physical strength]]></subTitle>
+			<game>
+				<text><![CDATA[Make the most of your Facebook<br>breaks to work your abs]]></text>
+				<text><![CDATA[<textformat leading="-4"><font face="Chalet-LondonNineteenSixty" color="#616161">Start the exercise</font><font face="Chalet-NewYorkNineteenSixty" color="#616161"> right away: </font><br/><br/></textformat><textformat leading="1.5"><font face="Chalet-LondonNineteenSixty" color="#8E8E8E">With your chest at a slight incline, hold your<br>legs straight out in the air, feet crossed, for<br>30 seconds. Repeat this exercise 3 times.</textformat>]]></text>
+				<text><![CDATA[Continue regularly all week long to strengthen and<br>improve your happy outlook.]]></text>
+			</game>
+		</textField>
+		<button>
+			<bt><![CDATA[Start the exercise]]></bt>
+			<bt><![CDATA[Validate the exercise]]></bt>
+			<bt><![CDATA[Restart the exercise]]></bt>			
+		</button>
+	</training1>
+	<waveInfo>
+		<textField>
+			<title><![CDATA[Did you know that your muscles are<br>approximately 75% water?]]></title>
+			<text><![CDATA[Proper hydration helps renew the water in your muscles<br/>required for muscle function.]]></text>
+		</textField>
+		<button><![CDATA[Continue]]></button>
+	</waveInfo>
+	<training2>
+		<videoUrl><![CDATA[03_51_jules.mp4]]></videoUrl>
+		<textField>
+			<title num="#2"><![CDATA[The chair exercise]]></title>
+			<subTitle><![CDATA[build your physical strength]]></subTitle>
+			<game>
+				<text><![CDATA[Streamline your thighs]]></text>
+				<text><![CDATA[<textformat leading="-4"><font face="Chalet-LondonNineteenSixty" color="#616161">Start the exercise </font><font face="Chalet-NewYorkNineteenSixty" color="#616161">right away: </font><br/><br/></textformat><textformat leading="1.5"><font face="Chalet-LondonNineteenSixty" color="#8E8E8E">Keeping your back straight, let yourself slide down<br/>against a wall until you reach the "seated" position,<br/>as if on a chair. Hold this position for 30 seconds.<br/>Slide back up, shake your legs out and then<br/>start all over again.</textformat>]]></text>
+				<text><![CDATA[And continue regularly all week long to strengthen and<br/>improve your happy outlook.]]></text>
+			</game>
+		</textField>
+		<button>
+			<bt><![CDATA[Start the exercise]]></bt>
+			<bt><![CDATA[Validate the exercise]]></bt>
+			<bt><![CDATA[Restart the exercise]]></bt>		
+		</button>
+		<bubble>
+			<text><![CDATA[Your body is mostly water.<br/>And about every 7 weeks,<br/>that water is, mostly<br/>by what you drink.]]></text>
+			<text><![CDATA[Choose to be reborn<br/>by giving your body<br/>pure, refreshing evian<br/>natural spring water<br/>its unique, well balanced<br/>wmineral composition.]]></text>
+		</bubble>
+	</training2>
+	
+	<congratulation>
+		<videoUrl><![CDATA[01_82_jules.mp4]]></videoUrl>
+		<textField>
+			<title><![CDATA[Congratulations,]]></title>
+			<subTitle><![CDATA[you've done a great job. But don't stop now...<br>Continue your efforts to boost your Youth Quotient while you<br>wait for the next series of exercises. Have a great week!]]></subTitle>
+		</textField>
+		<button>
+			<bt><![CDATA[My profile]]></bt>
+		</button>
+	</congratulation>
+	<profil>
+		<textField gap="0">
+			<title1><![CDATA[My]]></title1>
+			<title1><![CDATA[profile]]></title1>
+			<sub><![CDATA[Check your evolution along your Live Young Training.]]></sub>
+			<bubble>
+				<text><![CDATA[Your Youth<br>Quotient]]></text>
+				<text><![CDATA[years old]]></text>
+			</bubble>
+			<profil>
+				<sex male="male" female="female"><![CDATA[Gender]]></sex>
+				<age><![CDATA[years old]]></age>
+				<height><![CDATA[cm]]></height>
+				<weight><![CDATA[kg]]></weight>
+				<style title="Lifestyle">
+					<kind><![CDATA[Sedentary]]></kind>
+					<kind><![CDATA[Slightly active]]></kind>
+					<kind><![CDATA[Moderately active]]></kind>
+					<kind><![CDATA[Highly active]]></kind>
+				</style>
+			</profil>
+			<graphic year="years old">
+				<week0><![CDATA[Beginning]]></week0>
+				<week1><![CDATA[Week 1]]></week1>
+				<week2><![CDATA[Week 2]]></week2>
+				<week3><![CDATA[Week 3]]></week3>
+				<week4><![CDATA[Week 4]]></week4>
+				<week5><![CDATA[Week 5]]></week5>
+			</graphic>
+			<bottles>
+				<text_bottle><![CDATA[intellectual<br>agility]]></text_bottle>
+				<text_bottle><![CDATA[physical<br>capacities]]></text_bottle>
+				<text_bottle><![CDATA[mindset]]></text_bottle>
+			</bottles>
+		</textField>
+		<button>
+			<bt><![CDATA[Back]]></bt>
+		</button>
+	</profil>
+	<translation>
+		<textField >
+			<title><![CDATA[Traduction]]></title>
+			<translate>
+				<word>
+					<ref><![CDATA[The Live Young Training]]></ref>
+					<trans><![CDATA[L'entrainement Jeunesse Evian]]></trans>
+				</word>
+			</translate>
+		</textField >
+		<button>
+			<bt><![CDATA[Close]]></bt>
+		</button>
+	</translation>
+	<mentions>
+		<textField >
+			<title><![CDATA[Legal mentions]]></title>
+			<text><![CDATA[All information contained on this website is intended to be fun and is provided for entertainment and general educational information only, and shall not be treated as substitutes for professional medical advice and care.<br/><br/>If you have any concerns about your health, diet, lifestyle, or fitness routine, you should consult a healthcare professional.<br/><br/>This web site and its creators assume no responsibility for consequences resulting from the use of this website and information contained herein, and it expressly disclaims all liability for injury or DIRECT, INDIRECT, INCIDENTAL, SPECIAL, or CONSEQUENTIAL damages or LOST PROFITS arising out of use, reference to, reliance on, or performance of such information.<br/><br/>This web site is provided on an "as is", "as available" basis without warranties of any kind, express or implied.]]></text>
+		</textField >
+		<button>
+			<bt><![CDATA[Close]]></bt>
+		</button>
+	</mentions>
+</Resources>

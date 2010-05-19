@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<Resources name="WEEK 1">
+	<footer>
+		<textField>
+			<fb><![CDATA[Partager]]></fb>
+			<fan><![CDATA[Devenir fan]]></fan>
+		</textField>
+		<button>
+			<profil><![CDATA[Mon profil]]></profil>
+			<trad><![CDATA[*Traduction]]></trad>
+			<mentions><![CDATA[Mentions Légales]]></mentions>
+			<evian><![CDATA[En savoir plus sur evian]]></evian>
+		</button>
+	</footer>
+	<curve_pinkLight>
+	</curve_pinkLight>
+	<confirmation>
+		<videoUrl><![CDATA[02_01_jules.mp4]]></videoUrl>
+		<textField>
+			<title><![CDATA[Vous êtes inscrit<br>au Live Young Training* !]]></title>
+			<subTitle><![CDATA[C'est parti pour quelques semaines d'entraînement !<br>Des exercices simples et ludiques vous permettront<br>d'améliorer sans peine votre quotient jeunesse.<br>Commençons par des exercices intellectuels.]]></subTitle>
+		</textField>
+		<button>
+			<bt><![CDATA[Commencez le training !]]></bt>
+		</button>
+	</confirmation>
+	<intro>
+		<videoUrl><![CDATA[02_11_kento.mp4]]></videoUrl>
+		<textField>
+			<week><![CDATA[semaine 1]]></week>
+			<title><![CDATA[Challengez votre<br>agilité intellectuelle]]></title>
+			<subTitle><![CDATA[Cette semaine, c'est votre cerveau qu'il faut stimuler...<br>Vous êtes prêt ?]]></subTitle>
+		</textField>
+		<button>
+			<bt><![CDATA[Go]]></bt>
+		</button>
+	</intro>
+	<aquaBox>
+		<textField >
+			<title num="#1">
+				<text><![CDATA[L'aqua box*]]></text>
+				<sub><![CDATA[challengez votre agilité]]></sub>
+				<sub><![CDATA[intellectuelle]]></sub>
+			</title>
+			<game><![CDATA[Comptez les bouteilles qui entrent<br>et sortent de la boîte,<br>et comptez combien de bouteilles<br>restent dans la boîte.]]></game>
+			<box>
+				<warn><![CDATA[préparez-vous !]]></warn>
+				<count><![CDATA[comptez !]]></count>
+				<stop><![CDATA[stop !]]></stop>
+				<text><![CDATA[Combien de bouteilles<br>y'a-t-il dans cette boîte ?]]></text>
+			</box>
+		</textField>
+		<button>
+			<bt><![CDATA[Go]]></bt>
+			<bt><![CDATA[Validez]]></bt>
+		</button>
+		<bubble>
+			<text><![CDATA[Votre cerveau est<br>composé à 74% d'eau.]]></text>
+			<text><![CDATA[Une eau qui se<br>renouvelle principalement<br>avec l'eau que vous buvez.]]></text>
+			<text><![CDATA[Vous prendrez bien<br>un verre d'evian<br>pour y penser?]]></text>
+		</bubble>
+	</aquaBox>
+	<drop>
+		<textField >
+			<title num="#2">
+				<text><![CDATA[Épreuve de réflexes]]></text>
+				<text><![CDATA[Challengez votre agilité intellectuelle]]></text>
+			</title>
+			<game><![CDATA[Testez vos réflexes en préservant la goutte d'eau de tout élément extérieur.]]></game>
+			<dropGame>
+				<intro>
+					<text><![CDATA[Utilisez les flèches de votre clavier<br>pour vous déplacer et évitez<br>les éléments extérieurs ]]></text>
+					<bt><![CDATA[Go !]]></bt>
+				</intro>
+				<game>
+					<element><![CDATA[pollution humaine]]></element>
+					<element><![CDATA[traitement industriel]]></element>
+					<element><![CDATA[ingrédients artificiels ]]></element>
+					<element><![CDATA[pesticides]]></element>
+					<element><![CDATA[nitrates]]></element>
+				</game>
+			</dropGame>
+		</textField>
+		<button>
+			<bt><![CDATA[Jeu suivant]]></bt>
+		</button>
+		<bubble>
+			<text><![CDATA[Saviez vous que l'eau<br>d'evian que vous buvez<br>est naturellement pure ?]]></text>
+			<text><![CDATA[Telle que la nature<br>l'a créée il y a<br>des milliers d'années.]]></text>
+		</bubble>
+	</drop>
+	<waveInfo>
+		<textField >
+			<title><![CDATA[Protégée au coeur des Alpes,<br>l'eau minérale naturelle d'evian<br>vous transmet chaque jour sa pureté originelle.]]></title>
+			<subTitle><![CDATA[Grâce à son origine souterraine, l'eau d'Evian préserve<br>toute sa pureté originelle. Embouteillée à la source, elle<br>conserve l'ensemble de ses qualités. Vierge de tout<br>traitement chimique, elle demeure telle que la nature<br>l'a créée il y a des milliers d'années.]]></subTitle>
+		</textField>
+		<button>
+			<bt><![CDATA[Continuer]]></bt>
+		</button>
+	</waveInfo>
+	<congratulation>
+		<videoUrl><![CDATA[01_82_jules.mp4]]></videoUrl>
+		<textField >
+			<title><![CDATA[Félicitations,]]></title>
+			<subTitle><![CDATA[Vous avez bien travaillé. Mais ne vous arrêtez pas<br>en si bon chemin. Poursuivez vos efforts afin<br>d'améliorer votre Quotient Jeunesse en attendant<br>les prochains exercices.<br><br>A la semaine prochaine !]]></subTitle>
+		</textField>
+		<button>
+			<bt><![CDATA[Mon profil]]></bt>
+		</button>
+	</congratulation>
+	<interScore>
+		<textField >
+			<win>
+				<title><![CDATA[Bravo !]]></title>
+				<text><![CDATA[Vous avez réussi,]]></text>
+				<text><![CDATA[votre quotient jeunesse passe à]]></text>
+				<unity><![CDATA[ans]]></unity>
+			</win>
+			<lose>
+				<title><![CDATA[Dommage !]]></title>
+				<text><![CDATA[Vous avez perdu,]]></text>
+				<text><![CDATA[votre quotient jeunesse passe à]]></text>
+				<unity><![CDATA[ans.]]></unity>
+			</lose>
+		</textField>
+		<button>
+			<bt_next><![CDATA[Valider]]></bt_next>
+			<bt_back><![CDATA[Réessayer]]></bt_back>
+			<bt_fb><![CDATA[Partager sur]]></bt_fb>
+		</button>
+	</interScore>
+	<profil>
+		<textField gap="0">
+			<title1><![CDATA[Mon]]></title1>
+			<title1><![CDATA[profil]]></title1>
+			<sub><![CDATA[Suivez votre évolution tout au long de votre Live Young Training*.]]></sub>
+			<bubble>
+				<text><![CDATA[Votre Quotient<br>Jeunesse]]></text>
+				<text><![CDATA[ans]]></text>
+			</bubble>
+			<profil>
+				<sex male="masculin" female="féminin"><![CDATA[sexe]]></sex>
+				<age><![CDATA[ans]]></age>
+				<height><![CDATA[cm]]></height>
+				<weight><![CDATA[kg]]></weight>
+				<style title="Style de vie">
+					<kind><![CDATA[Sédentaire]]></kind>
+					<kind><![CDATA[Assez actif]]></kind>
+					<kind><![CDATA[Actif]]></kind>
+					<kind><![CDATA[Très actif]]></kind>
+				</style>
+			</profil>
+			<graphic year="years old">
+				<week0><![CDATA[Début]]></week0>
+				<week1><![CDATA[Semaine 1]]></week1>
+				<week2><![CDATA[Semaine 2]]></week2>
+				<week3><![CDATA[Semaine 3]]></week3>
+				<week4><![CDATA[Semaine 4]]></week4>
+				<week5><![CDATA[Semaine 5]]></week5>
+			</graphic>
+			<bottles>
+				<text_bottle><![CDATA[agilité<br>intellectuelle]]></text_bottle>
+				<text_bottle><![CDATA[capacités<br>physiques]]></text_bottle>
+				<text_bottle><![CDATA[jeunesse<br>d'esprit]]></text_bottle>
+			</bottles>
+		</textField>
+		<button>
+			<bt><![CDATA[Retour]]></bt>
+		</button>
+	</profil>
+	<translation>
+		<textField >
+			<title><![CDATA[Traduction]]></title>
+			<translate>
+				<word>
+					<ref><![CDATA[The Live Young Training]]></ref>
+					<trans><![CDATA[Le Programme Jeunesse evian]]></trans>
+				</word>
+				<word>
+					<ref><![CDATA[Coaching]]></ref>
+					<trans><![CDATA[Entraînement]]></trans>
+				</word>
+				<word>
+					<ref><![CDATA[Aqua Box]]></ref>
+					<trans><![CDATA[Boite à eau]]></trans>
+				</word>
+			</translate>
+		</textField >
+		<button>
+			<bt><![CDATA[Fermer]]></bt>
+		</button>
+	</translation>
+	<mentions>
+		<textField >
+			<title><![CDATA[Mentions légales]]></title>
+			<text><![CDATA[Ce site a pour seul but de fournir des informations générales, à titre éducatif, et ne remplace, en aucun cas, l'avis ou l'intervention d'un professionnel de la santé.<br/><br>Cet outil doit être utilisé, à titre indicatif, pour calculer les besoins d'hydradation d'un adulte sain agé de 18 à 75 ans, dans des conditions normales.<br/><br>En cas de traitements médicaux spécifiques, ou en cas de besoin d'information médicale plus précise, consultez un médecin ou un diététicien.<br/><br>Aucune responsabilité à l'encontre des auteurs ou de la société éditrice de ce site ne peut être retenue pour une quelconque utilisation du site ou de son contenu, tant en matière de dommages directs, indirects, accessoires, punitifs ou consécutifs ou manque à gagner causés par l'utilisation, la référence, ou l'exploitation de ce site ou de ses  informations.<br/><br>Ce site est consultable "en l'état", sans aucune garantie de quelque nature que ce soit, expresse ou implicite.]]></text>
+		</textField >
+		<button>
+			<bt><![CDATA[Fermer]]></bt>
+		</button>
+	</mentions>
+</Resources>

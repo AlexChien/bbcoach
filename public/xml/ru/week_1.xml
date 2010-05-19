@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Resources name="WEEK 1">
+	<footer>
+		<textField>
+			<fb><![CDATA[Поделиться]]></fb>
+			<fan><![CDATA[Фан-клуб]]></fan>
+		</textField>
+		<button>
+			<profil><![CDATA[Мой профайл]]></profil>
+			<trad><![CDATA[*Переводы]]></trad>
+			<mentions><![CDATA[Юридическая информация]]></mentions>
+			<evian><![CDATA[Узнать больше об Evian]]></evian>
+		</button>
+	</footer>
+	<curve_pinkLight>
+	</curve_pinkLight>
+	<confirmation>
+		<videoUrl><![CDATA[02_01_jules.mp4]]></videoUrl>
+		<textField>
+			<title><![CDATA[Вы зарегистрированы на тренинг<br>"Оставайся молодым"*]]></title>
+			<subTitle><![CDATA[Впереди несколько недель тренинга!<br>Простые и забавные упражнения помогут Вам с легкостью повысить коэффициент молодости.<br>Начнем с нескольких интеллектуальных упражнений.]]></subTitle>
+		</textField>
+		<button>
+			<bt><![CDATA[Начать тренинг!]]></bt>
+		</button>
+	</confirmation>
+	<intro>
+		<videoUrl><![CDATA[02_11_kento.mp4]]></videoUrl>
+		<textField>
+			<week><![CDATA[Неделя 1]]></week>
+			<title><![CDATA[Оцените быстроту<br>своего ума]]></title>
+			<subTitle><![CDATA[На этой неделе мы будем стимулировать Ваш ум…<br>Готовы?]]></subTitle>
+		</textField>
+		<button>
+			<bt><![CDATA[Вперед]]></bt>
+		</button>
+	</intro>
+	<aquaBox>
+		<textField >
+			<title num="#1">
+				<text><![CDATA[Шкатулка молодости*]]></text>
+				<sub><![CDATA[Оцените быстроту]]></sub>
+				<sub><![CDATA[своего ума]]></sub>
+			</title>
+			<game><![CDATA[Посчитайте, сколько бутылок<br>попадает в коробку, а сколько из нее<br>уходит. Посчитайте, сколько бутылок<br>осталось в коробке в конце упражнения.]]></game>
+			<box>
+				<warn><![CDATA[Приготовились!]]></warn>
+				<count><![CDATA[Считаем!]]></count>
+				<stop><![CDATA[Стоп!]]></stop>
+				<text><![CDATA[Сколько бутылок<br>в этой коробке?]]></text>
+			</box>
+		</textField>
+		<button>
+			<bt><![CDATA[Вперед]]></bt>
+			<bt><![CDATA[Подтвердить]]></bt>
+		</button>
+		<bubble>
+			<text><![CDATA[Ваш мозг на 74%<br>состоит из воды.]]></text>
+			<text><![CDATA[Эта вода<br>пополняется за счет<br>воды, которую Вы пьете. ]]></text>
+			<text><![CDATA[Подумайте над<br>этим за стаканчиком<br>воды Evian.]]></text>
+		</bubble>
+	</aquaBox>
+	<drop>
+		<textField >
+			<title num="#2">
+				<text><![CDATA[Думайте быстро!]]></text>
+				<text><![CDATA[Оцените свою быстроту ума]]></text>
+			</title>
+			<game><![CDATA[Проверьте скорость реакции, пытаясь защитить каплю воды от вредных веществ.]]></game>
+			<dropGame>
+				<intro>
+					<text><![CDATA[Для передвижения используйте стрелки на клавиатуре.]]></text>
+					<bt><![CDATA[Вперед!]]></bt>
+				</intro>
+				<game>
+					<element><![CDATA[Бытовые загрязнения]]></element>
+					<element><![CDATA[Промышленные загрязнения]]></element>
+					<element><![CDATA[Искусственные добавки]]></element>
+					<element><![CDATA[Пестициды]]></element>
+					<element><![CDATA[Нитраты]]></element>
+				</game>
+			</dropGame>
+		</textField>
+		<button>
+			<bt><![CDATA[Играть позжe]]></bt>
+		</button>
+		<bubble>
+			<text><![CDATA[Знаете ли Вы, что вода Evian,<br>которую Вы пьете, полностью<br>лишена исскуственных добавок?]]></text>
+			<text><![CDATA[Она попадает к Вам такой,<br>какой ее создала сама Природа.]]></text>
+		</bubble>
+	</drop>
+	<waveInfo>
+		<textField >
+			<title><![CDATA[Рождаясь в сердце Французских Альп,<br>натуральная минеральная вода Evian день<br>за днем дарит Вам свою первозданную чистоту.]]></title>
+			<subTitle><![CDATA[Так как ее источник находится глубоко под землей,<br>минеральная вода Evian сохраняет всю свою природную чистоту.<br>Разлитая по бутылкам прямо на источнике, она сохраняет все свои<br>чудесные свойства. Вода Evian не содержит химических добавок <br>и остается такой же чистой, какой многие тысячелетия назад<br>ее создаласама Природа.]]></subTitle>
+		</textField>
+		<button>
+			<bt><![CDATA[Продолжить]]></bt>
+		</button>
+	</waveInfo>
+	<congratulation>
+		<videoUrl><![CDATA[01_82_jules.mp4]]></videoUrl>
+		<textField >
+			<title><![CDATA[Поздравляем,]]></title>
+			<subTitle><![CDATA[Вы отлично справились Но не останавливайтесь <br>на достигнутом… Приложите еще немного усилий,<br>чтобы повысить свой коэффициент молодости,<br>пока Вы ждете следующую порцию упражнений.<br><br>Увидимся на следующей неделе!!]]></subTitle>
+		</textField>
+		<button>
+			<bt><![CDATA[Мой профайл]]></bt>
+		</button>
+	</congratulation>
+	<interScore>
+		<textField >
+			<win>
+				<title><![CDATA[Браво!]]></title>
+				<text><![CDATA[Вы выиграли,]]></text>
+				<text><![CDATA[Сейчас Ваш коэффициент молодости]]></text>
+				<unity><![CDATA[лет]]></unity>
+			</win>
+			<lose>
+				<title><![CDATA[Извините!]]></title>
+				<text><![CDATA[Вы проиграли,]]></text>
+				<text><![CDATA[Сейчас Ваш коэффициент молодости]]></text>
+				<unity><![CDATA[лет.]]></unity>
+			</lose>
+		</textField>
+		<button>
+			<bt_next><![CDATA[Подтвердить]]></bt_next>
+			<bt_back><![CDATA[Играть снова]]></bt_back>
+			<bt_fb><![CDATA[Поделиться]]></bt_fb>
+		</button>
+	</interScore>
+	<profil>
+		<textField gap="0">
+			<title1><![CDATA[Мой]]></title1>
+			<title1><![CDATA[профайл]]></title1>
+			<sub><![CDATA[Следите за своими успехами на протяжение всего тренинга.]]></sub>
+			<bubble>
+				<text><![CDATA[Сейчас Ваш коэффициент<br>молодости]]></text>
+				<text><![CDATA[лет]]></text>
+			</bubble>
+			<profil>
+				<sex male="мужской" female="женcкий"><![CDATA[пол]]></sex>
+				<age><![CDATA[лет]]></age>
+				<height><![CDATA[рост (см)]]></height>
+				<weight><![CDATA[вес (кг)]]></weight>
+				<style title="Образ жизни">
+					<kind><![CDATA[Сидячий]]></kind>
+					<kind><![CDATA[Малоподвижный]]></kind>
+					<kind><![CDATA[Умеренно подвижный]]></kind>
+					<kind><![CDATA[Очень активный]]></kind>
+				</style>
+			</profil>
+			<graphic year="лет">
+				<week0><![CDATA[Вернуться к началу]]></week0>
+				<week1><![CDATA[Неделя 1]]></week1>
+				<week2><![CDATA[Неделя 2]]></week2>
+				<week3><![CDATA[Неделя 3]]></week3>
+				<week4><![CDATA[Неделя 4]]></week4>
+				<week5><![CDATA[Неделя 5]]></week5>
+			</graphic>
+			<bottles>
+				<text_bottle><![CDATA[Быстрота<br>ума]]></text_bottle>
+				<text_bottle><![CDATA[Физические<br>возможности]]></text_bottle>
+				<text_bottle><![CDATA[Молодость<br>духа]]></text_bottle>
+			</bottles>
+		</textField>
+		<button>
+			<bt><![CDATA[Назад]]></bt>
+		</button>
+	</profil>
+	<translation>
+		<textField >
+			<title><![CDATA[Переводы]]></title>
+			<translate>
+				<word>
+					<ref><![CDATA[The Live Young Training]]></ref>
+					<trans><![CDATA[Тренинг "Оставайся молодым от Evian"]]></trans>
+				</word>
+				<word>
+					<ref><![CDATA[Coaching]]></ref>
+					<trans><![CDATA[Тренировка]]></trans>
+				</word>
+				<word>
+					<ref><![CDATA[Aqua Box]]></ref>
+					<trans><![CDATA[Аква бокс]]></trans>
+				</word>
+			</translate>
+		</textField>
+		<button>
+			<bt><![CDATA[Закрыть]]></bt>
+		</button>
+	</translation>
+	<mentions>
+		<textField >
+			<title><![CDATA[Юридическая информация]]></title>
+			<text><![CDATA[Представленная на настоящем сайте информация носит исключительно общий ознакомительный характер и не может быть использована в качестве медицинской рекомендации.<br/><br>Настоящий продукт используется для подсчета необходимого количества жидкости для взрослого здорового человека в возрасте от 18 до 75 лет в нормальных условиях.<br/><br>Для получения более точной информации проконсультируйтесь с врачом или диетологом.<br/><br>Разработчики и авторы сайта не несут никакой ответственности  за использование информации с сайта, к каким бы последствиям оно не приводило.<br/><br>Информация, представленная на настоящем сайте, не является непосредственным руководством к действию.]]></text>
+		</textField>
+		<button>
+			<bt><![CDATA[Закрыть]]></bt>
+		</button>
+	</mentions>
+</Resources>

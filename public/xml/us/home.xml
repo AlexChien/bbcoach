@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<Resources>
+	<home>
+		<textField name="The Live Young Training">
+			<text><![CDATA[What could be more precious than youth? Luckily, we can all stay young at heart with a little motivation!<br>So let the evian Babies coach you on how to help cultivate and maintain your youthful heart and spirit!]]></text>
+			<logMsg><![CDATA[Already registred?]]></logMsg>
+			<mail><![CDATA[Email]]></mail>
+			<pass><![CDATA[Password]]></pass>
+			<mailUnvalid><![CDATA[Please enter a valid email address.]]></mailUnvalid>
+			<passShort><![CDATA[Please enter a valid password.]]></passShort>
+			<passMailUnvalid><![CDATA[Either your email address or your password is incorrect.]]></passMailUnvalid>	
+		</textField>
+		<button>
+			<bt><![CDATA[Go]]></bt>
+			<bt><![CDATA[Start!]]></bt>
+		</button>
+	</home>
+</Resources>

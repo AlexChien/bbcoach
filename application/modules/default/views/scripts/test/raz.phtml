@@ -1,0 +1,18 @@
+<pre><h1>nouvelle date : <?php echo $this->date; ?></h1>
+<b>All passwords are set to 'password'</b>
+<table width="800" border="1" cellpadding="1" cellspacing="1" style="border: 1px solid black;">
+  <tr>
+    <th width="30%">Nom</th>
+    <th width="30%">Email</th>
+    <th width="10%">Sem</th>
+    <th width="30%">date</th>
+  </tr>
+  <?php foreach ($this->results as $result): ?>
+  <tr>
+    <td><?php echo $result->name; ?></td>
+    <td><?php echo $result->email; ?></td>
+    <td align="center"><?php echo $result->week; ?></td>
+    <td align="center"><?php echo $result->registration; ?></td>
+  </tr>
+  <?php endforeach; ?>
+</table></pre>

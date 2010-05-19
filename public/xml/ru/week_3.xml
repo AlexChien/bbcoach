@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Resources name="WEEK 3">
+	<footer>
+		<textField>
+			<fb><![CDATA[Поделиться]]></fb>
+			<fan><![CDATA[Фан-клуб]]></fan>
+		</textField>
+		<button>
+			<profil><![CDATA[Мой профайл]]></profil>
+			<trad><![CDATA[*Переводы]]></trad>
+			<mentions><![CDATA[Юридическая информация]]></mentions>
+			<evian><![CDATA[Узнать больше об Evian]]></evian>
+		</button>
+	</footer>
+	<curve_pinkLight>
+	</curve_pinkLight>
+	<FunnyWeek>
+		<videoUrl><![CDATA[01_51_titouan.mp4]]></videoUrl>
+		<textField >
+			<title><![CDATA[Сколько раз Вы смеялись<br>на прошлой неделе?]]></title>
+			<game>
+				<resp value="a"><![CDATA[Менее одного раза… ]]></resp>
+				<resp value="b"><![CDATA[Видео с малышами<br>меня рассмешило.]]></resp>
+				<resp value="c"><![CDATA[Это была отличная<br>неделя.]]></resp>
+				<resp value="d"><![CDATA[Смеялся до упаду!]]></resp>
+			</game>
+		</textField>
+		<button>
+			<bt><![CDATA[Следующий]]></bt>
+		</button>
+	</FunnyWeek>
+	<intro>
+		<videoUrl><![CDATA[03_11_matheo.mp4]]></videoUrl>
+		<textField>
+			<week><![CDATA[неделя 3]]></week>
+			<title><![CDATA[Поддержите свою<br>физическую форму]]></title>
+			<subTitle><![CDATA[Пора взяться за физичесекие упражнения!<br>Мы переходим к неделе тренировок на выносливость,<br>высоких показателей и чистого наслаждения… Готовы?]]></subTitle>
+		</textField>
+		<button>
+			<bt><![CDATA[Вперед]]></bt>
+		</button>
+	</intro>
+	<training1>
+		<videoUrl><![CDATA[03_21_jules.mp4]]></videoUrl>
+		<textField>
+			<title num="#1"><![CDATA[Счастливый тренинг]]></title>
+			<subTitle><![CDATA[Поддержите свою физическую форму]]></subTitle>
+			<game>
+				<text><![CDATA[В прерывах между просмотром Facebook<br>качайте мышцы пресса]]></text>
+				<text><![CDATA[<textformat leading="-4"><font face="Chalet-LondonNineteenSixty" color="#616161">Выполнить </font><font face="Chalet-NewYorkNineteenSixty" color="#616161">прямо сейчас: </font><br/><br/></textformat><textformat leading="1.5"><font face="Chalet-LondonNineteenSixty" color="#8E8E8E">Удерживая корпус под небольшим<br>наклоном, держите ноги в воздухе<br>со скрещенными ступнямив течение<br>30 секунд. Повторите упражнение 3 раза.</textformat>]]></text>
+				<text><![CDATA[Выполняйте это упражнения всю неделю,<br>чтобы добиться хороших результатов.]]></text>
+			</game>
+		</textField>
+		<button>
+			<bt><![CDATA[Начать упражнение]]></bt>
+			<bt><![CDATA[Подтвердить упражнение]]></bt>
+			<bt><![CDATA[Начать сначала.]]></bt>			
+		</button>
+	</training1>
+	<waveInfo>
+		<textField>
+			<title><![CDATA[Знаете ли Вы,<br>что наши мышцы на 75% состоят из воды?]]></title>
+			<text><![CDATA[Жидкость, необходимая для поддержания тонуса<br>мыщц, поступает в организм с водой, которую<br>мы пьем. Лучше всего для этих целей подходит<br>природная минеральная вода Evian.]]></text>
+		</textField>
+		<button><![CDATA[Продолжить]]></button>
+	</waveInfo>
+	<training2>
+		<videoUrl><![CDATA[03_51_jules.mp4]]></videoUrl>
+		<textField>
+			<title num="#2"><![CDATA[Упражнение со стулом]]></title>
+			<subTitle><![CDATA[Поддержите свою физическую форму]]></subTitle>
+			<game>
+				<text><![CDATA[Для красивых бедер…]]></text>
+				<text><![CDATA[<textformat leading="-4"><font face="Chalet-LondonNineteenSixty" color="#616161">Выполнить </font><font face="Chalet-NewYorkNineteenSixty" color="#616161">прямо сейчас: </font><br/><br/></textformat><textformat leading="1.5"><font face="Chalet-LondonNineteenSixty" color="#8E8E8E">Удерживая корпус под небольшим<br>наклоном, держите ноги в воздухе<br>со скрещенными ступнямив течение<br>30 секунд. Повторите упражнение 3 раза.</textformat>]]></text>
+				<text><![CDATA[Выполняйте это упражнения всю неделю,<br>чтобы добиться хороших результатов.]]></text>
+			</game>
+		</textField>
+		<button>
+			<bt><![CDATA[Начать упражнение]]></bt>
+			<bt><![CDATA[Подтвердить упражнение]]></bt>
+			<bt><![CDATA[Начать сначала.]]></bt>
+		</button>
+		<bubble>
+			<text><![CDATA[Всемирная<br>Организация Здравоохранения<br>рекомендует употреблять <br>в среднем 1,5 л воды<br>в день.]]></text>
+			<text><![CDATA[1 стакан - хорошо,<br>2 стакана - еще лучше,<br>3, 4, 5 стаканов - отлично!]]></text>
+		</bubble>
+	</training2>
+	
+	<congratulation>
+		<videoUrl><![CDATA[01_82_jules.mp4]]></videoUrl>
+		<textField>
+			<title><![CDATA[Поздравляем,]]></title>
+			<subTitle><![CDATA[Вы отлично потрудились. Но не останавливайтесь на достигнутом.<br>Продолжайте выполнять упражнения всю неделю,<br>чтобы добиться хороших результатов и повысить свой коэффициент молодости.]]></subTitle>
+		</textField>
+		<button>
+			<bt><![CDATA[Мой профайл]]></bt>
+		</button>
+	</congratulation>
+	<profil>
+		<textField gap="0">
+			<title1><![CDATA[Мой]]></title1>
+			<title1><![CDATA[профайл]]></title1>
+			<sub><![CDATA[Следите за своими успехами на протяжение всего тренинга.]]></sub>
+			<bubble>
+				<text><![CDATA[Сейчас Ваш коэффициент<br>молодости]]></text>
+				<text><![CDATA[лет]]></text>
+			</bubble>
+			<profil>
+				<sex male="мужской" female="женcкий"><![CDATA[пол]]></sex>
+				<age><![CDATA[лет]]></age>
+				<height><![CDATA[рост (см)]]></height>
+				<weight><![CDATA[вес (кг)]]></weight>
+				<style title="Образ жизни">
+					<kind><![CDATA[Сидячий]]></kind>
+					<kind><![CDATA[Малоподвижный]]></kind>
+					<kind><![CDATA[Умеренно подвижный]]></kind>
+					<kind><![CDATA[Очень активный]]></kind>
+				</style>
+			</profil>
+			<graphic year="лет">
+				<week0><![CDATA[Вернуться к началу]]></week0>
+				<week1><![CDATA[Неделя 1]]></week1>
+				<week2><![CDATA[Неделя 2]]></week2>
+				<week3><![CDATA[Неделя 3]]></week3>
+				<week4><![CDATA[Неделя 4]]></week4>
+				<week5><![CDATA[Неделя 5]]></week5>
+			</graphic>
+			<bottles>
+				<text_bottle><![CDATA[Быстрота<br>ума]]></text_bottle>
+				<text_bottle><![CDATA[Физические<br>возможности]]></text_bottle>
+				<text_bottle><![CDATA[Молодость<br>духа]]></text_bottle>
+			</bottles>
+		</textField>
+		<button>
+			<bt><![CDATA[Назад]]></bt>
+		</button>
+	</profil>
+	<translation>
+		<textField >
+			<title><![CDATA[Переводы]]></title>
+			<translate>
+				<word>
+					<ref><![CDATA[The Live Young Training]]></ref>
+					<trans><![CDATA[Тренинг "Оставайся молодым от Evian"]]></trans>
+				</word>
+				<word>
+					<ref><![CDATA[Coaching]]></ref>
+					<trans><![CDATA[Тренировка]]></trans>
+				</word>
+			</translate>
+		</textField>
+		<button>
+			<bt><![CDATA[Закрыть]]></bt>
+		</button>
+	</translation>
+	<mentions>
+		<textField >
+			<title><![CDATA[Юридическая информация]]></title>
+			<text><![CDATA[Представленная на настоящем сайте информация носит исключительно общий ознакомительный характер и не может быть использована в качестве медицинской рекомендации.<br/><br>Настоящий продукт используется для подсчета необходимого количества жидкости для взрослого здорового человека в возрасте от 18 до 75 лет в нормальных условиях.<br/><br>Для получения более точной информации проконсультируйтесь с врачом или диетологом.<br/><br>Разработчики и авторы сайта не несут никакой ответственности  за использование информации с сайта, к каким бы последствиям оно не приводило.<br/><br>Информация, представленная на настоящем сайте, не является непосредственным руководством к действию.]]></text>
+		</textField>
+		<button>
+			<bt><![CDATA[Закрыть]]></bt>
+		</button>
+	</mentions>
+</Resources>

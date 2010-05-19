@@ -1,0 +1,129 @@
+<html>
+<head>
+<title><?php
+if(empty($this->title)) :
+	?>Babies Coaches - Evian
+
+<?php
+else :
+	echo $this->title;
+endif;
+?></title>
+<base href="<?php
+echo $this->webhost;
+?>" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="language"
+	content="<?php
+	if(empty($this->lang)) :
+		?>fr
+
+	<?php
+	else :
+		echo $this->lang;
+	endif;
+	?>" />
+<meta name="description"
+	content="<?php
+	if(empty($this->metaname)) :
+		?>accueil
+
+	<?php
+	else :
+		echo $this->metaname;
+	endif;
+	?>" />
+<meta name="keywords" content="" />
+<link rel="image_src" href="<?php echo $this->webhost;?>/<?php echo $this->fbimg; ?>" />
+<style type="text/css">
+body {
+	margin: 0;
+	padding: 0;
+	background: #dfd7d1;
+}
+</style>
+<link href="css/main.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+    <div class="minimum_size">
+        <div id="altContent"  class="swfcontainer">
+            <h1>Live Young Training</h1>
+                 <p>Alternative content</p>
+                 <img src="<?php echo $this->img; ?>" border="0" />
+                 <p><a href="http://www.adobe.com/go/getflashplayer"><img
+                 src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif"
+                 alt="Get Adobe Flash player" /></a></p>
+        </div>
+    </div>
+ 
+<script src="js/swfobject.js" type="text/javascript"></script>
+<script type="text/javascript">
+        var flashvars = {<?php
+        if(!empty($this->userKey)) {
+            echo "\nuserKey: \"" . $this->userKey . '"';
+        }
+        elseif(!empty($this->validKey)) {
+            echo "\nvalidKey: \"" . $this->validKey . '"';
+        }
+        elseif(!empty($this->facebook)) {
+            echo "\nfacebookKey: \"" . $this->facebook . '"';
+        }
+
+        if(!empty($this->userLang) && (!empty($this->facebook) || !empty($this->validKey) || !empty($this->userKey))) {
+            echo ",\nuserLang: \"" . $this->userLang . "\"\n";
+        }
+        elseif(!empty($this->userLang)) {
+            echo "\nuserLang: \"" . $this->userLang . "\"\n";
+        }
+        else {
+            echo "\n";
+        }
+        ?>};
+        var params = {
+            menu: "false",
+            scale: "noScale",
+            allowFullscreen: "true",
+            allowScriptAccess: "always",
+            bgcolor: "#ffffff"
+        };
+        var attributes = {
+            id:"youthQuotient"
+        };
+        swfobject.embedSWF("homeevian.swf", "altContent", "100%", "100%", "9.0", "expressInstall.swf", flashvars, params, attributes);
+</script> 
+ 
+ 
+ <!--
+ TAG XITI
+ -->
+ 
+ <script type="text/javascript">
+<!--
+xtnv = document;        //parent.document or top.document or document        
+xtsd = "http://logi118";
+xtsite = "451450";
+xtn2 = "";        // level 2 site ID
+xtpage = "live-young-training";        //page name (with the use of :: to create chapters)
+xtdi = "";        //implication degree
+xt_multc = "";                   //all the xi indicators (like "&x1=...&x2=....&x3=...")
+xt_an = "";        //user ID
+xt_ac = "";        //category ID
+//do not modify below
+if (window.xtparam!=null){window.xtparam+=xt_multc+"&ac="+xt_ac+"&an="+xt_an;}
+else{window.xtparam=xt_multc+"&ac="+xt_ac+"&an="+xt_an;};
+//-->
+</script>
+<script type="text/javascript" src="http://www.site.com/xtcore.js"></script>
+<noscript>
+<img width="1" height="1" alt="" src="http://logi118.xiti.com/hit.xiti?s=451450&s2=&p=&di=&an=&ac=" >
+</noscript>
+
+<!-- 
+FIN DU TAG XITI
+-->
+
+
+
+</body>
+</html>

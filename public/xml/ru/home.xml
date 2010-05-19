@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Resources>
+	<home>
+		<textField name="The Live Young Training">
+			<text><![CDATA[Что может быть ценнее юности? К счастью, мы все можем оставаться молодыми, стоит лишь приложить немного усилий! Позвольте малышам Evian научить Вас, как сохранить  молодость!]]></text>
+			<logMsg><![CDATA[Уже зарегистрирован?]]></logMsg>
+			<mail><![CDATA[Адрес электронной почты]]></mail>
+			<pass><![CDATA[Пароль]]></pass>
+			<mailUnvalid><![CDATA[Пожалуйста, введите верный адрес электронной почты.]]></mailUnvalid>
+			<passShort><![CDATA[Пожалуйста, введите верный пароль.]]></passShort>
+			<passMailUnvalid><![CDATA[Неверный адрес электронной почты или пароль.]]></passMailUnvalid>	
+		</textField>
+		<button>
+			<bt><![CDATA[Войти]]></bt>
+			<bt><![CDATA[Начать!]]></bt>
+		</button>
+	</home>
+</Resources>

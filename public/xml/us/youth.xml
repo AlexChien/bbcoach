@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<Resources name="YOUTH QUOTIENT">
+	<footer>
+		<textField>
+			<fb><![CDATA[Share on]]></fb>
+			<fan><![CDATA[Become a fan]]></fan>
+		</textField>
+		<button>
+			<trad><![CDATA[]]></trad>
+			<mentions><![CDATA[Legal Mentions]]></mentions>
+			<evian><![CDATA[Learn more about evian]]></evian>
+		</button>
+	</footer>
+	<curve_pinkLight>
+		<textField>
+			<text><![CDATA[Calculate your Youth Quotient]]></text>
+		</textField>
+	</curve_pinkLight>
+	<valid>
+		<textField >
+			<win>
+				<title><![CDATA[Congratulations !]]></title>
+				<text><![CDATA[You just won.]]></text>
+			</win>
+			<lose>
+				<title><![CDATA[Sorry !]]></title>
+				<text><![CDATA[You just lost.]]></text>
+			</lose>
+		</textField>
+		<button>
+			<bt_next><![CDATA[Next]]></bt_next>
+			<bt_back><![CDATA[The answer]]></bt_back>
+		</button>
+	</valid>
+	<intro>
+		<textField>
+			<text><![CDATA[Calculate your Youth Quotient]]></text>
+			<text><![CDATA[To live young, and stay young at heart, there is a certain lifestyle you need to keep in mind!<br>Use your mind and your muscles on a regular basis, and keep your childlike spirit.<br>Before we start training, let's calculate your daily youth quotient!]]></text>
+			<text_bottle><![CDATA[intellectual<br>agility]]></text_bottle>
+			<text_bottle><![CDATA[physical<br>capacities]]></text_bottle>
+			<text_bottle><![CDATA[mindset]]></text_bottle>
+		</textField>
+		<button>
+			<bt><![CDATA[Calculate your Youth Quotient]]></bt>
+		</button>
+	</intro>
+	<logicBaby>
+		<textField >
+			<title num="#1" quotient="1/3">
+				<text><![CDATA[evaluate your]]></text>
+				<text><![CDATA[intellectual<br>agility]]></text>
+			</title>
+			<text><![CDATA[What would logically follow?]]></text>
+			<text><![CDATA[Click on the right answer.]]></text>
+			<text><![CDATA[Baby and bottle(s) are alternating. So you should choose a baby to follow in the last spot.<br>Squatting one minute, then sitting down the next: the baby you should choose is therefore sitting!]]></text>
+		</textField>
+		<button>
+			<bt><![CDATA[Validate]]></bt>
+			<bt><![CDATA[Next]]></bt>
+		</button>
+	</logicBaby>
+	<speedMatch>
+		<textField >
+			<title num="#1" quotient="2/3">
+				<text><![CDATA[evaluate your]]></text>
+				<text><![CDATA[intellectual<br/>agility]]></text>
+			</title>
+			<game>
+				<screen1>
+					<title><![CDATA[Play the quick<br/>reflexes game]]></title>
+					<text><![CDATA[To start, we will play with your memory.]]></text>
+					<bt><![CDATA[Click here]]></bt>
+				</screen1>
+				<screen2>
+					<title><![CDATA[Is this picture the same as<br>the previous one?]]></title>
+					<bt_yes><![CDATA[YES]]></bt_yes>
+					<bt_no><![CDATA[NO]]></bt_no>
+					<bt_next><![CDATA[Start]]></bt_next>
+					<score><![CDATA[SCORE]]></score>
+					<explain><![CDATA[And you, try to be the fastest as possible.<br>You have 20 seconds to make the high score.]]></explain>
+					<countDown time="3"><![CDATA[Go]]></countDown>
+					<timer time="20" singular="second" ><![CDATA[seconds]]></timer>
+				</screen2>
+			</game>
+		</textField>
+		<button>
+			<bt><![CDATA[Next]]></bt>
+		</button>
+	</speedMatch>
+	<logicNumber>
+		<textField >
+			<title num="#1" quotient="3/3">
+				<text><![CDATA[evaluate your]]></text>
+				<text><![CDATA[intellectual<br>agility]]></text>
+			</title>
+			<text><![CDATA[What would logically follow?]]></text>
+			<text><![CDATA[Click on the right answer.]]></text>
+			<resp><![CDATA[so]]></resp>
+		</textField>
+		<button>
+			<bt><![CDATA[Validate]]></bt>
+			<bt><![CDATA[Next]]></bt>
+		</button>
+	</logicNumber>
+	<walk>
+		<videoUrl><![CDATA[01_21_jules.mp4]]></videoUrl>
+		<textField >
+			<title num="#2" quotient="1/3">
+				<text><![CDATA[test your]]></text>
+				<text><![CDATA[physical<br>capacities]]></text>
+			</title>
+			<text><![CDATA[To live young, it's a good idea to stay fit as a fiddle...<br>So how fit are you these days ?]]></text>
+			<text><![CDATA[How much time do you spend<br>walking every day ?]]></text>
+			<text_scroll name="Walk day">
+				<text><![CDATA[less than 15 minutes]]></text>
+				<text><![CDATA[15 minutes]]></text>
+				<text><![CDATA[½ hour]]></text>
+				<text><![CDATA[1 hour<br>a day ]]></text>
+				<text><![CDATA[more than 1 hour]]></text>
+			</text_scroll>
+		</textField>
+		<button>
+			<bt><![CDATA[Validate]]></bt>
+		</button>
+	</walk>
+	<suppleness>
+		<videoUrl><![CDATA[01_31_noan.mp4]]></videoUrl>
+		<textField >
+			<title num="#2" quotient="2/3">
+				<text><![CDATA[Test your]]></text>
+				<text><![CDATA[physical<br>capacities]]></text>
+			</title>
+			<text><![CDATA[And how flexible are you?]]></text>
+			<text><![CDATA[Stand with your legs straight and touch your toes without bending your knees.<br>Indicate your level by sliding the arrow.]]></text>
+			<text_scroll name="Suppleness">
+				<text><![CDATA[You didn't think your knees were that<br>far down, did you ?!]]></text>
+				<text><![CDATA[Knees...shins...<br>no lower!]]></text>
+				<text><![CDATA[You've almost reached<br>your toes.]]></text>
+				<text><![CDATA[Are you planning<br>on becoming a gymnast ?]]></text>
+			</text_scroll>
+		</textField>
+		<button>
+			<bt><![CDATA[Validate]]></bt>
+		</button>
+	</suppleness>
+	<flexion>
+		<videoUrl><![CDATA[01_41_jules.mp4]]></videoUrl>
+		<textField >
+			<title num="#2" quotient="3/3">
+				<text><![CDATA[Test your]]></text>
+				<text><![CDATA[physical<br>capacities]]></text>
+			</title>
+			<text><![CDATA[How are your lungs<br>holding up ?]]></text>
+			<text><![CDATA[Stand with your back straight and your arms stretched out. Bend your knees,<br/>then straighten. Count how many times you can repeat<br/>this exercise before you need to catch your breath.]]></text>
+			<text_scroll name="flexion" >
+				<text><![CDATA[Less than 5 knee bends.]]></text>
+				<text><![CDATA[Between 5 and 10 knee bends.]]></text>
+				<text><![CDATA[Between 11 and 20 knee bends.]]></text>
+				<text><![CDATA[Between 21 and 30 knee bends.]]></text>
+				<text><![CDATA[More than 30 knee bends.]]></text>
+			</text_scroll>
+		</textField>
+		<button>
+			<bt><![CDATA[Validate]]></bt>
+		</button>
+	</flexion>
+	<laugh>
+		<videoUrl><![CDATA[01_51_titouan.mp4]]></videoUrl>
+		<textField >
+			<title num="#3" quotient="1/3">
+				<text><![CDATA[What's your]]></text>
+				<text><![CDATA[mindset]]></text>
+			</title>
+			<text><![CDATA[Youth is also a state of mind. isn't it?]]></text>
+			<text><![CDATA[How many times a day<br>do you laugh?]]></text>
+			<text_scroll name="Laught">
+				<text><![CDATA[Laugh ?<br>What for ? ]]></text>
+				<text><![CDATA[Never more than two smiles a day,<br>three on weekends.]]></text>
+				<text><![CDATA[Not a day goes by<br>without at least one good laugh.]]></text>
+				<text><![CDATA[You laugh all<br>the time.]]></text>
+			</text_scroll>
+		</textField>
+		<button>
+			<bt><![CDATA[Validate]]></bt>
+		</button>
+	</laugh>
+	<wish>
+		<videoUrl><![CDATA[01_61_matheo.mp4]]></videoUrl>
+		<textField >
+			<title num="#3" quotient="2/3">
+				<text><![CDATA[What's your]]></text>
+				<text><![CDATA[mindset]]></text>
+			</title>
+			<text><![CDATA[When was the last<br>time you made a wish ?]]></text>
+			<text><![CDATA[It was...]]></text>
+			<text_scroll name="wish">
+				<text><![CDATA[Never, you don't believe in them !<br>You are the sole master of your destiny.]]></text>
+				<text><![CDATA[Only when you see a<br>shooting star...]]></text>
+				<text><![CDATA[On your birthday...<br>as usual !]]></text>
+				<text><![CDATA[Just last night... you always make<br>a wish before going to sleep.]]></text>
+			</text_scroll>
+		</textField>
+		<button>
+			<bt><![CDATA[Validate]]></bt>
+		</button>
+	</wish>
+	<tongue>
+		<videoUrl><![CDATA[01_71_jules.mp4]]></videoUrl>
+		<textField >
+			<title num="#3" quotient="3/3">
+				<text><![CDATA[What's your]]></text>
+				<text><![CDATA[mindset]]></text>
+			</title>
+			<text><![CDATA[It's play time !]]></text>
+			<text><![CDATA[Try to touch the tip of your nose with your tongue.]]></text>
+			<text_scroll name="tongue">
+				<text><![CDATA[It's a waste of time,<br>it's impossible !]]></text>
+				<text><![CDATA[You're almost there,<br>perhaps with a bit of practice.]]></text>
+				<text><![CDATA[Easy as pie<br>it's child's play !]]></text>
+			</text_scroll>
+		</textField>
+		<button>
+			<bt><![CDATA[Validate]]></bt>
+		</button>
+	</tongue>
+	<profil>
+		<textField >
+			<title><![CDATA[What is your personal profile?]]></title>
+			<text_scroll name="Height" min="140" max="210" incr="1" unity="cm"></text_scroll>
+			<text_scroll name="Weight"  min="45" max="115" incr="1" unity="kg"></text_scroll>
+			<text_scroll name="Gender">
+				<text><![CDATA[Man]]></text>
+				<text><![CDATA[Woman]]></text>
+				<text><![CDATA[Mother-to-be]]></text>
+				<text><![CDATA[Nursing mother]]></text>
+			</text_scroll>
+			<text_scroll name="Age" min="18" max="70" incr="1" unity="years old"></text_scroll>
+			<text_scroll name="Lifestyle">
+				<text><![CDATA[Sedentary]]></text>
+				<text><![CDATA[Slightly active]]></text>
+				<text><![CDATA[Moderately active]]></text>
+				<text><![CDATA[Highly active]]></text>
+			</text_scroll>
+		</textField>
+		<button>
+			<bt><![CDATA[Validate]]></bt>
+		</button>
+	</profil>
+	<drinks>
+		<textField >
+			<title><![CDATA[Your daily intake]]></title>
+			<drink info="choose">
+				<water><![CDATA[water]]></water>
+				<juice><![CDATA[fruit juice]]></juice>
+				<soda><![CDATA[soda]]></soda>
+				<sodaLight><![CDATA[diet soda]]></sodaLight>
+				<coffeTsugar><![CDATA[tea/coffee<br>(with sugar)]]></coffeTsugar>
+				<coffeTea><![CDATA[tea/coffee<br>(without sugar)]]></coffeTea>
+				<wine><![CDATA[wine]]></wine>
+				<beer><![CDATA[beer]]></beer>
+				<sport><![CDATA[sports<br>drinks]]></sport>
+				<energy><![CDATA[energy<br>drinks]]></energy>
+			</drink>
+		</textField>
+		<button>
+			<bt><![CDATA[Validate]]></bt>
+		</button>
+	</drinks>
+	<screen_result>
+		<videoUrl><![CDATA[01_91_noan.mp4]]></videoUrl>
+		<textField >
+			<title unity="years old"><![CDATA[Your Youth Quotient<br>is]]></title>
+			<text_bottle><![CDATA[intellectual<br>agility]]></text_bottle>
+			<text_bottle><![CDATA[physical<br>capacities]]></text_bottle>
+			<text_bottle><![CDATA[mindset]]></text_bottle>
+		</textField>
+		<button>
+			<bt><![CDATA[Share on]]></bt>
+			<bt><![CDATA[Improve my score]]></bt>
+		</button>
+	</screen_result>
+	<result2>
+		<videoUrl><![CDATA[01_91_noan.mp4]]></videoUrl>
+		<textField >
+			<title><![CDATA[Begin<br>Live Young Training]]></title>
+			<text><![CDATA[To improve your Youth Quotient, join the Live Young training program !<br>For four weeks, we'll help you exercise your mind,<br>your muscles and your youthful attitude.]]></text>
+			<bubble>
+				<text><![CDATA[Did you know that proper hydration<br>plays an essential role in helping your<br>body and mind function properly ?]]></text>
+				<bt><![CDATA[Learn more about<br>your hydration profile]]></bt>
+			</bubble>
+		</textField>
+		<button>
+			<bt><![CDATA[Begin Live Young Training]]></bt>
+			<bt><![CDATA[Improve my score]]></bt>
+		</button>
+	</result2>
+	<login>
+		<videoUrl><![CDATA[01_81_titouan.mp4]]></videoUrl>
+		<textField >
+			<title><![CDATA[Sign me up for Live Young training!]]></title>
+			<subTitle><![CDATA[Your email will enable us to keep you updated on the next coaching phases.<br>It is therefore essential to continue the training program.]]></subTitle>
+			<firstname><![CDATA[Your first name]]></firstname>
+			<familyname><![CDATA[Your last name]]></familyname>
+			<email><![CDATA[Your email address]]></email>
+			<confirmEmail><![CDATA[Please confirm your email address]]></confirmEmail>
+			<pass><![CDATA[Your password]]></pass>
+			<confirmPass><![CDATA[Please confirm your password]]></confirmPass>
+			<tick_1><![CDATA[I agree to receive commercial messages from evian.]]></tick_1>
+			<response>
+				<missfield><![CDATA[Please fill all the fields.]]></missfield>
+				<LilPass><![CDATA[A for-characters minimum password is required.]]></LilPass>
+				<sameMail><![CDATA[Confirm your email address.]]></sameMail>
+				<samePass><![CDATA[Confirm your password.]]></samePass>
+				<unvalidMail><![CDATA[Please enter a valid email address.]]></unvalidMail>
+				<existMail><![CDATA[An account is already linked to this email address.]]></existMail>
+				<connexion><![CDATA[Connection error.]]></connexion>
+				<RDBMS><![CDATA[Database error.]]></RDBMS>
+				<valid><![CDATA[A message confirming your enrollment will be sent to you via email.]]></valid>
+			</response>
+		</textField>
+		<button>
+			<bt><![CDATA[Begin training]]></bt>
+		</button>
+	</login>
+	<profil_hydr>
+		<textField gap="0">
+			<title1><![CDATA[Let's have a look at your]]></title1>
+			<title1><![CDATA[hydration profile]]></title1>
+			<sub>
+				<good><![CDATA[Congratulations]]></good>
+				<good><![CDATA[It appears that you already hydrate your body sufficiently.]]></good>
+				<bad><![CDATA[Be careful!]]></bad>
+				<bad><![CDATA[It appears that you need to drink more water!]]></bad>
+			</sub>
+			<bubble>
+				<text><![CDATA[Your Youth<br>Quotient]]></text>
+				<text><![CDATA[years old]]></text>
+			</bubble>
+			<profil>
+				<sex male="male" female="female"><![CDATA[sex]]></sex>
+				<age><![CDATA[years old]]></age>
+				<style><![CDATA[lifestyle]]></style>
+			</profil>
+			<explain unity="L">
+				<title><![CDATA[Details on your hydration profile :]]></title>
+				<line1><![CDATA[Your fluid intake is approximately]]></line1>
+				<line1><![CDATA[]]></line1>
+				<line2><![CDATA[Your diet supplies]]></line2>
+				<line2><![CDATA[approximately]]></line2>
+				<line3><![CDATA[Every day you lose about]]></line3>
+				<line3><![CDATA[]]></line3>
+				<good><![CDATA[Your hydratation is adequate!]]></good>
+				<bad><![CDATA[Your hydratation is inadequate!]]></bad>
+				<line5><![CDATA[Your ideal water consumption level is]]></line5>
+				<line5><![CDATA[a day]]></line5>
+			</explain>
+		</textField>
+		<button>
+			<bt><![CDATA[Back]]></bt>
+		</button>
+	</profil_hydr>
+	<translation>
+		<textField >
+			<title><![CDATA[Traduction]]></title>
+			<translate>
+				<word>
+					<ref><![CDATA[The Live Young Training]]></ref>
+					<trans><![CDATA[L'entrainement Jeunesse Evian]]></trans>
+				</word>
+			</translate>
+		</textField >
+		<button>
+			<bt><![CDATA[Close]]></bt>
+		</button>
+	</translation>
+	<mentions>
+		<textField >
+			<title><![CDATA[Legal mentions]]></title>
+			<text><![CDATA[All information contained on this website is intended to be fun and is provided for entertainment and general educational information only, and shall not be treated as substitutes for professional medical advice and care.<br/><br/>If you have any concerns about your health, diet, lifestyle, or fitness routine, you should consult a healthcare professional.<br/><br/>This web site and its creators assume no responsibility for consequences resulting from the use of this website and information contained herein, and it expressly disclaims all liability for injury or DIRECT, INDIRECT, INCIDENTAL, SPECIAL, or CONSEQUENTIAL damages or LOST PROFITS arising out of use, reference to, reliance on, or performance of such information.<br/><br/>This web site is provided on an "as is", "as available" basis without warranties of any kind, express or implied.]]></text>
+		</textField >
+		<button>
+			<bt><![CDATA[Close]]></bt>
+		</button>
+	</mentions>
+</Resources>

@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Resources name="YOUTH QUOTIENT">
+	<footer>
+		<textField>
+			<fb><![CDATA[Поделиться]]></fb>
+			<fan><![CDATA[Присоединиться к фан-клубу]]></fan>
+		</textField>
+		<button>
+			<trad><![CDATA[*Переводы]]></trad>
+			<mentions><![CDATA[Юридическая информация]]></mentions>
+			<evian><![CDATA[Узнать больше об Evian]]></evian>
+		</button>
+	</footer>
+	<curve_pinkLight>
+		<textField>
+			<text><![CDATA[Посчитайте Ваш коэффициент молодости]]></text>
+		</textField>
+	</curve_pinkLight>
+	<valid>
+		<textField >
+			<win>
+				<title><![CDATA[Поздравляем]]></title>
+				<text><![CDATA[Вы выиграли]]></text>
+			</win>
+			<lose>
+				<title><![CDATA[Извините!]]></title>
+				<text><![CDATA[Вы проиграли]]></text>
+			</lose>
+		</textField>
+		<button>
+			<bt_next><![CDATA[Следующий]]></bt_next>
+			<bt_back><![CDATA[Ответ]]></bt_back>
+		</button>
+	</valid>
+	<intro>
+		<textField>
+			<text><![CDATA[Посчитайте Ваш коэффициент молодости]]></text>
+			<text><![CDATA[Существует несколько правил, которые помогут Вам всегда оставаться молодым!<br>Регулярно тренируйте свой ум и мышцы и поддерживайте в себе детский жизнерадостный настрой!<br>Перед тем, как начать тренинг, давайте посчитаем Ваш коэффициент молодости.]]></text>
+			<text_bottle><![CDATA[Быстрота<br>ума]]></text_bottle>
+			<text_bottle><![CDATA[Физические<br>возможности]]></text_bottle>
+			<text_bottle><![CDATA[Состояние<br>души]]></text_bottle>
+		</textField>
+		<button>
+			<bt><![CDATA[Посчитайте Ваш коэффициент молодости]]></bt>
+		</button>
+	</intro>
+	<logicBaby>
+		<textField >
+			<title num="#1" quotient="1/3">
+				<text><![CDATA[Оцените свою]]></text>
+				<text><![CDATA[Быстроту<br>ума]]></text>
+			</title>
+			<text><![CDATA[Выберите логичное продолжение]]></text>
+			<text><![CDATA[Нажмите на верный ответ.]]></text>
+			<text><![CDATA[Младенец и бутылочка(и) альтернативны.<br>Итак, младенец - это то, что Вам следует выбрать в последнем пункте.<br>Присев на корточки на одну минуту, а затем сев: поэтому, младенец, <br>которого Вам необходимо выбрать, сидит!]]></text>
+		</textField>
+		<button>
+			<bt><![CDATA[Подтвердить]]></bt>
+			<bt><![CDATA[Следующая]]></bt>
+		</button>
+	</logicBaby>
+	<speedMatch>
+		<textField >
+			<title num="#1" quotient="2/3">
+				<text><![CDATA[Оцените свою]]></text>
+				<text><![CDATA[Быстроту<br>ума]]></text>
+			</title>
+			<game>
+				<screen1>
+					<title><![CDATA[Игра на быстроту реакции]]></title>
+					<text><![CDATA[У вас всего 20 с на подготовку.<br>Постарайтесь запомнить картинки!]]></text>
+					<bt><![CDATA[Начать]]></bt>
+				</screen1>
+				<screen2>
+					<title><![CDATA[Данная картинка такая же, как и предыдущая?]]></title>
+					<bt_yes><![CDATA[Да]]></bt_yes>
+					<bt_no><![CDATA[Нет]]></bt_no>
+					<bt_next><![CDATA[Начать]]></bt_next>
+					<score><![CDATA[Очки]]></score>
+					<explain><![CDATA[Теперь постарайтесь поторопиться, чтобы добиться наилучших результатов.<br>У вас 20 секунд, успевайте как можно быстрее.]]></explain>
+					<countDown time="3"><![CDATA[GO]]></countDown>
+					<timer time="20" singular="seconde" ><![CDATA[секунд]]></timer>
+				</screen2>
+			</game>
+		</textField>
+		<button>
+			<bt><![CDATA[Следующий]]></bt>
+		</button>
+	</speedMatch>
+	<logicNumber>
+		<textField >
+			<title num="#1" quotient="3/3">
+				<text><![CDATA[Оцените свою]]></text>
+				<text><![CDATA[Быстроту<br>ума]]></text>
+			</title>
+			<text><![CDATA[Что Вы выберете?]]></text>
+			<text><![CDATA[Нажмите на правильный ответ.]]></text>
+			<resp><![CDATA[итак]]></resp>
+		</textField>
+		<button>
+			<bt><![CDATA[Потвердить]]></bt>
+			<bt><![CDATA[Следующая]]></bt>
+		</button>
+	</logicNumber>
+	<walk>
+		<videoUrl><![CDATA[01_21_jules.mp4]]></videoUrl>
+		<textField >
+			<title num="#2" quotient="1/3">
+				<text><![CDATA[Проверьте свои]]></text>
+				<text><![CDATA[физические<br>возможности]]></text>
+			</title>
+			<text><![CDATA[Чтобы оставаться молодым, важно заботиться о своем здоровье и пребывать<br>в хорошем настроении… Итак, посмотрим, в какой Вы форме?]]></text>
+			<text><![CDATA[Сколько времени<br>в день вы ходите пешком?]]></text>
+			<text_scroll name="Walk day">
+				<text><![CDATA[менее 15 минут в день]]></text>
+				<text><![CDATA[15 минут в день]]></text>
+				<text><![CDATA[полчаса]]></text>
+				<text><![CDATA[1 час<br>в день]]></text>
+				<text><![CDATA[более 1 часа в день]]></text>
+			</text_scroll>
+		</textField>
+		<button>
+			<bt><![CDATA[Подтвердить]]></bt>
+		</button>
+	</walk>
+	<suppleness>
+		<videoUrl><![CDATA[01_31_noan.mp4]]></videoUrl>
+		<textField >
+			<title num="#2" quotient="2/3">
+				<text><![CDATA[Проверьте свои]]></text>
+				<text><![CDATA[физическе<br>возможности]]></text>
+			</title>
+			<text><![CDATA[Как у Вас<br>с гибкостью?]]></text>
+			<text><![CDATA[Станьте ровно, выпрямив ноги, и коснитесь пальцев на ногах, не сгибая колен.<br>Определите свой уровень по стрелке.]]></text>
+			<text_scroll name="Suppleness">
+				<text><![CDATA[Вы и не догадывались, что<br>Ваши колени находятся так низко, не правда ли?]]></text>
+				<text><![CDATA[Колени…голени…<br>не ниже!]]></text>
+				<text><![CDATA[Вы почти коснулись<br>пальцев на ногах.]]></text>
+				<text><![CDATA[Вы планируете<br>стать гимнастом?]]></text>
+			</text_scroll>
+		</textField>
+		<button>
+			<bt><![CDATA[Подтвердить]]></bt>
+		</button>
+	</suppleness>
+	<flexion>
+		<videoUrl><![CDATA[01_41_jules.mp4]]></videoUrl>
+		<textField >
+			<title num="#2" quotient="3/3">
+				<text><![CDATA[Проверьте свои]]></text>
+				<text><![CDATA[физические<br>возможности]]></text>
+			</title>
+			<text><![CDATA[Как долго Вы можете<br>задерживать дыхание?]]></text>
+			<text><![CDATA[Станьте, выпрямив спину и вытянув руки. Согните колени, а затем выпрямьтесь.<br>Посчитайте, сколько раз Вы можете повторить данное упражнение перед тем, <br>как Вам понадобится перевести дыхание.]]></text>
+			<text_scroll name="flexion" >
+				<text><![CDATA[5 сгибаний]]></text>
+				<text><![CDATA[От 5 до 10 сгибаний]]></text>
+				<text><![CDATA[От 11 до 20 сгибаний]]></text>
+				<text><![CDATA[От 21 до 30 сгибаний]]></text>
+				<text><![CDATA[Больше 30 сгибаний]]></text>
+			</text_scroll>
+		</textField>
+		<button>
+			<bt><![CDATA[Подтвердить]]></bt>
+		</button>
+	</flexion>
+	<laugh>
+		<videoUrl><![CDATA[01_51_titouan.mp4]]></videoUrl>
+		<textField >
+			<title num="#3" quotient="1/3">
+				<text><![CDATA[Какое у Вас]]></text>
+				<text><![CDATA[состояние<br>души]]></text>
+			</title>
+			<text><![CDATA[Молодость - это также состояние души… не так ли?]]></text>
+			<text><![CDATA[Сколько раз в течение дня<br>Вы смеетесь?]]></text>
+			<text_scroll name="Laught">
+				<text><![CDATA[Смеюсь?<br>Зачем?]]></text>
+				<text><![CDATA[Улыбаюсь не больше двух раз в день по будням,<br>трех - по выходным.]]></text>
+				<text><![CDATA[Ни дня не проходит без того,<br>чтобы от души не посмеяться.]]></text>
+				<text><![CDATA[Вы смеетесь<br>целый день]]></text>
+			</text_scroll>
+		</textField>
+		<button>
+			<bt><![CDATA[Подтвердить]]></bt>
+		</button>
+	</laugh>
+	<wish>
+		<videoUrl><![CDATA[01_61_matheo.mp4]]></videoUrl>
+		<textField >
+			<title num="#3" quotient="2/3">
+				<text><![CDATA[Какое у Вас]]></text>
+				<text><![CDATA[состояние<br>души]]></text>
+			</title>
+			<text><![CDATA[Когда в последний раз<br>Вы загадывали желание?]]></text>
+			<text><![CDATA[Это было…]]></text>
+			<text_scroll name="wish">
+				<text><![CDATA[Никогда, Вы не верите в это!<br>Вы - единственный хозяин своей судьбы.]]></text>
+				<text><![CDATA[Только когда<br>Вы видите падающую звезду…]]></text>
+				<text><![CDATA[На Ваш день рождения…<br>как обычно!]]></text>
+				<text><![CDATA[Прошлым вечером… Вы всегда<br>загадываете желание перед тем, как уснуть.]]></text>
+			</text_scroll>
+		</textField>
+		<button>
+			<bt><![CDATA[Подтвердить]]></bt>
+		</button>
+	</wish>
+	<tongue>
+		<videoUrl><![CDATA[01_71_jules.mp4]]></videoUrl>
+		<textField >
+			<title num="#3" quotient="3/3">
+				<text><![CDATA[Какое у Вас]]></text>
+				<text><![CDATA[состояние<br>души]]></text>
+			</title>
+			<text><![CDATA[Время поиграть!]]></text>
+			<text><![CDATA[Попытайтесь дотронуться языком до кончика<br>Вашего носа.]]></text>
+			<text_scroll name="tongue">
+				<text><![CDATA[Это пустая трата времени, это<br>невозможно!]]></text>
+				<text><![CDATA[Вы почти дотронулись,<br>еще бы немного потренироваться…]]></text>
+				<text><![CDATA[Проще простого - это игра для детей!]]></text>
+			</text_scroll>
+		</textField>
+		<button>
+			<bt><![CDATA[Подтвердить]]></bt>
+		</button>
+	</tongue>
+	<profil>
+		<textField >
+			<title><![CDATA[Укажите Ваши персональные данные]]></title>
+			<text_scroll name="Рост" min="140" max="210" incr="1" unity="см"></text_scroll>
+			<text_scroll name="Вес"  min="45" max="115" incr="1" unity="кг"></text_scroll>
+			<text_scroll name="Вы">
+				<text><![CDATA[Мужчина]]></text>
+				<text><![CDATA[Женщина]]></text>
+				<text><![CDATA[Беременная женщина]]></text>
+				<text><![CDATA[Кормящая мама]]></text>
+			</text_scroll>
+			<text_scroll name="Лет" min="18" max="70" incr="1" unity="лет"></text_scroll>
+			<text_scroll name="Образ жизни">
+				<text><![CDATA[Сидячий]]></text>
+				<text><![CDATA[Малоподвижный]]></text>
+				<text><![CDATA[Умеренно подвижный]]></text>
+				<text><![CDATA[Очень активный]]></text>
+			</text_scroll>
+		</textField>
+		<button>
+			<bt><![CDATA[Подтвердить]]></bt>
+		</button>
+	</profil>
+	<drinks>
+		<textField >
+			<title><![CDATA[Дневное потребление]]></title>
+			<drink info="Выбрать">
+				<water><![CDATA[Вода]]></water>
+				<juice><![CDATA[Фруктовый сок]]></juice>
+				<soda><![CDATA[Газированные<br>напитки]]></soda>
+				<sodaLight><![CDATA[Диетические<br>газированные<br>напитки]]></sodaLight>
+				<coffeTsugar><![CDATA[Чай/кофе<br>с сахаром]]></coffeTsugar>
+				<coffeTea><![CDATA[Чай/кофе<br>(без сахара)]]></coffeTea>
+				<wine><![CDATA[Вино]]></wine>
+				<beer><![CDATA[Пиво]]></beer>
+				<sport><![CDATA[Спортивные<br>напитки]]></sport>
+				<energy><![CDATA[Энергетические<br>напитки]]></energy>
+			</drink>
+		</textField>
+		<button>
+			<bt><![CDATA[Подтвердить]]></bt>
+		</button>
+	</drinks>
+	<screen_result>
+		<videoUrl><![CDATA[01_91_noan.mp4]]></videoUrl>
+		<textField >
+			<title unity="лет"><![CDATA[Ваш коэффициент молодости]]></title>
+			<text_bottle><![CDATA[Быстрота<br>ума]]></text_bottle>
+			<text_bottle><![CDATA[Физические<br>возможности]]></text_bottle>
+			<text_bottle><![CDATA[Юное состояние<br>души]]></text_bottle>
+		</textField>
+		<button>
+			<bt><![CDATA[Поделиться]]></bt>
+			<bt><![CDATA[Улучшить мой показатель]]></bt>
+		</button>
+	</screen_result>
+	<result2>
+		<videoUrl><![CDATA[01_91_noan.mp4]]></videoUrl>
+		<textField >
+			<title><![CDATA[Начать тренинг*]]></title>
+			<text><![CDATA[Чтобы улучшить Ваш коэффициент молодости,<br>примите участие в  тренинге "Оставайся молодым"!<br>На протяжение четырех недель мы будем помогать<br>Вам тренировать ум, мышцы и позитивный настрой.]]></text>
+			<bubble>
+				<text><![CDATA[Знаете ли Вы, что правильное потребление<br>жидкости играет решающую роль <br>в поддержании функционирования <br>всех систем Вашего организма?]]></text>
+				<bt><![CDATA[Достаточное ли количество<br>жидкости Вы потребляете?]]></bt>
+			</bubble>
+		</textField>
+		<button>
+			<bt><![CDATA[Начать тренинг "Оставайся молодым"]]></bt>
+			<bt><![CDATA[Улучшить мой показатель]]></bt>
+		</button>
+	</result2>
+	<login>
+		<videoUrl><![CDATA[01_81_titouan.mp4]]></videoUrl>
+		<textField >
+			<title><![CDATA[Я хочу записаться на тренинг <br>"Оставайся молодым!"]]></title>
+			<subTitle><![CDATA[Ваш адрес электронной почты позволит нам держать Вас в курсе новых этапов тренинга,<br>поэтому обязательно укажите его.]]></subTitle>
+			<firstname><![CDATA[Имя]]></firstname>
+			<familyname><![CDATA[Фамилия]]></familyname>
+			<email><![CDATA[Адрес электронной почты]]></email>
+			<confirmEmail><![CDATA[Подтвердите e-mail]]></confirmEmail>
+			<pass><![CDATA[Пароль]]></pass>
+			<confirmPass><![CDATA[Подтвердите пароль]]></confirmPass>
+			<tick_1><![CDATA[Я согласен получать сообщения рекламного характера от Evian.]]></tick_1>
+			<response>
+				<missfield><![CDATA[Заполните все поля.]]></missfield>
+				<LilPass><![CDATA[Пароль должен состоять минимум из 4 символов.]]></LilPass>
+				<sameMail><![CDATA[Пожалуйста, подтвердите адрес электронной почты.]]></sameMail>
+				<samePass><![CDATA[Пожалуйста, подтвердите пароль.]]></samePass>
+				<unvalidMail><![CDATA[Пожалуйста, введите корректный адрес электронной почты.]]></unvalidMail>
+				<existMail><![CDATA[Этот адрес электронной почты уже зарегистрирован.]]></existMail>
+				<connexion><![CDATA[Ошибка соединения.]]></connexion>
+				<RDBMS><![CDATA[Ошибка соединения.]]></RDBMS>
+				<valid><![CDATA[Вы зарегистрированы.<br>На ваш адрес электронной почты отправлено письмо.<br>Пожалуйста, подтвердите регистрацию, чтобы начать тренинг.]]></valid>
+			</response>
+		</textField>
+		<button>
+			<bt><![CDATA[Начать тренинг]]></bt>
+		</button>
+	</login>
+	<profil_hydr>
+		<textField gap="0">
+			<title1><![CDATA[Посмотрим, достаточно ли]]></title1>
+			<title1><![CDATA[Вы пьёте]]></title1>
+			<sub>
+				<good><![CDATA[Поздравляем]]></good>
+				<good><![CDATA[Вы потребляете достаточное количество воды!]]></good>
+				<bad><![CDATA[Будьте осторожны]]></bad>
+				<bad><![CDATA[Судя по всему, Вы пьете недостаточно!]]></bad>
+			</sub>
+			<bubble>
+				<text><![CDATA[Ваш коэффициент<br>молодости]]></text>
+				<text><![CDATA[лет]]></text>
+			</bubble>
+			<profil>
+				<sex male="мужской" female="женcкий"><![CDATA[пол]]></sex>
+				<age><![CDATA[лет]]></age>
+				<style><![CDATA[Образ жизни]]></style>
+			</profil>
+			<explain unity="л.">
+				<title><![CDATA[Расшифровка Ваших питьевых привычек:]]></title>
+				<line1><![CDATA[Вы употребляете]]></line1>
+				<line1><![CDATA[]]></line1>
+				<line2><![CDATA[Вы получаете]]></line2>
+				<line2><![CDATA[вместе с едой]]></line2>
+				<line3><![CDATA[Каждый день Вы теряете]]></line3>
+				<line3><![CDATA[]]></line3>
+				<good><![CDATA[Вы пьете достаточно!]]></good>
+				<bad><![CDATA[Вы пьете недостаточно!]]></bad>
+				<line5><![CDATA[В идеале Вы должны выпивать воды]]></line5>
+				<line5><![CDATA[в день]]></line5>
+			</explain>
+		</textField>
+		<button>
+			<bt><![CDATA[Назад]]></bt>
+		</button>
+	</profil_hydr>
+	<translation>
+		<textField >
+			<title><![CDATA[Переводы]]></title>
+			<translate>
+				<word>
+					<ref><![CDATA[The Live Young Training]]></ref>
+					<trans><![CDATA[Тренинг "Оставайся молодым от Evian"]]></trans>
+				</word>
+				<word>
+					<ref><![CDATA[Coaching]]></ref>
+					<trans><![CDATA[Тренировка]]></trans>
+				</word>
+			</translate>
+		</textField>
+		<button>
+			<bt><![CDATA[Закрыть]]></bt>
+		</button>
+	</translation>
+	<mentions>
+		<textField >
+			<title><![CDATA[Юридическая информация]]></title>
+			<text><![CDATA[Представленная на настоящем сайте информация носит исключительно общий ознакомительный характер и не может быть использована в качестве медицинской рекомендации.<br/><br>Настоящий продукт используется для подсчета необходимого количества жидкости для взрослого здорового человека в возрасте от 18 до 75 лет в нормальных условиях.<br/><br>Для получения более точной информации проконсультируйтесь с врачом или диетологом.<br/><br>Разработчики и авторы сайта не несут никакой ответственности  за использование информации с сайта, к каким бы последствиям оно не приводило.<br/><br>Информация, представленная на настоящем сайте, не является непосредственным руководством к действию.]]></text>
+		</textField>
+		<button>
+			<bt><![CDATA[Закрыть]]></bt>
+		</button>
+	</mentions>
+</Resources>

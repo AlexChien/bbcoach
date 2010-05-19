@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Resources name="WEEK 3">
+	<footer>
+		<textField>
+			<fb><![CDATA[Поделиться]]></fb>
+			<fan><![CDATA[Фан-клуб]]></fan>
+		</textField>
+		<button>
+			<profil><![CDATA[Мой профайл]]></profil>
+			<trad><![CDATA[*Переводы]]></trad>
+			<mentions><![CDATA[Юридическая информация]]></mentions>
+			<evian><![CDATA[Узнать больше об Evian]]></evian>
+		</button>
+	</footer>
+	<curve_pinkLight>
+	</curve_pinkLight>
+	<SportWeek>
+		<videoUrl><![CDATA[04_11_matheo.mp4]]></videoUrl>
+		<textField >
+			<title><![CDATA[На прошлой неделе<br>Вы точно поддерживали отношения с друзьями,]]></title>
+			<subTitle><![CDATA[но поддерживали ли Вы себя в форме?]]></subTitle>
+			<game>
+				<resp value="a"><![CDATA[Не было времени<br> на упражнения…]]></resp>
+				<resp value="b"><![CDATA[Чередовали нагрузки<br>и отдых]]></resp>
+				<resp value="c"><![CDATA[Все еще чувствуете<br> боль в мышцах при<br>нагрузках]]></resp>
+				<resp value="d"><![CDATA[Вы превзошли сами<br>себя: бедра и пресс<br>как будто из стали!]]></resp>
+			</game>
+		</textField>
+		<button>
+			<bt><![CDATA[Продолжение]]></bt>
+		</button>
+	</SportWeek>
+	<intro>
+		<videoUrl><![CDATA[04_21_matheo.mp4]]></videoUrl>
+		<textField>
+			<week><![CDATA[Неделя 4]]></week>
+			<title><![CDATA[Дайте работу мозгу]]></title>
+			<subTitle><![CDATA[Впереди целая неделя<br>умственных упражнений… Готовы потрудиться?]]></subTitle>
+		</textField>
+		<button>
+			<bt><![CDATA[Вперед]]></bt>
+		</button>
+	</intro>
+	<memory>
+		<textField >
+			<title num="#1">
+				<text><![CDATA[Игра на память!]]></text>
+				<text><![CDATA[Дайте работу мозгу]]></text>
+			</title>
+			<game><![CDATA[У Вас есть 10 секунд, чтобы запомнить эти пары.]]></game>
+			<time><![CDATA[60]]></time>
+		</textField>
+		<button>
+			<bt_go><![CDATA[Вперед]]></bt_go>
+		</button>
+	</memory>
+	<waterGame>
+		<textField >
+			<title num="#2">
+				<text><![CDATA[Игры с водой]]></text>
+				<text><![CDATA[Дайте работу мозгу]]></text>
+			</title>
+			<game>
+				<explain><![CDATA[Представьте, что у Вас есть 3-х литровый и 5-литровый кувшины.<br>Вы можете их наполнять, выливать воду из них или переливать<br>ее из одного в другой. <font  color="#E72562"> Как можно получить точно 4 литра воды?</font>]]></explain>
+				<capacity bowl1="3" bowl2="5" unity="L" ><![CDATA[Объем]]></capacity>
+				<help>
+					<text><![CDATA[Слишком сложно?]]></text>
+					<bt><![CDATA[Сдаетесь?]]></bt>
+					<explain><![CDATA[Наполните пятилитровый кувшин и перелейте часть содержимого в трехлитровый кувшин, так чтобы целиком наполнить его водой. Таким образом, в пятилитровом кувшине останется 2 литра.]]></explain>
+					<explain><![CDATA[Вылейте воду из трехлитрового кувшина, а потом перелейте в него 2 литра воды из пятилитрового.]]></explain>
+					<explain><![CDATA[Наполните 5-литровый кувшин.]]></explain>
+					<explain><![CDATA[Наполните пятилитровый кувшин, а потом перелейте его содержимое в трехлитровый. Таким образом, у вас окажется 3 литра в трехлитровом кувшине и 4 литра в пятилитровом. ]]></explain>
+				</help>
+			</game>
+		</textField>
+		<button>
+			<bt_go><![CDATA[Продолжить]]></bt_go>
+		</button>
+		<bubble>
+			<text><![CDATA[За то время, что<br>Вы находитесь<br>на этом сайте,<br>Ваш организм потерял<br>50 мл воды.]]></text>
+			<text><![CDATA[Выпейте стакан<br>воды!]]></text>
+		</bubble>
+	</waterGame>
+	<congratulation>
+		<videoUrl><![CDATA[01_81_titouan.mp4]]></videoUrl>
+		<textField>
+			<title><![CDATA[Поздравляем,]]></title>
+			<subTitle><![CDATA[Вы отлично потрудились! Но не останавливайтесь на достигнутом…<br>Прилагайте усилия, чтобы повысить свой коэффициент  молодости, пока Вы ждете следующую порцию упражнений.<br>Мы желаем Вам отличной недели!]]></subTitle>
+		</textField>
+		<button>
+			<bt><![CDATA[Бонус!]]></bt>
+			<bt><![CDATA[Детали маршрута]]></bt>
+		</button>
+	</congratulation>
+	<interScore>
+		<textField>
+			<win>
+				<title><![CDATA[Браво!]]></title>
+				<text><![CDATA[Вы выиграли,]]></text>
+				<text><![CDATA[Сейчас Ваш коэффициент молодости]]></text>
+				<unity><![CDATA[лет]]></unity>
+			</win>
+			<lose>
+				<title><![CDATA[Извините!]]></title>
+				<text><![CDATA[Вы проиграли,]]></text>
+				<text><![CDATA[Сейчас Ваш коэффициент молодости]]></text>
+				<unity><![CDATA[лет.]]></unity>
+			</lose>
+		</textField>
+		<button>
+			<bt_next><![CDATA[Подтвердить]]></bt_next>
+			<bt_back><![CDATA[Попробовать еще раз]]></bt_back>
+			<bt_fb><![CDATA[Поделить с друзьями]]></bt_fb>
+		</button>
+	</interScore>
+	<profil>
+		<textField gap="0">
+			<title1><![CDATA[Мой]]></title1>
+			<title1><![CDATA[профайл]]></title1>
+			<sub><![CDATA[Следите за своими успехами на протяжение всего тренинга.]]></sub>
+			<bubble>
+				<text><![CDATA[Сейчас Ваш коэффициент<br>молодости]]></text>
+				<text><![CDATA[лет]]></text>
+			</bubble>
+			<profil>
+				<sex male="мужской" female="женcкий"><![CDATA[пол]]></sex>
+				<age><![CDATA[лет]]></age>
+				<height><![CDATA[рост (см)]]></height>
+				<weight><![CDATA[вес (кг)]]></weight>
+				<style title="Образ жизни">
+					<kind><![CDATA[Сидячий]]></kind>
+					<kind><![CDATA[Малоподвижный]]></kind>
+					<kind><![CDATA[Умеренно подвижный]]></kind>
+					<kind><![CDATA[Очень активный]]></kind>
+				</style>
+			</profil>
+			<graphic year="лет">
+				<week0><![CDATA[Вернуться к началу]]></week0>
+				<week1><![CDATA[Неделя 1]]></week1>
+				<week2><![CDATA[Неделя 2]]></week2>
+				<week3><![CDATA[Неделя 3]]></week3>
+				<week4><![CDATA[Неделя 4]]></week4>
+				<week5><![CDATA[Неделя 5]]></week5>
+			</graphic>
+			<bottles>
+				<text_bottle><![CDATA[Быстрота<br>ума]]></text_bottle>
+				<text_bottle><![CDATA[Физические<br>возможности]]></text_bottle>
+				<text_bottle><![CDATA[Молодость<br>духа]]></text_bottle>
+			</bottles>
+		</textField>
+		<button>
+			<bt><![CDATA[Назад]]></bt>
+		</button>
+	</profil>
+	<translation>
+		<textField >
+			<title><![CDATA[Переводы]]></title>
+			<translate>
+				<word>
+					<ref><![CDATA[The Live Young Training]]></ref>
+					<trans><![CDATA[Тренинг "Оставайся молодым от Evian"]]></trans>
+				</word>
+				<word>
+					<ref><![CDATA[Coaching]]></ref>
+					<trans><![CDATA[Тренировка]]></trans>
+				</word>
+			</translate>
+		</textField>
+		<button>
+			<bt><![CDATA[Закрыть]]></bt>
+		</button>
+	</translation>
+	<mentions>
+		<textField >
+			<title><![CDATA[Юридическая информация]]></title>
+			<text><![CDATA[Представленная на настоящем сайте информация носит исключительно общий ознакомительный характер и не может быть использована в качестве медицинской рекомендации.<br/><br>Настоящий продукт используется для подсчета необходимого количества жидкости для взрослого здорового человека в возрасте от 18 до 75 лет в нормальных условиях.<br/><br>Для получения более точной информации проконсультируйтесь с врачом или диетологом.<br/><br>Разработчики и авторы сайта не несут никакой ответственности  за использование информации с сайта, к каким бы последствиям оно не приводило.<br/><br>Информация, представленная на настоящем сайте, не является непосредственным руководством к действию.]]></text>
+		</textField>
+		<button>
+			<bt><![CDATA[Закрыть]]></bt>
+		</button>
+	</mentions>
+</Resources>

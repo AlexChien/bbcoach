@@ -1,0 +1,116 @@
+12c12
+< 			<evian><![CDATA[En savoir plus sur evian]]></evian>
+---
+> 			<evian><![CDATA[En savoir plus sur Evian]]></evian>
+51c51
+< 			<time><![CDATA[60]]></time>
+---
+> 			<unity plural="secondes"><![CDATA[seconde]]></unity>
+57,83d56
+< 	<waterGame>
+< 		<textField >
+< 			<title num="#2">
+< 				<text><![CDATA[Le jeu de l'eau]]></text>
+< 				<text><![CDATA[challengez votre agilité intellectuelle]]></text>
+< 			</title>
+< 			<game>
+< 				<explain><![CDATA[vous avez un bidon vide de 3L et un bidon vide de 5L.<br>Vous pouvez remplir, vider ou transvaser l'eau des<br>bidons.<font  color="#E72562"> Comment obtenir 4 litres d'eau avec précision ?</font>]]></explain>
+< 				<capacity bowl1="3" bowl2="5" unity="L" ><![CDATA[Capacité totale]]></capacity>
+< 				<help>
+< 					<text><![CDATA[Trop difficile ?]]></text>
+< 					<bt><![CDATA[Donnez votre<br/>langue au chat]]></bt>
+< 					<explain><![CDATA[Remplissez le bidon de 5L et transvasez son contenu dans le bidon de 3L. Vous avez 2L dans le bidon de 5L]]></explain>
+< 					<explain><![CDATA[Videz le bidon de 3L puis transvasez les 2L dans ce dernier.]]></explain>
+< 					<explain><![CDATA[Remplissez à nouveau le bidon de 5L.]]></explain>
+< 					<explain><![CDATA[Transvasez ensuite le bidon de 5L dans celui de 3L. Vous avez alors 3L dans le bidon de gauche et 4Litres dans celui de 5L.]]></explain>
+< 				</help>
+< 			</game>
+< 		</textField>
+< 		<button>
+< 			<bt_go><![CDATA[Continuer]]></bt_go>
+< 		</button>
+< 		<bubble>
+< 			<text><![CDATA[Depuis que vous<br/êtes sur ce site,<br/>votre corps à<br/perdu 50 cl d'eau..]]></text>
+< 			<text><![CDATA[Buvez un verre<br/>d'eau !]]></text>
+< 		</bubble>
+< 	</waterGame>
+95,115d67
+< 	<interScore>
+< 		<textField>
+< 			<win>
+< 				<title><![CDATA[Bravo !]]></title>
+< 				<text><![CDATA[Vous avez réussi,]]></text>
+< 				<text><![CDATA[votre quotient jeunesse passe à]]></text>
+< 				<unity><![CDATA[ans]]></unity>
+< 			</win>
+< 			<lose>
+< 				<title><![CDATA[Dommage !]]></title>
+< 				<text><![CDATA[Vous avez perdu,]]></text>
+< 				<text><![CDATA[votre quotient jeunesse passe à]]></text>
+< 				<unity><![CDATA[ans]]></unity>
+< 			</lose>
+< 		</textField>
+< 		<button>
+< 			<bt_next><![CDATA[Valider]]></bt_next>
+< 			<bt_back><![CDATA[Réessayer]]></bt_back>
+< 			<bt_fb><![CDATA[Partager sur]]></bt_fb>
+< 		</button>
+< 	</interScore>
+161c113,157
+< 					<trans><![CDATA[Le Programme Jeunesse evian]]></trans>
+---
+> 					<trans><![CDATA[L'entrainement Jeunesse Evian]]></trans>
+> 				</word>
+> 				<word>
+> 					<ref><![CDATA[Funny Week]]></ref>
+> 					<trans><![CDATA[Semaine du rire]]></trans>
+> 				</word>
+> 				<word>
+> 					<ref><![CDATA[Aqua Box]]></ref>
+> 					<trans><![CDATA[Boite à eau]]></trans>
+> 				</word>
+> 				<word>
+> 					<ref><![CDATA[Lorem ipsum]]></ref>
+> 					<trans><![CDATA[jasjajze ddsds dsds]]></trans>
+> 				</word>
+> 				<word>
+> 					<ref><![CDATA[Lorem ipsum]]></ref>
+> 					<trans><![CDATA[jasjajze ddsds dsds]]></trans>
+> 				</word>
+> 				<word>
+> 					<ref><![CDATA[The Live Young Training]]></ref>
+> 					<trans><![CDATA[L'entrainement Jeunesse Evian]]></trans>
+> 				</word>
+> 				<word>
+> 					<ref><![CDATA[Funny Week]]></ref>
+> 					<trans><![CDATA[Semaine du rire]]></trans>
+> 				</word>
+> 				<word>
+> 					<ref><![CDATA[Aqua Box]]></ref>
+> 					<trans><![CDATA[Boite à eau]]></trans>
+> 				</word>
+> 				<word>
+> 					<ref><![CDATA[Lorem ipsum]]></ref>
+> 					<trans><![CDATA[jasjajze ddsds dsds]]></trans>
+> 				</word>
+> 				<word>
+> 					<ref><![CDATA[Lorem ipsum]]></ref>
+> 					<trans><![CDATA[jasjajze ddsds dsds]]></trans>
+> 				</word>
+> 				<word>
+> 					<ref><![CDATA[Aqua Box]]></ref>
+> 					<trans><![CDATA[Boite à eau]]></trans>
+> 				</word>
+> 				<word>
+> 					<ref><![CDATA[Lorem ipsum]]></ref>
+> 					<trans><![CDATA[jasjajze ddsds dsds]]></trans>
+164,165c160,161
+< 					<ref><![CDATA[Coaching]]></ref>
+< 					<trans><![CDATA[Entraînement]]></trans>
+---
+> 					<ref><![CDATA[Lorem ipsum]]></ref>
+> 					<trans><![CDATA[jasjajze ddsds dsds]]></trans>
+176c172
+< 			<text><![CDATA[Ce site a pour seul but de fournir des informations générales, à titre éducatif, et ne remplace, en aucun cas, l'avis ou l'intervention d'un professionnel de la santé.<br/><br>Cet outil doit être utilisé, à titre indicatif, pour calculer les besoins d'hydradation d'un adulte sain agé de 18 à 75 ans, dans des conditions normales.<br/><br>En cas de traitements médicaux spécifiques, ou en cas de besoin d'information médicale plus précise, consultez un médecin ou un diététicien.<br/><br>Aucune responsabilité à l'encontre des auteurs ou de la société éditrice de ce site ne peut être retenue pour une quelconque utilisation du site ou de son contenu, tant en matière de dommages directs, indirects, accessoires, punitifs ou consécutifs ou manque à gagner causés par l'utilisation, la référence, ou l'exploitation de ce site ou de ses  informations.<br/><br>Ce site est consultable "en l'état", sans aucune garantie de quelque nature que ce soit, expresse ou implicite.]]></text>
+---
+> 			<text><![CDATA[Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut<br>labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud<br>exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu<br>fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,<br>sunt in culpa qui officia deserunt mollit anim id est laborum.]]></text>

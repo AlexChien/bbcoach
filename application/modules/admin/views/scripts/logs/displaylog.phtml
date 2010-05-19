@@ -1,0 +1,14 @@
+<pre>
+<h1>Log [ <?php echo $this->log; ?> ] display</h1>
+<table width="800" border="1" cellpadding="1" cellspacing="1" style="border: 1px solid black;">
+  <tr>
+    <th width="30%">Date</th>
+    <th width="70%"><?php echo ($this->log == 'error') ? 'Erreurs':'Rapport'; ?></th>
+  </tr>
+  <?php foreach ($this->datas as $result): ?>
+  <tr>
+    <td align="center"><?php echo $result->date; ?></td>
+    <td><?php echo $result->content; ?></td>
+  </tr>
+  <?php endforeach; ?>
+</table></pre>

@@ -1,0 +1,108 @@
+11c11
+< 			<evian><![CDATA[En savoir plus sur evian]]></evian>
+---
+> 			<evian><![CDATA[En savoir plus sur Evian]]></evian>
+31,32c31,32
+< 			<bt_next><![CDATA[Passer à la suite ]]></bt_next>
+< 			<bt_back><![CDATA[Voir la solution]]></bt_back>
+---
+> 			<bt_next><![CDATA[La suite]]></bt_next>
+> 			<bt_back><![CDATA[La solution]]></bt_back>
+71,72c71,72
+< 					<text><![CDATA[Pour débuter, faisons un petit exercice de mémorisation.]]></text>
+< 					<bt><![CDATA[Cliquez ici]]></bt>
+---
+> 					<text><![CDATA[Vous avez 20 secondes pour aller le plus loin<br>possible. Mémorisez bien les images ci-contre !]]></text>
+> 					<bt><![CDATA[Découvrir]]></bt>
+78d77
+< 					<bt_next><![CDATA[Commencez]]></bt_next>
+80d78
+< 					<explain><![CDATA[Et maintenant, à vous d'être le plus rapide possible.<br>Vous avez 20 secondes pour faire le meilleur score.]]></explain>
+156,160c154,156
+< 				<text><![CDATA[Moins de 5 flexions.]]></text>
+< 				<text><![CDATA[Entre 5 et 10 flexions.]]></text>
+< 				<text><![CDATA[Entre 11 et 20 flexions.]]></text>
+< 				<text><![CDATA[Entre 21 et 30 flexions.]]></text>
+< 				<text><![CDATA[Plus de 30 flexions.]]></text>
+---
+> 				<text><![CDATA[1 flexion]]></text><text><![CDATA[2 flexions]]></text><text><![CDATA[3 flexions]]></text><text><![CDATA[4 flexions]]></text><text><![CDATA[5 flexions]]></text><text><![CDATA[6 flexions]]></text><text><![CDATA[7 flexions]]></text><text><![CDATA[8 flexions]]></text><text><![CDATA[9 flexions]]></text><text><![CDATA[10 flexions]]></text>
+> 				<text><![CDATA[11 flexion]]></text><text><![CDATA[12 flexions]]></text><text><![CDATA[13 flexions]]></text><text><![CDATA[14 flexions]]></text><text><![CDATA[15 flexions]]></text><text><![CDATA[16 flexions]]></text><text><![CDATA[17 flexions]]></text><text><![CDATA[18 flexions]]></text><text><![CDATA[19 flexions]]></text><text><![CDATA[20 flexions]]></text>
+> 				<text><![CDATA[21 flexion]]></text><text><![CDATA[22 flexions]]></text><text><![CDATA[23 flexions]]></text><text><![CDATA[24 flexions]]></text><text><![CDATA[25 flexions]]></text><text><![CDATA[26 flexions]]></text><text><![CDATA[27 flexions]]></text><text><![CDATA[28 flexions]]></text><text><![CDATA[29 flexions]]></text><text><![CDATA[30 flexions et +]]></text>
+368c364
+< 					<trans><![CDATA[Le Programme Jeunesse evian]]></trans>
+---
+> 					<trans><![CDATA[L'entrainement Jeunesse Evian]]></trans>
+371,372c367,432
+< 					<ref><![CDATA[Coaching]]></ref>
+< 					<trans><![CDATA[Entraînement]]></trans>
+---
+> 					<ref><![CDATA[Funny Week]]></ref>
+> 					<trans><![CDATA[Semaine du rire]]></trans>
+> 				</word>
+> 				<word>
+> 					<ref><![CDATA[Aqua Box]]></ref>
+> 					<trans><![CDATA[Boite à eau]]></trans>
+> 				</word>
+> 				<word>
+> 					<ref><![CDATA[Lorem ipsum]]></ref>
+> 					<trans><![CDATA[jasjajze ddsds dsds]]></trans>
+> 				</word>
+> 				<word>
+> 					<ref><![CDATA[Lorem ipsum]]></ref>
+> 					<trans><![CDATA[jasjajze ddsds dsds]]></trans>
+> 				</word>
+> 				<word>
+> 					<ref><![CDATA[The Live Young Training]]></ref>
+> 					<trans><![CDATA[L'entrainement Jeunesse Evian]]></trans>
+> 				</word>
+> 				<word>
+> 					<ref><![CDATA[Funny Week]]></ref>
+> 					<trans><![CDATA[Semaine du rire]]></trans>
+> 				</word>
+> 				<word>
+> 					<ref><![CDATA[Aqua Box]]></ref>
+> 					<trans><![CDATA[Boite à eau]]></trans>
+> 				</word>
+> 				<word>
+> 					<ref><![CDATA[Lorem ipsum]]></ref>
+> 					<trans><![CDATA[jasjajze ddsds dsds]]></trans>
+> 				</word>
+> 				<word>
+> 					<ref><![CDATA[Lorem ipsum]]></ref>
+> 					<trans><![CDATA[jasjajze ddsds dsds]]></trans>
+> 				</word>
+> 				<word>
+> 					<ref><![CDATA[Aqua Box]]></ref>
+> 					<trans><![CDATA[Boite à eau]]></trans>
+> 				</word>
+> 				<word>
+> 					<ref><![CDATA[Lorem ipsum]]></ref>
+> 					<trans><![CDATA[jasjajze ddsds dsds]]></trans>
+> 				</word>
+> 				<word>
+> 					<ref><![CDATA[Lorem ipsum]]></ref>
+> 					<trans><![CDATA[jasjajze ddsds dsds]]></trans>
+> 				</word>
+> 				<word>
+> 					<ref><![CDATA[The Live Young Training]]></ref>
+> 					<trans><![CDATA[L'entrainement Jeunesse Evian]]></trans>
+> 				</word>
+> 				<word>
+> 					<ref><![CDATA[Funny Week]]></ref>
+> 					<trans><![CDATA[Semaine du rire]]></trans>
+> 				</word>
+> 				<word>
+> 					<ref><![CDATA[Aqua Box]]></ref>
+> 					<trans><![CDATA[Boite à eau]]></trans>
+> 				</word>
+> 				<word>
+> 					<ref><![CDATA[Lorem ipsum]]></ref>
+> 					<trans><![CDATA[jasjajze ddsds dsds]]></trans>
+> 				</word>
+> 				<word>
+> 					<ref><![CDATA[Lorem ipsum]]></ref>
+> 					<trans><![CDATA[jasjajze ddsds dsds]]></trans>
+383c443
+< 			<text><![CDATA[Ce site a pour seul but de fournir des informations générales, à titre éducatif, et ne remplace, en aucun cas, l'avis ou l'intervention d'un professionnel de la santé.<br/><br>Cet outil doit être utilisé, à titre indicatif, pour calculer les besoins d'hydradation d'un adulte sain agé de 18 à 75 ans, dans des conditions normales.<br/><br>En cas de traitements médicaux spécifiques, ou en cas de besoin d'information médicale plus précise, consultez un médecin ou un diététicien.<br/><br>Aucune responsabilité à l'encontre des auteurs ou de la société éditrice de ce site ne peut être retenue pour une quelconque utilisation du site ou de son contenu, tant en matière de dommages directs, indirects, accessoires, punitifs ou consécutifs ou manque à gagner causés par l'utilisation, la référence, ou l'exploitation de ce site ou de ses  informations.<br/><br>Ce site est consultable "en l'état", sans aucune garantie de quelque nature que ce soit, expresse ou implicite.]]></text>
+---
+> 			<text><![CDATA[Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut<br>labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud<br>exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu<br>fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,<br>sunt in culpa qui officia deserunt mollit anim id est laborum.]]></text>

@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Evian - The live Young Training</title>
+</head>
+
+<body>
+	<table border="0" cellpadding="0" cellspacing="0" width="700" align="center">
+		<?php if(empty($this->browser)): ?>
+		<tr>
+			<td colspan="3" align="center"><font size="1" face="Verdana" color="#b9b8b8" style="font-size:10px" ><?php echo $this->texts->alternativeDisplay; ?>, <a href="<?php echo $this->webhost; ?>/afficher/email/?id=<?php echo $this->userKey; ?>&name=youtube&day=<?php echo $this->day; ?>" target="_blank" ><font color="#b9b8b8" ><u><?php echo $this->texts->clickHere; ?></u></font></a>.</font></td>
+		</tr>
+		<?php endif; ?>
+		<tr>
+			<td height="10px;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td><a href="<?php echo $this->webhost; ?>" target="_blank" ><img src="<?php echo $this->webhost; ?>/images/email/<?php echo $this->tplname; ?>/<?php echo $this->top; ?>" border="0" alt="evian - The live Young Training" style="display:block;" /></a></td>
+		</tr>
+		<tr>
+		  	<td bgcolor="#fff" valign="top" height="551" background="<?php echo $this->webhost; ?>/images/email/<?php echo $this->tplname; ?>/bg.gif" align="center">
+            	<table border="0" cellpadding="0" cellspacing="0" width="582">
+                	<tr>
+						<td height="66" valign="bottom" align="left">
+							<table border="0" cellpadding="0" cellspacing="0" width="115" height="23">
+								<tr>
+									<td bgcolor="#eaeae9" align="center"><font size="2" face="Verdana" color="#60605f" style="font-size:15px" ><strong><?php echo $this->texts->semaine; ?></strong></font></td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+                    <tr>
+						<td height="50"align="left">
+							<a href="<?php echo $this->urlVideo; ?>" target="_blank" style="text-decoration:none;" >
+								<font size="2" face="Verdana" color="#60605f" style="font-size:35px" >
+									<?php echo $this->texts->letsGo; ?>								</font>							</a>						</td>
+					</tr>
+					<tr>
+						<td height="50" align="left">
+							<a href="<?php echo $this->urlVideo; ?>" target="_blank" style="text-decoration:none;"  >
+							<?php echo $this->texts->entrainement; ?>
+							</a>
+						</td>
+					</tr>
+                	<tr>
+                    	<td>
+                        	<table border="0" cellpadding="0" cellspacing="0" width="582">
+                            	<tr>
+                                	<td><a href="<?php echo $this->urlVideo; ?>" target="_blank" ><img src="<?php echo $this->webhost; ?>/images/email/<?php echo $this->tplname; ?>/visuel_video_01.jpg" border="0" alt="" style="display:block;" /></a></td>
+                                </tr>
+                                <tr>
+                                	<td>
+                                    	<table border="0" cellpadding="0" cellspacing="0" width="582">
+                                        	<tr>
+                                            	<td><a href="<?php echo $this->urlVideo; ?>" target="_blank" ><img src="<?php echo $this->webhost; ?>/images/email/<?php echo $this->tplname; ?>/visuel_video_02.jpg" border="0" alt="" style="display:block;" /></a></td>
+                                                <td><a href="<?php echo $this->urlVideo; ?>" target="_blank" ><img src="<?php echo $this->webhost; ?>/images/email/<?php echo $this->tplname; ?>/visuel_video_03.jpg" border="0" alt="" style="display:block;" /></a></td>
+                                                <td bgcolor="#e72561" width="34" align="center"><a href="<?php echo $this->urlVideo; ?>" target="_blank" style="text-decoration:none;" >
+                                                    <font size="1" face="Verdana" color="#ffffff" style="font-size:13px" ><strong>GO</strong></font></a>
+                                                </td>
+                                                <td><a href="<?php echo $this->urlVideo; ?>" target="_blank" ><img src="<?php echo $this->webhost; ?>/images/email/<?php echo $this->tplname; ?>/visuel_video_04.jpg" border="0" alt="" style="display:block;" /></a></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                	<td><a href="<?php echo $this->urlVideo; ?>" target="_blank" ><img src="<?php echo $this->webhost; ?>/images/email/<?php echo $this->tplname; ?>/visuel_video_06.jpg" border="0" alt="" style="display:block;" /></a></td>
+                                </tr>
+                        	</table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+	  	</tr>
+		<tr>
+			<td height="20px;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td  colspan="3"  align="center">
+				<font size="1" face="Verdana" color="#b9b8b8" style="font-size:10px" >
+				<a href="<?php echo $this->webhost; ?>/index/unsubscribe/id/<?php echo $this->userKey; ?>/lang/<?php echo $this->lang; ?>" target="_blank" ><font color="#b9b8b8" ><u><?php echo $this->texts->clickHere; ?></u></font></a><?php echo $this->texts->unsubscribe; ?></font>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>

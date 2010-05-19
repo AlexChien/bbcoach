@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<Resources name="WEEK 2">
+	<footer>
+		<textField>
+			<fb><![CDATA[Partager]]></fb>
+			<fan><![CDATA[Devenir fan]]></fan>
+		</textField>
+		<button>
+			<profil><![CDATA[Mon profil]]></profil>
+			<trad><![CDATA[*Traduction]]></trad>
+			<mentions><![CDATA[Mentions Légales]]></mentions>
+			<evian><![CDATA[En savoir plus sur evian]]></evian>
+		</button>
+	</footer>
+	<curve_pinkLight>
+	</curve_pinkLight>
+	<intro>
+		<videoUrl><![CDATA[02_41_titouan.mp4]]></videoUrl>
+		<textField>
+			<week><![CDATA[semaine 2]]></week>
+			<title><![CDATA[Quel est votre<br>état d'esprit ?]]></title>
+			<subTitle><![CDATA[Une semaine, pour garder l'esprit jeune !<br>Voir la vie du côté positif, c'est peut-être ça la jeunesse d'esprit...<br>Alors cette semaine, on s'entraîne... en riant !<br>Vous êtes prêt ?]]></subTitle>
+		</textField>
+		<button>
+			<bt><![CDATA[Go]]></bt>
+		</button>
+	</intro>
+	<laugh>
+		<textField >
+			<title>
+				<text><![CDATA[Funny Week*]]></text>
+				<text><![CDATA[Quel est votre état d'esprit ?]]></text>
+			</title>
+			<game><![CDATA[<font face="Chalet-NewYorkNineteenSixty" >Faîtes-le rigoler...</font> Cherchez avec votre souris la<br>zone de son corps où il est le plus chatouilleux!<br><br>Il paraît que le rire est communicatif...<br><font color="#E72562" >Surveillez bien votre boite mail chaque jour de<br>la semaine.</font>]]></game>
+		</textField>
+		<button>
+			<bt><![CDATA[La suite]]></bt>
+		</button>
+	</laugh>
+	<congratulation>
+		<videoUrl><![CDATA[01_82_jules.mp4]]></videoUrl>
+		<textField >
+			<title><![CDATA[Félicitations !]]></title>
+			<subTitle><![CDATA[vous avez bien travaillé. Poursuivez vos efforts afin d'améliorer<br>votre Quotient Jeunesse et surveillez bien votre boite mail<br>durant cette semaine.]]></subTitle>
+		</textField>
+		<button>
+			<bt><![CDATA[Mon profil]]></bt>
+		</button>
+	</congratulation>
+	<profil>
+		<textField gap="0">
+			<title1><![CDATA[Mon]]></title1>
+			<title1><![CDATA[profil]]></title1>
+			<sub><![CDATA[Suivez votre évolution tout au long de votre Live Young Training*.]]></sub>
+			<bubble>
+				<text><![CDATA[Votre Quotient<br>Jeunesse]]></text>
+				<text><![CDATA[ans]]></text>
+			</bubble>
+			<profil>
+				<sex male="masculin" female="féminin"><![CDATA[sexe]]></sex>
+				<age><![CDATA[ans]]></age>
+				<height><![CDATA[cm]]></height>
+				<weight><![CDATA[kg]]></weight>
+				<style title="Style de vie">
+					<kind><![CDATA[Sédentaire]]></kind>
+					<kind><![CDATA[Assez actif]]></kind>
+					<kind><![CDATA[Actif]]></kind>
+					<kind><![CDATA[Très actif]]></kind>
+				</style>
+			</profil>
+			<graphic year="ans">
+				<week0><![CDATA[Début]]></week0>
+				<week1><![CDATA[Semaine 1]]></week1>
+				<week2><![CDATA[Semaine 2]]></week2>
+				<week3><![CDATA[Semaine 3]]></week3>
+				<week4><![CDATA[Semaine 4]]></week4>
+				<week5><![CDATA[Semaine 5]]></week5>
+			</graphic>
+			<bottles>
+				<text_bottle><![CDATA[agilité<br>intellectuelle]]></text_bottle>
+				<text_bottle><![CDATA[capacités<br>physiques]]></text_bottle>
+				<text_bottle><![CDATA[jeunesse<br>d'esprit]]></text_bottle>
+			</bottles>
+		</textField>
+		<button>
+			<bt><![CDATA[Retour]]></bt>
+		</button>
+	</profil>
+	<translation>
+		<textField >
+			<title><![CDATA[Traduction]]></title>
+			<translate>
+				<word>
+					<ref><![CDATA[The Live Young Training]]></ref>
+					<trans><![CDATA[Le Programme Jeunesse evian]]></trans>
+				</word>
+				<word>
+					<ref><![CDATA[Coaching]]></ref>
+					<trans><![CDATA[Entraînement]]></trans>
+				</word>
+				<word>
+					<ref><![CDATA[Funny Week]]></ref>
+					<trans><![CDATA[Semaine du rire]]></trans>
+				</word>
+			</translate>
+		</textField >
+		<button>
+			<bt><![CDATA[Fermer]]></bt>
+		</button>
+	</translation>
+	<mentions>
+		<textField >
+			<title><![CDATA[Mentions légales]]></title>
+			<text><![CDATA[Ce site a pour seul but de fournir des informations générales, à titre éducatif, et ne remplace, en aucun cas, l'avis ou l'intervention d'un professionnel de la santé.<br/><br>Cet outil doit être utilisé, à titre indicatif, pour calculer les besoins d'hydradation d'un adulte sain agé de 18 à 75 ans, dans des conditions normales.<br/><br>En cas de traitements médicaux spécifiques, ou en cas de besoin d'information médicale plus précise, consultez un médecin ou un diététicien.<br/><br>Aucune responsabilité à l'encontre des auteurs ou de la société éditrice de ce site ne peut être retenue pour une quelconque utilisation du site ou de son contenu, tant en matière de dommages directs, indirects, accessoires, punitifs ou consécutifs ou manque à gagner causés par l'utilisation, la référence, ou l'exploitation de ce site ou de ses  informations.<br/><br>Ce site est consultable "en l'état", sans aucune garantie de quelque nature que ce soit, expresse ou implicite.]]></text>
+		</textField >
+		<button>
+			<bt><![CDATA[Fermer]]></bt>
+		</button>
+	</mentions>
+</Resources>

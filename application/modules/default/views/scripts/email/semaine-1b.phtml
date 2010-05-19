@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>EVIAN - The live Young Training</title>
+</head>
+
+<body>
+    <table border="0" cellpadding="0" cellspacing="0" width="700" align="center">
+        <?php if(empty($this->browser)): ?>
+        <tr>
+          <td align="center"><font size="1" face="Verdana" color="#b9b8b8" style="font-size:10px" ><?php echo $this->texts->alternativeDisplay; ?>, <a href="<?php echo $this->webhost; ?>/afficher/email/?id=<?php echo $this->userKey; ?>&name=<?php echo $this->tplname;?>" target="_blank" ><font color="#b9b8b8" ><u><?php echo $this->texts->clickHere; ?></u></font></a>.</font></td>
+        </tr>
+        <?php endif; ?>
+        <tr>
+            <td width="315" height="10px;">&nbsp;</td>
+        </tr>
+        <tr>
+            <td><a href="<?php echo $this->webhost; ?>" target="_blank" ><img src="<?php echo $this->webhost; ?>/images/email/<?php echo $this->tplname; ?>/<?php echo $this->top; ?>" border="0" alt="evian - The live Young Training" style="display:block;" /></a></td>
+        </tr>
+        <tr>
+            <td><table border="0" cellpadding="0" cellspacing="0" width="700" align="center">
+              <tr>
+                <td width="60" valign="top"><a href="<?php echo $this->webhost; ?>" target="_blank" ><img src="<?php echo $this->webhost; ?>/images/email/<?php echo $this->tplname; ?>/left.jpg" border="0" alt="" style="display:block;" /></a></td>
+                <td bgcolor="#fff" valign="top" background="<?php echo $this->webhost; ?>/images/email/confirmation/images/main.jpg"><table border="0" cellpadding="0" cellspacing="0" width="385">
+                    <tr>
+                      <td height="66" valign="bottom"><table border="0" cellpadding="0" cellspacing="0" height="23">
+                          <tr>
+                            <td bgcolor="#eaeae9" align="center"><font size="2" face="Verdana" color="#60605f" style="font-size:15px" ><strong><?php echo $this->texts->semaine; ?></strong></font></td>
+                          </tr>
+                      </table></td>
+                    </tr>
+                    <tr>
+                      <td height="93"><a href="<?php echo $this->webhost; ?>" target="_blank" style="text-decoration:none;" > <font size="2" face="Verdana" color="#60605f" style="font-size:35px" > <?php echo $this->texts->letsGo; ?> </font> </a> </td>
+                    </tr>
+                    <tr>
+                      <td height="139"><a href="<?php echo $this->webhost; ?>" target="_blank" style="text-decoration:none;" > <font size="1" face="Verdana" color="#60605f" style="font-size:13px" > <?php echo $this->texts->entrainement; ?></font> </a> </td>
+                    </tr>
+                    <tr>
+                      <td align="left" height="29"><table border="0" cellpadding="0" cellspacing="0">
+                          <tr>
+                            <td width="30"><a href="<?php echo $this->webhost; ?>?userKey=<?php echo $this->userKey; ?>" target="_blank" ><img src="<?php echo $this->webhost; ?>/images/email/<?php echo $this->tplname; ?>/but_left.gif" border="0" alt="" style="display:block;" /></a></td>
+                            <td bgcolor="#e72561" width="100" align="center"><a href="<?php echo $this->webhost; ?>" target="_blank" style="text-decoration:none;" > <font size="1" face="Verdana" color="#ffffff" style="font-size:13px" ><strong>GO</strong></font></a> </td>
+                            <td width="12"><a href="<?php echo $this->webhost; ?>" target="_blank" ><img src="<?php echo $this->webhost; ?>/images/email/<?php echo $this->tplname; ?>/but_right.gif" border="0" alt="" style="display:block;" /></a></td>
+                          </tr>
+                      </table>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><a href="<?php echo $this->webhost; ?>" target="_blank" ><img src="<?php echo $this->webhost; ?>/images/email/<?php echo $this->tplname; ?>/bottom.jpg" border="0" alt="" style="display:block;" /></a></td>
+                    </tr>
+                </table></td>
+                <td width="255" valign="top"><a href="<?php echo $this->webhost; ?>" target="_blank" ><img src="<?php echo $this->webhost; ?>/images/email/<?php echo $this->tplname; ?>/bebe.jpg" border="0" alt="" style="display:block;" /></a></td>
+              </tr>
+            </table></td>
+        </tr>
+        <tr>
+          <td height="20">&nbsp;</td>
+      </tr>
+        <tr>
+          <td  align="center"><font size="1" face="Verdana" color="#b9b8b8" style="font-size:10px" > <a href="<?php echo $this->webhost; ?>/index/unsubscribe/id/<?php echo $this->userKey; ?>/lang/<?php echo $this->lang; ?>" target="_blank" style="color:#b9b8b8"><font color="#b9b8b8" ><u><?php echo $this->texts->clickHere; ?></u></font></a><?php echo $this->texts->unsubscribe; ?></font> </td>
+      </tr>
+    </table>
+    </body>
+</html>

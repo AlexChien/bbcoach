@@ -1,0 +1,9 @@
+<html><head>
+<base href="<?php echo $this->webhost; ?>" />
+</head>
+<body>
+<?php if($this->identity !== true): echo $this->form; else: ?>
+<a href="admin/upload/datas/">Télécharger</a>
+<?php endif; ?>
+</body>
+</html>

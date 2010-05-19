@@ -59,7 +59,9 @@ class Enterprise_Mailer extends Zend_Mail {
 		
        		$this->_document = $view->render($this->_scriptName . '.phtml');
 
-		$this->setSubject(utf8_decode($texts->subject));
+		$this->setHeaderEncoding(Zend_Mime::ENCODING_BASE64);
+		// $this->setSubject(utf8_decode($texts->subject));
+		$this->setSubject($texts->subject);
 		$this->setBodyHtml($this->_document, 'utf-8');
 		$this->addTo($datas->view->email);
 

@@ -80,7 +80,7 @@ class Enterprise_Massmailer {
 	 */
 	private function _render($datas) {
 
-		$this->mail = new Zend_Mail();
+		$this->mail = new Zend_Mail('UTF-8');
 
 		$view = new Zend_View();
 		$view->setScriptPath($this->_config->mail->scriptsPath);
@@ -112,7 +112,9 @@ class Enterprise_Massmailer {
 
 		$this->_document = $view->render($this->_scriptName . '.phtml');
 
-		$this->mail->setSubject(utf8_decode($view->texts->subject));
+		$this->mail->setHeaderEncoding(Zend_Mime::ENCODING_BASE64);
+		// $this->mail->setSubject(utf8_decode($view->texts->subject));
+		$this->mail->setSubject($view->texts->subject);
 		$this->mail->setBodyHtml($this->_document);
 		$this->mail->addTo($datas->email, $datas->firstName);
 		$this->mail->send();

@@ -11,7 +11,6 @@ class IndexController extends Enterprise_Controller {
 	 * with _resquest->getParam in order to see if there's something particular to do
 	 */
 	public function indexAction() {
-
 		# add lang param to lauch flash in the right lang
 		if($this->_request->getParam('lang')) {
 			$this->view->userLang = $this->_request->getParam('lang');

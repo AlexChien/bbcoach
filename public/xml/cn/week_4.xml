@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Resources name="WEEK 3">
+	<footer>
+		<textField>
+			<fb><![CDATA[分享到]]></fb>
+			<fan><![CDATA[加入依云俱乐部]]></fan>
+		</textField>
+		<button>
+			<profil><![CDATA[我的资料]]></profil>
+			<trad><![CDATA[]]></trad>
+			<mentions><![CDATA[法律申明]]></mentions>
+			<evian><![CDATA[了解更多依云资讯]]></evian>
+		</button>
+	</footer>
+	<curve_pinkLight>
+	</curve_pinkLight>
+	<SportWeek>
+		<videoUrl><![CDATA[04_11_matheo.mp4]]></videoUrl>
+		<textField >
+			<title><![CDATA[Last week<br>you certainly kept up with your social circle,]]></title>
+			<subTitle><![CDATA[but what about your muscles?]]></subTitle>
+			<game>
+				<resp value="a"><![CDATA[Didn't have time<br>to fit in any activity]]></resp>
+				<resp value="b"><![CDATA[Peu d'effort<br>beaucoup de pauses]]></resp>
+				<resp value="c"><![CDATA[Still aching from<br>all the action]]></resp>
+				<resp value="d"><![CDATA[Beyond expectations:<br> feeling good!]]></resp>
+			</game>
+		</textField>
+		<button>
+			<bt><![CDATA[下一步]]></bt>
+		</button>
+	</SportWeek>
+	<intro>
+		<videoUrl><![CDATA[04_21_matheo.mp4]]></videoUrl>
+		<textField>
+			<week><![CDATA[第4周]]></week>
+			<title><![CDATA[Test your intellectual<br>agility]]></title>
+			<subTitle><![CDATA[A whole new week for brain crunching...<br>Are you ready to stimulate your intellectual agility?]]></subTitle>
+		</textField>
+		<button>
+			<bt><![CDATA[Go]]></bt>
+		</button>
+	</intro>
+	<memory>
+		<textField >
+			<title num="#1">
+				<text><![CDATA[Let's play the memory game!]]></text>
+				<text><![CDATA[Test your intellectual agility]]></text>
+			</title>
+			<game><![CDATA[You have 1 minute to associate the pairs.]]></game>
+			<time><![CDATA[60]]></time>
+		</textField>
+		<button>
+			<bt_go><![CDATA[Go]]></bt_go>
+		</button>
+	</memory>
+	<waterGame>
+		<textField >
+			<title num="#2">
+				<text><![CDATA[Think fast!]]></text>
+				<text><![CDATA[Test your intellectual agility]]></text>
+			</title>
+			<game>
+				<explain><![CDATA[Imagine you have a 3-liter jug and a 5-liter jug.<br>You can fill them up, empty them out or pour water from one<br>into the other.<font  color="#E72562"> How can you get precisely 4 liters of water?</font>]]></explain>
+				<capacity bowl1="3" bowl2="5" unity="L" ><![CDATA[Total capacity]]></capacity>
+				<help>
+					<text><![CDATA[Too difficult?]]></text>
+					<bt><![CDATA[Give up?]]></bt>
+					<explain><![CDATA[Remplissez le bidon de 5L et transvasez son contenu dans le bidon de 3L. Vous avez 2L dans le bidon de 5L]]></explain>
+					<explain><![CDATA[Videz le bidon de 3L puis transvasez les 2L dans ce dernier.]]></explain>
+					<explain><![CDATA[Fill the 5-liter jug.]]></explain>
+					<explain><![CDATA[Add 1 liter to the small jug, 1 one liter less than the big one. 5 - 1 = 4, it's that simple!]]></explain>
+				</help>
+			</game>
+		</textField>
+		<button>
+			<bt_go><![CDATA[继续]]></bt_go>
+		</button>
+		<bubble>
+			<text><![CDATA[Depuis que vous<br/êtes sur ce site,<br/>votre corps à<br/perdu 50 cl d'eau..]]></text>
+			<text><![CDATA[Buvez un verre<br/>d'eau !]]></text>
+		</bubble>
+	</waterGame>
+	<congratulation>
+		<videoUrl><![CDATA[01_81_titouan.mp4]]></videoUrl>
+		<textField>
+			<title><![CDATA[Félicitations,]]></title>
+			<subTitle><![CDATA[vous avez bien travaillé. Mais ne vous arrêtez pas en si bon chemin…<br>Poursuivez vos efforts afin d’améliorer votre Quotient Jeunesse<br>et continuez régulièrement vos exercices toute la semaine pour progresser.]]></subTitle>
+		</textField>
+		<button>
+			<bt><![CDATA[Accéder au bonus de fin !]]></bt>
+			<bt><![CDATA[Voir le détail de votre parcours]]></bt>
+		</button>
+	</congratulation>
+	<interScore>
+		<textField >
+			<win>
+				<title><![CDATA[Bravo !]]></title>
+				<text><![CDATA[Vous avez réussi,]]></text>
+				<text><![CDATA[votre quotient jeunesse passe à]]></text>
+				<unity><![CDATA[ans]]></unity>
+			</win>
+			<lose>
+				<title><![CDATA[Dommage !]]></title>
+				<text><![CDATA[Vous avez perdu,]]></text>
+				<text><![CDATA[votre quotient jeunesse passe à]]></text>
+				<unity><![CDATA[ans]]></unity>
+			</lose>
+		</textField>
+		<button>
+			<bt_next><![CDATA[Valider]]></bt_next>
+			<bt_back><![CDATA[Réessayer]]></bt_back>
+			<bt_fb><![CDATA[Partager sur]]></bt_fb>
+		</button>
+	</interScore>
+	<profil>
+		<textField gap="0">
+			<title1><![CDATA[我的]]></title1>
+			<title1><![CDATA[资料]]></title1>
+			<sub><![CDATA[Check your evolution along your Live Young Training.]]></sub>
+			<bubble>
+				<text><![CDATA[你的年轻指数]]></text>
+				<text><![CDATA[岁]]></text>
+			</bubble>
+			<profil>
+				<sex male="male" female="female"><![CDATA[性别]]></sex>
+				<age><![CDATA[岁]]></age>
+				<height><![CDATA[厘米]]></height>
+				<weight><![CDATA[公斤]]></weight>
+				<style title="Lifestyle">
+					<text><![CDATA[久坐型]]></text>
+				<text><![CDATA[轻度活动型]]></text>
+				<text><![CDATA[适度运动型]]></text>
+				<text><![CDATA[积极运动型]]></text>
+				</style>
+			</profil>
+			<graphic year="years old">
+				<week0><![CDATA[开始]]></week0>
+				<week1><![CDATA[第1周]]></week1>
+				<week2><![CDATA[第2周]]></week2>
+				<week3><![CDATA[第3周]]></week3>
+				<week4><![CDATA[第4周]]></week4>
+				<week5><![CDATA[第5周]]></week5>
+			</graphic>
+			<bottles>
+				<text_bottle><![CDATA[思考敏锐度]]></text_bottle>
+				<text_bottle><![CDATA[身体能动力]]></text_bottle>
+				<text_bottle><![CDATA[年轻心态值]]></text_bottle>
+			</bottles>
+		</textField>
+		<button>
+			<bt><![CDATA[返回]]></bt>
+		</button>
+	</profil>
+	<translation>
+		<textField >
+			<title><![CDATA[翻译]]></title>
+			<translate>
+				<word>
+					<ref><![CDATA[依云 Live Young 攻略]]></ref>
+					<trans><![CDATA[依云 Live Young 攻略]]></trans>
+				</word>
+			</translate>
+		</textField >
+		<button>
+			<bt><![CDATA[Fermer]]></bt>
+		</button>
+	</translation>
+	<mentions>
+		<textField >
+			<title><![CDATA[法律申明]]></title>
+			<text><![CDATA["本网站所含的全部信息仅用于提供教育信息，不得替代专业医疗建议和保健工作。本工具旨在帮助计算18岁至75岁健康成人在正常情况下的水分需求。如果你有特殊的医疗保健需要，或需完整的健康资讯，请咨询医生或营养师。本网站及其创建者不对使用本网站及其所含信息造成的后果承担任何责任，并明确申明不对使用、参考、依据这些信息造成的直接、间接、意外、特殊损害承担责任。本网站所引数据、资料、结论皆为原文转述，并不对所引用、转述的数据、论文、结论等内容做任何明示或暗示的担保。"]]></text>
+		</textField >
+		<button>
+			<bt><![CDATA[关闭]]></bt>
+		</button>
+	</mentions>
+</Resources>

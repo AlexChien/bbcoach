@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<Resources>
+	<home>
+		<textField name="依云Live young攻略">
+			<text><![CDATA[很难想象，世上有比年轻更珍贵难得的东西，不是吗。但幸运的是，我们可以通过学习和训练来活出年轻！<br>现在，让依云宝贝们来教你如何养成并久久维系住年轻活力。]]></text>
+			<logMsg><![CDATA[已经注册了？]]></logMsg>
+			<mail><![CDATA[电子邮件]]></mail>
+			<pass><![CDATA[密码]]></pass>
+			<mailUnvalid><![CDATA[请输入正确的邮件地址。]]></mailUnvalid>
+			<passShort><![CDATA[请输入正确的邮件地址。]]></passShort>
+			<passMailUnvalid><![CDATA[抱歉，你的邮件地址或密码输错啦！]]></passMailUnvalid>	
+		</textField>
+		<button>
+			<bt><![CDATA[Go]]></bt>
+			<bt><![CDATA[开始测试！]]></bt>
+		</button>
+	</home>
+</Resources>

@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<Resources name="YOUTH QUOTIENT">
+	<footer>
+		<textField>
+			<fb><![CDATA[分享到]]></fb>
+			<fan><![CDATA[加入依云俱乐部]]></fan>
+		</textField>
+		<button>
+			<trad><![CDATA[]]></trad>
+			<mentions><![CDATA[法律申明]]></mentions>
+			<evian><![CDATA[了解更多依云资讯]]></evian>
+		</button>
+	</footer>
+	<curve_pinkLight>
+		<textField>
+			<text><![CDATA[测试你的年轻指数]]></text>
+		</textField>
+	</curve_pinkLight>
+	<valid>
+		<textField >
+			<win>
+				<title><![CDATA[恭喜你！]]></title>
+				<text><![CDATA[你赢了。]]></text>
+			</win>
+			<lose>
+				<title><![CDATA[对不起！]]></title>
+				<text><![CDATA[你输了。]]></text>
+			</lose>
+		</textField>
+		<button>
+			<bt_next><![CDATA[下一步]]></bt_next>
+			<bt_back><![CDATA[正确答案]]></bt_back>
+		</button>
+	</valid>
+	<intro>
+		<textField>
+			<text><![CDATA[测试你的年轻指数]]></text>
+			<text><![CDATA[为活出年轻，有些事永远值得遵循！<br>譬如：保持头脑和思考的敏捷，让身体活力充沛，让童心永驻！<br>在教你如何活出年轻之前，让我们先测试下你现在的年轻指数！]]></text>
+			<text_bottle><![CDATA[思考<br>敏锐度]]></text_bottle>
+			<text_bottle><![CDATA[身体能动力<br>能动力]]></text_bottle>
+			<text_bottle><![CDATA[年轻<br>心态值]]></text_bottle>
+		</textField>
+		<button>
+			<bt><![CDATA[计算你的年轻指数]]></bt>
+		</button>
+	</intro>
+	<logicBaby>
+		<textField >
+			<title num="#1" quotient="1/3">
+				<text><![CDATA[测试你的]]></text>
+				<text><![CDATA[思考<br>敏锐度]]></text>
+			</title>
+			<text><![CDATA[按逻辑，下一个排列是？]]></text>
+			<text><![CDATA[点击正确的答案]]></text>
+			<text><![CDATA[看，宝贝和瓶子是交替排列的。因此最后一个位置你该选择宝贝。<br>蹲一分钟，然后坐下：所以坐下的那个宝贝就是你要选的！]]></text>
+		</textField>
+		<button>
+			<bt><![CDATA[确认]]></bt>
+			<bt><![CDATA[下一步]]></bt>
+		</button>
+	</logicBaby>
+	<speedMatch>
+		<textField >
+			<title num="#1" quotient="2/3">
+				<text><![CDATA[测试你的]]></text>
+				<text><![CDATA[身体能动力<br>能动力]]></text>
+			</title>
+			<game>
+				<screen1>
+					<title><![CDATA[开始快速<br>反应游戏]]></title>
+					<text><![CDATA[首先，我们将考验一下你的记忆力。]]></text>
+					<bt><![CDATA[点击这里]]></bt>
+				</screen1>
+				<screen2>
+					<title><![CDATA[这张图是否和前一张相同？]]></title>
+					<bt_yes><![CDATA[是]]></bt_yes>
+					<bt_no><![CDATA[不是]]></bt_no>
+					<bt_next><![CDATA[开始]]></bt_next>
+					<score><![CDATA[得分]]></score>
+					<explain><![CDATA[你需要尽可能快的做出反应。<br>你有20秒的时间来获得最高得分。]]></explain>
+					<countDown time="3"><![CDATA[Go]]></countDown>
+					<timer time="20" singular="second" ><![CDATA[秒]]></timer>
+				</screen2>
+			</game>
+		</textField>
+		<button>
+			<bt><![CDATA[下一步]]></bt>
+		</button>
+	</speedMatch>
+	<logicNumber>
+		<textField >
+			<title num="#1" quotient="3/3">
+				<text><![CDATA[测试你的]]></text>
+				<text><![CDATA[思考<br>敏锐度]]></text>
+			</title>
+			<text><![CDATA[下一个逻辑排列是?]]></text>
+			<text><![CDATA[点击正确的答案]]></text>
+			<resp><![CDATA[所以]]></resp>
+		</textField>
+		<button>
+			<bt><![CDATA[确认]]></bt>
+			<bt><![CDATA[下一步]]></bt>
+		</button>
+	</logicNumber>
+	<walk>
+		<videoUrl><![CDATA[01_21_jules.mp4]]></videoUrl>
+		<textField >
+			<title num="#2" quotient="1/3">
+				<text><![CDATA[测试你的]]></text>
+				<text><![CDATA[身体<br>能动力]]></text>
+			</title>
+			<text><![CDATA[要活出年轻，良好的健康状况同样至关重要。<br>让我们来测下你现在的身体能动力吧！]]></text>
+			<text><![CDATA[你每天的步行时间为？]]></text>
+			<text_scroll name="Walk day">
+				<text><![CDATA[少于15分钟]]></text>
+				<text><![CDATA[15分钟]]></text>
+				<text><![CDATA[半小时]]></text>
+				<text><![CDATA[每天1小时]]></text>
+				<text><![CDATA[超过1小时]]></text>
+			</text_scroll>
+		</textField>
+		<button>
+			<bt><![CDATA[确认]]></bt>
+		</button>
+	</walk>
+	<suppleness>
+		<videoUrl><![CDATA[01_31_noan.mp4]]></videoUrl>
+		<textField >
+			<title num="#2" quotient="2/3">
+				<text><![CDATA[测试你的]]></text>
+				<text><![CDATA[身体<br>能动力]]></text>
+			</title>
+			<text><![CDATA[再来测测你身体的柔韧性]]></text>
+			<text><![CDATA[请双腿站直，双手尝试触摸脚趾，可不准弯曲膝盖哦！<br>能触到哪里呢？滑动箭头告诉我们吧！]]></text>
+			<text_scroll name="Suppleness">
+				<text><![CDATA[似乎还差很远！]]></text>
+				<text><![CDATA[仅仅只到小腿吗？]]></text>
+				<text><![CDATA[哇，几乎已碰到脚趾了！]]></text>
+				<text><![CDATA[我可是有媲美体操运动员的水准哦！]]></text>
+			</text_scroll>
+		</textField>
+		<button>
+			<bt><![CDATA[确认]]></bt>
+		</button>
+	</suppleness>
+	<flexion>
+		<videoUrl><![CDATA[01_41_jules.mp4]]></videoUrl>
+		<textField >
+			<title num="#2" quotient="3/3">
+				<text><![CDATA[测试你的]]></text>
+				<text><![CDATA[身体<br>能动力]]></text>
+			</title>
+			<text><![CDATA[接着，我们来测试你的肺活量]]></text>
+			<text><![CDATA[请站起来，手臂伸直，背部也挺直。现在弯曲膝盖，然后再站直。看看一口气能反复多少次？]]></text>
+			<text_scroll name="flexion" >
+				<text><![CDATA[少于5次]]></text>
+				<text><![CDATA[5-10次]]></text>
+				<text><![CDATA[11-20次]]></text>
+				<text><![CDATA[21-30次]]></text>
+				<text><![CDATA[超过30次]]></text>
+			</text_scroll>
+		</textField>
+		<button>
+			<bt><![CDATA[确认]]></bt>
+		</button>
+	</flexion>
+	<laugh>
+		<videoUrl><![CDATA[01_51_titouan.mp4]]></videoUrl>
+		<textField >
+			<title num="#3" quotient="1/3">
+				<text><![CDATA[测试你的]]></text>
+				<text><![CDATA[年轻心态值]]></text>
+			</title>
+			<text><![CDATA[不只是体态，年轻也是一种心态，同意吗？]]></text>
+			<text><![CDATA[告诉我们，每天，你大概笑几次？]]></text>
+			<text_scroll name="Laught">
+				<text><![CDATA[没来由的笑？<br>我不喜欢]]></text>
+				<text><![CDATA[每天2次左右吧<br>周末能有3次哦]]></text>
+				<text><![CDATA[很尽情的笑<br>每天至少有一次哦]]></text>
+				<text><![CDATA[大部分时刻<br>我都在笑哦]]></text>
+			</text_scroll>
+		</textField>
+		<button>
+			<bt><![CDATA[确认]]></bt>
+		</button>
+	</laugh>
+	<wish>
+		<videoUrl><![CDATA[01_61_matheo.mp4]]></videoUrl>
+		<textField >
+			<title num="#3" quotient="2/3">
+				<text><![CDATA[测试你的]]></text>
+				<text><![CDATA[年轻心态值]]></text>
+			</title>
+			<text><![CDATA[告诉我们，你上次许愿是在什么时候？]]></text>
+			<text><![CDATA[那是在...]]></text>
+			<text_scroll name="wish">
+				<text><![CDATA[这些玄乎乎的东西我才不感冒<br>我相信命运握在自己手中！]]></text>
+				<text><![CDATA[除非看到流星<br>我才许！]]></text>
+				<text><![CDATA[生日那天吧<br>每次生日我就会许的。]]></text>
+				<text><![CDATA[哈哈，就在昨晚<br>每晚睡前，我都要许愿！]]></text>
+			</text_scroll>
+		</textField>
+		<button>
+			<bt><![CDATA[确认]]></bt>
+		</button>
+	</wish>
+	<tongue>
+		<videoUrl><![CDATA[01_71_jules.mp4]]></videoUrl>
+		<textField >
+			<title num="#3" quotient="3/3">
+				<text><![CDATA[测试你的]]></text>
+				<text><![CDATA[年轻心态值]]></text>
+			</title>
+			<text><![CDATA[玩个小游戏吧！]]></text>
+			<text><![CDATA[现在请你伸出舌头，看看能否用它碰到鼻尖呢？]]></text>
+			<text_scroll name="tongue">
+				<text><![CDATA[无聊<br>不可碰到的啦！]]></text>
+				<text><![CDATA[只差少许<br>少许就能碰到了！]]></text>
+				<text><![CDATA[小看我，瞧，我做这个轻而易举!]]></text>
+			</text_scroll>
+		</textField>
+		<button>
+			<bt><![CDATA[确认]]></bt>
+		</button>
+	</tongue>
+	<profil>
+		<textField >
+			<title><![CDATA[请在此填写你的个人讯息]]></title>
+			<text_scroll name="Height" min="140" max="210" incr="1" unity="cm"></text_scroll>
+			<text_scroll name="Weight"  min="45" max="115" incr="1" unity="kg"></text_scroll>
+			<text_scroll name="Gender">
+				<text><![CDATA[男]]></text>
+				<text><![CDATA[女]]></text>
+				<text><![CDATA[孕妇]]></text>
+				<text><![CDATA[哺乳期妈妈]]></text>
+			</text_scroll>
+			<text_scroll name="Age" min="18" max="70" incr="1" unity="years old"></text_scroll>
+			<text_scroll name="Lifestyle">
+				<text><![CDATA[久坐型]]></text>
+				<text><![CDATA[轻度活动型]]></text>
+				<text><![CDATA[适度运动型]]></text>
+				<text><![CDATA[积极运动型]]></text>
+			</text_scroll>
+		</textField>
+		<button>
+			<bt><![CDATA[确认]]></bt>
+		</button>
+	</profil>
+	<drinks>
+		<textField >
+			<title><![CDATA[每日水分摄取量]]></title>
+			<drink info="choose">
+				<water><![CDATA[水]]></water>
+				<juice><![CDATA[果汁]]></juice>
+				<soda><![CDATA[碳酸饮料]]></soda>
+				<sodaLight><![CDATA[低糖碳酸饮料]]></sodaLight>
+				<coffeTsugar><![CDATA[含糖的茶/咖啡<br>（每杯1勺糖，约5克）]]></coffeTsugar>
+				<coffeTea><![CDATA[无糖的茶/咖啡]]></coffeTea>
+				<wine><![CDATA[葡萄酒]]></wine>
+				<beer><![CDATA[啤酒]]></beer>
+				<sport><![CDATA[运动饮料]]></sport>
+				<energy><![CDATA[能量饮料]]></energy>
+			</drink>
+		</textField>
+		<button>
+			<bt><![CDATA[确认]]></bt>
+		</button>
+	</drinks>
+	<screen_result>
+		<videoUrl><![CDATA[01_91_noan.mp4]]></videoUrl>
+		<textField >
+			<title unity="years old"><![CDATA[你的年轻指数]]></title>
+			<text_bottle><![CDATA[思考敏锐度]]></text_bottle>
+			<text_bottle><![CDATA[身体能动力]]></text_bottle>
+			<text_bottle><![CDATA[年轻心态值]]></text_bottle>
+		</textField>
+		<button>
+			<bt><![CDATA[分享到]]></bt>
+			<bt><![CDATA[不甘心，我要提高我的测试成绩！]]></bt>
+		</button>
+	</screen_result>
+	<result2>
+		<videoUrl><![CDATA[01_91_noan.mp4]]></videoUrl>
+		<textField >
+			<title><![CDATA[开始<br>Live young攻略]]></title>
+			<text><![CDATA[完成测试后，是否很想提高自己的年轻指数呢，来参加我们的Live young攻略吧。<br>在未来4周内，我们将全力助你提升思考敏锐度，增强身体能动力，<br>调适年轻心态值，抓紧时间，赶快过来上课吧！]]></text>
+			<bubble>
+				<text><![CDATA[你是否知道体内保水状态，<br>对维系高水平的体态机能至关重要？]]></text>
+				<bt><![CDATA[了解更多体内保水状态的讯息]]></bt>
+			</bubble>
+		</textField>
+		<button>
+			<bt><![CDATA[开始Live young攻略]]></bt>
+			<bt><![CDATA[提高我的成绩]]></bt>
+		</button>
+	</result2>
+	<login>
+		<videoUrl><![CDATA[01_81_titouan.mp4]]></videoUrl>
+		<textField >
+			<title><![CDATA[注册Live young攻略]]></title>
+			<subTitle><![CDATA[我们将以邮件为你更新最新的Live young攻略资讯。<br>所以，在开始Live young攻略前，一定要告诉我们你的邮箱哦！]]></subTitle>
+			<firstname><![CDATA[名字]]></firstname>
+			<familyname><![CDATA[姓氏]]></familyname>
+			<email><![CDATA[邮件地址]]></email>
+			<confirmEmail><![CDATA[请确认邮件地址]]></confirmEmail>
+			<pass><![CDATA[你的密码]]></pass>
+			<confirmPass><![CDATA[请确认你的密码]]></confirmPass>
+			<tick_1><![CDATA[我同意接收来自依云品牌的产品及活动资讯]]></tick_1>
+			<response>
+				<missfield><![CDATA[请输入所有信息]]></missfield>
+				<LilPass><![CDATA[密码不符合条件]]></LilPass>
+				<sameMail><![CDATA[请确认邮件地址]]></sameMail>
+				<samePass><![CDATA[请确认你的密码]]></samePass>
+				<unvalidMail><![CDATA[请输入正确的电子邮件]]></unvalidMail>
+				<existMail><![CDATA[已经有一个帐户使用了该邮件地址]]></existMail>
+				<connexion><![CDATA[连接错误]]></connexion>
+				<RDBMS><![CDATA[数据库错误]]></RDBMS>
+				<valid><![CDATA[一封确认邮件已经发送到你的邮箱]]></valid>
+			</response>
+		</textField>
+		<button>
+			<bt><![CDATA[开始攻略]]></bt>
+		</button>
+	</login>
+	<profil_hydr>
+		<textField gap="0">
+			<title1><![CDATA[了解你的体内]]></title1>
+			<title1><![CDATA[体内保水状态]]></title1>
+			<sub>
+				<good><![CDATA[恭喜]]></good>
+				<good><![CDATA[看起来，你已为身体补充了足量的水分！]]></good>
+				<bad><![CDATA[小心！]]></bad>
+				<bad><![CDATA[看起来，你需要注意补充更多的水分！]]></bad>
+			</sub>
+			<bubble>
+				<text><![CDATA[你的年轻指数]]></text>
+				<text><![CDATA[岁]]></text>
+			</bubble>
+			<profil>
+				<sex male="male" female="female"><![CDATA[性别]]></sex>
+				<age><![CDATA[岁]]></age>
+				<style><![CDATA[生活方式]]></style>
+			</profil>
+			<explain unity="L">
+				<title><![CDATA[你的体内保水状态讯息：]]></title>
+				<line1><![CDATA[你的液体摄取量大约为：]]></line1>
+				<line1><![CDATA[]]></line1>
+				<line2><![CDATA[由食物中摄取的水分含量（升）]]></line2>
+				<line2><![CDATA[大约为]]></line2>
+				<line3><![CDATA[身体流失的水分（升）]]></line3>
+				<line3><![CDATA[]]></line3>
+				<good><![CDATA[你身体补充的水分充足]]></good>
+				<bad><![CDATA[你身体补充的水分不足]]></bad>
+				<line5><![CDATA[你理想的饮水摄入量（升）]]></line5>
+				<line5><![CDATA[每日]]></line5>
+			</explain>
+		</textField>
+		<button>
+			<bt><![CDATA[返回]]></bt>
+		</button>
+	</profil_hydr>
+	<translation>
+		<textField >
+			<title><![CDATA[翻译]]></title>
+			<translate>
+				<word>
+					<ref><![CDATA[依云 Live Young 攻略]]></ref>
+					<trans><![CDATA[依云 Live Young 攻略]]></trans>
+				</word>
+			</translate>
+		</textField >
+		<button>
+			<bt><![CDATA[关闭]]></bt>
+		</button>
+	</translation>
+	<mentions>
+		<textField >
+			<title><![CDATA[法律申明]]></title>
+			<text><![CDATA["本网站所含的全部信息仅用于提供教育信息，不得替代专业医疗建议和保健工作。本工具旨在帮助计算18岁至75岁健康成人在正常情况下的水分需求。如果你有特殊的医疗保健需要，或需完整的健康资讯，请咨询医生或营养师。本网站及其创建者不对使用本网站及其所含信息造成的后果承担任何责任，并明确申明不对使用、参考、依据这些信息造成的直接、间接、意外、特殊损害承担责任。本网站所引数据、资料、结论皆为原文转述，并不对所引用、转述的数据、论文、结论等内容做任何明示或暗示的担保。"]]></text>
+		</textField >
+		<button>
+			<bt><![CDATA[关闭]]></bt>
+		</button>
+	</mentions>
+</Resources>

@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <Resources>
-	<lang intro="Select" defautLang="fr">
-		<name id="fr" ><![CDATA[France]]></name>
+	<lang intro="Select" defautLang="cn">
+		<!-- <name id="fr" ><![CDATA[France]]></name> -->
+		<name id="cn" ><![CDATA[China中国]]></name>
 		<name id="us" ><![CDATA[United States]]></name>
 		<name_no id="uk" ><![CDATA[United Kingdom]]></name_no>
 		<name_no id="es" ><![CDATA[Espanol]]></name_no>

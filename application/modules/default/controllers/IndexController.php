@@ -15,6 +15,9 @@ class IndexController extends Enterprise_Controller {
 		if($this->_request->getParam('lang')) {
 			$this->view->userLang = $this->_request->getParam('lang');
 		}
+		
+		// force lang to Chinese
+		$this->view->userLang = 'cn';
 
 		if($this->_request->getParam('userKey')) {
 			$this->view->userKey = $this->_request->getParam('userKey');

@@ -18,8 +18,8 @@
 		<videoUrl><![CDATA[02_41_titouan.mp4]]></videoUrl>
 		<textField>
 			<week><![CDATA[第2周]]></week>
-			<title><![CDATA[Keep up that<br>young attitude]]></title>
-			<subTitle><![CDATA[A week to focus on cultivating a youthful mindset!<br>Look at the bright side of life, perhaps that's the key to staying young at heart...<br>So this week's workout involves a great deal of laughter!<br>Are you ready?]]></subTitle>
+			<title><![CDATA[提升年轻心态值]]></title>
+			<subTitle><![CDATA[本周的重点是养成年轻的心态！着眼在生活中阳光的一面，或许这就是拥有年轻心态的关键吧。<br>所以，本周的任务与笑有关！准备好笑出年轻了吗？]]></subTitle>
 		</textField>
 		<button>
 			<bt><![CDATA[Go]]></bt>
@@ -28,10 +28,10 @@
 	<laugh>
 		<textField >
 			<title>
-				<text><![CDATA[Funny Week]]></text>
-				<text><![CDATA[Keep up that young attitude]]></text>
+				<text><![CDATA[活力欢乐周]]></text>
+				<text><![CDATA[提升年轻心态值]]></text>
 			</title>
-			<game><![CDATA[<font face="Chalet-NewYorkNineteenSixty" >Make it laugh...</font> Using your mouse, search for<br>the body's most ticklish spot !<br><br>They say laughter is contagious...<br><font color="#E72562" >Keep an eye on your email inbox every day<br>this week.</font>]]></game>
+			<game><![CDATA[试着让宝贝笑起来， 用你的鼠标挠他痒痒！看看他哪里最敏感，开始挠吧！<br>相信吗，笑是会传染的……<font color="#E72562" >本周请注意察看邮箱，也许我们会有惊喜给你哦！</font>]]></game>
 		</textField>
 		<button>
 			<bt><![CDATA[下一步]]></bt>
@@ -40,8 +40,8 @@
 	<congratulation>
 		<videoUrl><![CDATA[01_82_jules.mp4]]></videoUrl>
 		<textField >
-			<title><![CDATA[Congratulations,]]></title>
-			<subTitle><![CDATA[you done a great job. Continue to improve your Youth Quotient and keep<br>an eye on your email inbox every day this week.]]></subTitle>
+			<title><![CDATA[你干得很棒，]]></title>
+			<subTitle><![CDATA[别停哦！<br>本周请每日留意邮箱.]]></subTitle>
 		</textField>
 		<button>
 			<bt><![CDATA[我的资料]]></bt>
@@ -51,7 +51,7 @@
 		<textField gap="0">
 			<title1><![CDATA[我的]]></title1>
 			<title1><![CDATA[资料]]></title1>
-			<sub><![CDATA[Check your evolution along your Live Young Training.]]></sub>
+			<sub><![CDATA[训练营过程中随时检查你的进步]]></sub>
 			<bubble>
 				<text><![CDATA[你的年轻指数]]></text>
 				<text><![CDATA[岁]]></text>
@@ -91,8 +91,8 @@
 			<title><![CDATA[翻译]]></title>
 			<translate>
 				<word>
-					<ref><![CDATA[依云 Live Young 攻略]]></ref>
-					<trans><![CDATA[依云 Live Young 攻略]]></trans>
+					<ref><![CDATA[依云 Live Young 训练营]]></ref>
+					<trans><![CDATA[依云 Live Young 训练营]]></trans>
 				</word>
 			</translate>
 		</textField >

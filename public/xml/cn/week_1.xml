@@ -17,19 +17,19 @@
 	<confirmation>
 		<videoUrl><![CDATA[02_01_jules.mp4]]></videoUrl>
 		<textField>
-			<title><![CDATA[现在，你已完成了“年轻指数”测试，<br>the evian Live Young Training.]]></title>
-			<subTitle><![CDATA[It's time for a few weeks of training !<br>You will improve your Youth Quotient easily thanks to<br>simple and fun exercises.<br>Let's begin with some brains exercises !]]></subTitle>
+			<title><![CDATA[现在，你已完成了“年轻指数”测试，]]></title>
+			<subTitle><![CDATA[该开始进行几周训练了.<br>你将轻松的提升你的“年轻指数”<br>这样感谢这些简单有趣的联系<br>让我们先从头脑联系开始吧！]]></subTitle>
 		</textField>
 		<button>
-			<bt><![CDATA[Begin training]]></bt>
+			<bt><![CDATA[开始训练]]></bt>
 		</button>
 	</confirmation>
 	<intro>
 		<videoUrl><![CDATA[02_11_kento.mp4]]></videoUrl>
 		<textField>
-			<week><![CDATA[week 1]]></week>
-			<title><![CDATA[Test your<br>intellectual agility]]></title>
-			<subTitle><![CDATA[This week, we'll be stimulating your mind...<br>Are you ready?]]></subTitle>
+			<week><![CDATA[第1周]]></week>
+			<title><![CDATA[训练思考敏锐度]]></title>
+			<subTitle><![CDATA[本周，我们要激发你的大脑潜能<br>准备好了吗?]]></subTitle>
 		</textField>
 		<button>
 			<bt><![CDATA[Go]]></bt>
@@ -38,16 +38,16 @@
 	<aquaBox>
 		<textField >
 			<title num="#1">
-				<text><![CDATA[The Youth Box]]></text>
-				<sub><![CDATA[Test your intellectual]]></sub>
-				<sub><![CDATA[agility]]></sub>
+				<text><![CDATA[活力宝盒 ]]></text>
+				<sub><![CDATA[训练你的思考敏锐度]]></sub>
+				<sub><![CDATA[敏锐度]]></sub>
 			</title>
-			<game><![CDATA[Count the bottles that go<br>into and out of the box.<br>Calculate how many remain<br>inside the box in the end.]]></game>
+			<game><![CDATA[计算进出宝盒的瓶子数量，<br>然后告诉我们，<br>盒中剩下的瓶子数量是多少？]]></game>
 			<box>
-				<warn><![CDATA[Get ready !]]></warn>
-				<count><![CDATA[count !]]></count>
-				<stop><![CDATA[stop!]]></stop>
-				<text><![CDATA[How many bottles<br>are in this box?]]></text>
+				<warn><![CDATA[准备！]]></warn>
+				<count><![CDATA[计算！]]></count>
+				<stop><![CDATA[停！]]></stop>
+				<text><![CDATA[现在，盒里还有多少瓶子呢？]]></text>
 			</box>
 		</textField>
 		<button>
@@ -55,54 +55,54 @@
 			<bt><![CDATA[确认]]></bt>
 		</button>
 		<bubble>
-			<text><![CDATA[Your brain is<br>approximately 74% water. ]]></text>
-			<text><![CDATA[And this water is<br>primarily renewed by<br>the water you drink.]]></text>
-			<text><![CDATA[Drink a glass of evian<br>as you contemplate<br>that thought.]]></text>
+			<text><![CDATA[大脑的74%由水构成，]]></text>
+			<text><![CDATA[并且，不断由每日摄取的水分循环更新。]]></text>
+			<text><![CDATA[所以在努力思考时，记得补充依云！]]></text>
 		</bubble>
 	</aquaBox>
 	<drop>
 		<textField >
 			<title num="#2">
-				<text><![CDATA[Think fast!]]></text>
-				<text><![CDATA[Test your intellectual agility]]></text>
+				<text><![CDATA[快速反应！]]></text>
+				<text><![CDATA[训练你的思考敏锐度]]></text>
 			</title>
 			<game><![CDATA[]]></game>
 			<dropGame>
 				<intro>
-					<text><![CDATA[Use the arrows on your<br>keyboard to move around<br/>and avoid external elements]]></text>
+					<text><![CDATA[提升你的快速反应力：控制水滴，别<br>让它与外部的污染源接触。用键盘上的方向箭头来控制移动]]></text>
 					<bt><![CDATA[Go!]]></bt>
 				</intro>
 				<game>
-					<element><![CDATA[human pollution]]></element>
-					<element><![CDATA[industrial treatments]]></element>
-					<element><![CDATA[artificial ingredients]]></element>
-					<element><![CDATA[pesticides]]></element>
-					<element><![CDATA[nitrates]]></element>
+					<element><![CDATA[人工污染]]></element>
+					<element><![CDATA[工业处理污染]]></element>
+					<element><![CDATA[化学添加剂]]></element>
+					<element><![CDATA[杀虫剂]]></element>
+					<element><![CDATA[硝酸盐]]></element>
 				</game>
 			</dropGame>
 		</textField>
 		<button>
-			<bt><![CDATA[Next game]]></bt>
+			<bt><![CDATA[进入下个游戏]]></bt>
 		</button>
 		<bubble>
-			<text><![CDATA[Did you know that the evian<br>water you drink is all natural<br>and perfectly pure? ]]></text>
-			<text><![CDATA[Just as Nature<br>has made it for<br>thousands of years.]]></text>
+			<text><![CDATA[知道吗，你所喝下的每滴依云矿泉水都是纯净天然的。]]></text>
+			<text><![CDATA[和大自然几千年前创造它们时一样。]]></text>
 		</bubble>
 	</drop>
 	<waveInfo>
 		<textField >
-			<title><![CDATA[Protected, deep in the heart of the Northern Alps,<br>evian natural spring water shares its original purity<br>with you each and every day.]]></title>
-			<subTitle><![CDATA[Since its aquifer is far beneath, the Earth's surface, evian water<br>preserves all of its original purity. Bottled right at the source, it<br>keeps all of its wonderful qualities. The aquifer remains just like<br>Nature made it thousands of years ago.]]></subTitle>
+			<title><![CDATA[依云，每天与你分享，来自阿尔卑斯深处的纯净。]]></title>
+			<subTitle><![CDATA[由于水源地位于地表深处，因此，依云得以将大自然最初的纯净悉数保留。<br>而选取在水源地直接灌装的举措，亦确保依云纯净的品质始终如一。<br>未经任何化学添加处理的依云，每一滴，都如大自然几千前创造时一样纯净！]]></subTitle>
 		</textField>
 		<button>
-			<bt><![CDATA[Continue]]></bt>
+			<bt><![CDATA[继续]]></bt>
 		</button>
 	</waveInfo>
 	<congratulation>
 		<videoUrl><![CDATA[01_82_jules.mp4]]></videoUrl>
 		<textField >
-			<title><![CDATA[Congratulations,]]></title>
-			<subTitle><![CDATA[you've done a great job. But don't stop now...<br>Continue your efforts to boost your Youth Quotient<br>while you wait for the next series of exercises.<br><br>Have a great week!]]></subTitle>
+			<title><![CDATA[你干得很棒，]]></title>
+			<subTitle><![CDATA[别停哦！下个练习前，继续提高你的年轻指数吧！希望你收获多多！]]></subTitle>
 		</textField>
 		<button>
 			<bt><![CDATA[我的资料]]></bt>
@@ -111,29 +111,29 @@
 	<interScore>
 		<textField >
 			<win>
-				<title><![CDATA[Congratulations !]]></title>
-				<text><![CDATA[You just won.]]></text>
-				<text><![CDATA[Your Youth Quotient is now]]></text>
-				<unity><![CDATA[years young.]]></unity>
+				<title><![CDATA[成功了，]]></title>
+				<text><![CDATA[干得好！]]></text>
+				<text><![CDATA[现在，你的年轻指数是]]></text>
+				<unity><![CDATA[岁。]]></unity>
 			</win>
 			<lose>
-				<title><![CDATA[Sorry !]]></title>
-				<text><![CDATA[You just lost.]]></text>
-				<text><![CDATA[Your Youth Quotient is now]]></text>
-				<unity><![CDATA[years old.]]></unity>
+				<title><![CDATA[有点可惜哦，]]></title>
+				<text><![CDATA[差一点就做到了。]]></text>
+				<text><![CDATA[现在，你的年轻指数是]]></text>
+				<unity><![CDATA[岁。]]></unity>
 			</lose>
 		</textField>
 		<button>
-			<bt_next><![CDATA[Validate]]></bt_next>
-			<bt_back><![CDATA[Play again]]></bt_back>
-			<bt_fb><![CDATA[Share on]]></bt_fb>
+			<bt_next><![CDATA[确认]]></bt_next>
+			<bt_back><![CDATA[再玩一次]]></bt_back>
+			<bt_fb><![CDATA[分享到]]></bt_fb>
 		</button>
 	</interScore>
 	<profil>
 		<textField gap="0">
 			<title1><![CDATA[我的]]></title1>
 			<title1><![CDATA[资料]]></title1>
-			<sub><![CDATA[Check your evolution along your Live Young Training.]]></sub>
+			<sub><![CDATA[训练营过程中随时检查你的进步]]></sub>
 			<bubble>
 				<text><![CDATA[你的年轻指数]]></text>
 				<text><![CDATA[岁]]></text>
@@ -173,8 +173,8 @@
 			<title><![CDATA[翻译]]></title>
 			<translate>
 				<word>
-					<ref><![CDATA[依云 Live Young 攻略]]></ref>
-					<trans><![CDATA[依云 Live Young 攻略]]></trans>
+					<ref><![CDATA[依云 Live Young 训练营]]></ref>
+					<trans><![CDATA[依云 Live Young 训练营]]></trans>
 				</word>
 			</translate>
 		</textField >

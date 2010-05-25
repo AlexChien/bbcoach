@@ -282,23 +282,23 @@
 	<result2>
 		<videoUrl><![CDATA[01_91_noan.mp4]]></videoUrl>
 		<textField >
-			<title><![CDATA[开始<br>Live young攻略]]></title>
-			<text><![CDATA[完成测试后，是否很想提高自己的年轻指数呢，来参加我们的Live young攻略吧。<br>在未来4周内，我们将全力助你提升思考敏锐度，增强身体能动力，<br>调适年轻心态值，抓紧时间，赶快过来上课吧！]]></text>
+			<title><![CDATA[开始<br>Live young训练营]]></title>
+			<text><![CDATA[完成测试后，是否很想提高自己的年轻指数呢，来参加我们的Live young训练营吧。<br>在未来4周内，我们将全力助你提升思考敏锐度，增强身体能动力，<br>调适年轻心态值，抓紧时间，赶快过来上课吧！]]></text>
 			<bubble>
 				<text><![CDATA[你是否知道体内保水状态，<br>对维系高水平的体态机能至关重要？]]></text>
 				<bt><![CDATA[了解更多体内保水状态的讯息]]></bt>
 			</bubble>
 		</textField>
 		<button>
-			<bt><![CDATA[开始Live young攻略]]></bt>
+			<bt><![CDATA[开始Live young训练营]]></bt>
 			<bt><![CDATA[提高我的成绩]]></bt>
 		</button>
 	</result2>
 	<login>
 		<videoUrl><![CDATA[01_81_titouan.mp4]]></videoUrl>
 		<textField >
-			<title><![CDATA[注册Live young攻略]]></title>
-			<subTitle><![CDATA[我们将以邮件为你更新最新的Live young攻略资讯。<br>所以，在开始Live young攻略前，一定要告诉我们你的邮箱哦！]]></subTitle>
+			<title><![CDATA[注册Live young训练营]]></title>
+			<subTitle><![CDATA[我们将以邮件为你更新最新的Live young训练营资讯。<br>所以，在开始Live young训练营前，一定要告诉我们你的邮箱哦！]]></subTitle>
 			<firstname><![CDATA[名字]]></firstname>
 			<familyname><![CDATA[姓氏]]></familyname>
 			<email><![CDATA[邮件地址]]></email>
@@ -319,7 +319,7 @@
 			</response>
 		</textField>
 		<button>
-			<bt><![CDATA[开始攻略]]></bt>
+			<bt><![CDATA[开始训练营]]></bt>
 		</button>
 	</login>
 	<profil_hydr>
@@ -364,8 +364,8 @@
 			<title><![CDATA[翻译]]></title>
 			<translate>
 				<word>
-					<ref><![CDATA[依云 Live Young 攻略]]></ref>
-					<trans><![CDATA[依云 Live Young 攻略]]></trans>
+					<ref><![CDATA[依云 Live Young 训练营]]></ref>
+					<trans><![CDATA[依云 Live Young 训练营]]></trans>
 				</word>
 			</translate>
 		</textField >

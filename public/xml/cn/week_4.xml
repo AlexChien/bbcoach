@@ -17,13 +17,13 @@
 	<SportWeek>
 		<videoUrl><![CDATA[04_11_matheo.mp4]]></videoUrl>
 		<textField >
-			<title><![CDATA[Last week<br>you certainly kept up with your social circle,]]></title>
-			<subTitle><![CDATA[but what about your muscles?]]></subTitle>
+			<title><![CDATA[相信在上周，你已经和训练营的同学打成一片了]]></title>
+			<subTitle><![CDATA[不过我们还是要问问你，你的身体能动力提升的怎样呢？]]></subTitle>
 			<game>
-				<resp value="a"><![CDATA[Didn't have time<br>to fit in any activity]]></resp>
-				<resp value="b"><![CDATA[Peu d'effort<br>beaucoup de pauses]]></resp>
-				<resp value="c"><![CDATA[Still aching from<br>all the action]]></resp>
-				<resp value="d"><![CDATA[Beyond expectations:<br> feeling good!]]></resp>
+				<resp value="a"><![CDATA[恩……还是没有时间参加任何运动啊]]></resp>
+				<resp value="b"><![CDATA[进行了一些小练习的]]></resp>
+				<resp value="c"><![CDATA[我有坚持哦，但运动时肌肉还是会感到疼痛啊]]></resp>
+				<resp value="d"><![CDATA[效果大大超过我的预期！]]></resp>
 			</game>
 		</textField>
 		<button>
@@ -34,8 +34,8 @@
 		<videoUrl><![CDATA[04_21_matheo.mp4]]></videoUrl>
 		<textField>
 			<week><![CDATA[第4周]]></week>
-			<title><![CDATA[Test your intellectual<br>agility]]></title>
-			<subTitle><![CDATA[A whole new week for brain crunching...<br>Are you ready to stimulate your intellectual agility?]]></subTitle>
+			<title><![CDATA[训练你的思考敏锐度]]></title>
+			<subTitle><![CDATA[这里有一整周的脑力训练……一定会激发你的思考敏锐度哦！]]></subTitle>
 		</textField>
 		<button>
 			<bt><![CDATA[Go]]></bt>
@@ -44,11 +44,11 @@
 	<memory>
 		<textField >
 			<title num="#1">
-				<text><![CDATA[Let's play the memory game!]]></text>
-				<text><![CDATA[Test your intellectual agility]]></text>
+				<text><![CDATA[先来玩个记忆游戏吧]]></text>
+				<text><![CDATA[训练你的思考敏锐度]]></text>
 			</title>
-			<game><![CDATA[You have 1 minute to associate the pairs.]]></game>
-			<time><![CDATA[60]]></time>
+			<game><![CDATA[记住这些组合，只能用10秒种哦]]></game>
+			<time><![CDATA[10]]></time>
 		</textField>
 		<button>
 			<bt_go><![CDATA[Go]]></bt_go>
@@ -57,19 +57,19 @@
 	<waterGame>
 		<textField >
 			<title num="#2">
-				<text><![CDATA[Think fast!]]></text>
-				<text><![CDATA[Test your intellectual agility]]></text>
+				<text><![CDATA[快速反应！]]></text>
+				<text><![CDATA[训练你的思考敏锐度]]></text>
 			</title>
 			<game>
-				<explain><![CDATA[Imagine you have a 3-liter jug and a 5-liter jug.<br>You can fill them up, empty them out or pour water from one<br>into the other.<font  color="#E72562"> How can you get precisely 4 liters of water?</font>]]></explain>
-				<capacity bowl1="3" bowl2="5" unity="L" ><![CDATA[Total capacity]]></capacity>
+				<explain><![CDATA[假设你有2个水壶，一个3升，一个5升。你可以将它们装满，倒空，也能相互倒水。<font  color="#E72562"> 现在告诉我们，如何才能正好获得4升的水呢？</font>]]></explain>
+				<capacity bowl1="3" bowl2="5" unity="L" ><![CDATA[总容量]]></capacity>
 				<help>
-					<text><![CDATA[Too difficult?]]></text>
-					<bt><![CDATA[Give up?]]></bt>
-					<explain><![CDATA[Remplissez le bidon de 5L et transvasez son contenu dans le bidon de 3L. Vous avez 2L dans le bidon de 5L]]></explain>
-					<explain><![CDATA[Videz le bidon de 3L puis transvasez les 2L dans ce dernier.]]></explain>
-					<explain><![CDATA[Fill the 5-liter jug.]]></explain>
-					<explain><![CDATA[Add 1 liter to the small jug, 1 one liter less than the big one. 5 - 1 = 4, it's that simple!]]></explain>
+					<text><![CDATA[这太难了？]]></text>
+					<bt><![CDATA[喂，现在就放弃了吗？]]></bt>
+					<explain><![CDATA[将5升桶装满后倒入3升桶，把它装满，这样在5升桶中就剩下了2升水。]]></explain>
+					<explain><![CDATA[清空3升桶，将5升桶中剩余的2升水倒入3升桶中。]]></explain>
+					<explain><![CDATA[将5升桶装满水。]]></explain>
+					<explain><![CDATA[这时，3升桶中已经有2升桶，只剩下1升的空间，将5升桶中的水把3升桶装满。5 - 1 = 4，就这么简单！]]></explain>
 				</help>
 			</game>
 		</textField>
@@ -77,14 +77,14 @@
 			<bt_go><![CDATA[继续]]></bt_go>
 		</button>
 		<bubble>
-			<text><![CDATA[Depuis que vous<br/êtes sur ce site,<br/>votre corps à<br/perdu 50 cl d'eau..]]></text>
-			<text><![CDATA[Buvez un verre<br/>d'eau !]]></text>
+			<text><![CDATA[你是否知道，身体的含水量会影响人的认知能力！]]></text>
+			<text><![CDATA[每天饮用纯净天然、矿物质平衡的依云天然矿泉水，有助你保持最佳身体水含量，并减轻注意力不集中、头疼、烦躁等现象。]]></text>
 		</bubble>
 	</waterGame>
 	<congratulation>
 		<videoUrl><![CDATA[01_81_titouan.mp4]]></videoUrl>
 		<textField>
-			<title><![CDATA[Félicitations,]]></title>
+			<title><![CDATA[你干得很棒，]]></title>
 			<subTitle><![CDATA[vous avez bien travaillé. Mais ne vous arrêtez pas en si bon chemin…<br>Poursuivez vos efforts afin d’améliorer votre Quotient Jeunesse<br>et continuez régulièrement vos exercices toute la semaine pour progresser.]]></subTitle>
 		</textField>
 		<button>
@@ -117,7 +117,7 @@
 		<textField gap="0">
 			<title1><![CDATA[我的]]></title1>
 			<title1><![CDATA[资料]]></title1>
-			<sub><![CDATA[Check your evolution along your Live Young Training.]]></sub>
+			<sub><![CDATA[训练营过程中随时检查你的进步]]></sub>
 			<bubble>
 				<text><![CDATA[你的年轻指数]]></text>
 				<text><![CDATA[岁]]></text>
@@ -157,13 +157,13 @@
 			<title><![CDATA[翻译]]></title>
 			<translate>
 				<word>
-					<ref><![CDATA[依云 Live Young 攻略]]></ref>
-					<trans><![CDATA[依云 Live Young 攻略]]></trans>
+					<ref><![CDATA[依云 Live Young 训练营]]></ref>
+					<trans><![CDATA[依云 Live Young 训练营]]></trans>
 				</word>
 			</translate>
 		</textField >
 		<button>
-			<bt><![CDATA[Fermer]]></bt>
+			<bt><![CDATA[关闭]]></bt>
 		</button>
 	</translation>
 	<mentions>

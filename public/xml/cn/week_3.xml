@@ -17,12 +17,12 @@
 	<FunnyWeek>
 	<videoUrl><![CDATA[01_51_titouan.mp4]]></videoUrl>
 		<textField >
-			<title><![CDATA[How many times did you<br>laugh last week ?]]></title>
+			<title><![CDATA[告诉我们，上周你笑了几次？]]></title>
 			<game>
-				<resp value="a"><![CDATA[Less than once...]]></resp>
-				<resp value="b"><![CDATA[The baby videos<br>made me laugh.]]></resp>
-				<resp value="c"><![CDATA[Many times,<br>this week was good.]]></resp>
-				<resp value="d"><![CDATA[So much that your<br>sides still ache!]]></resp>
+				<resp value="a"><![CDATA[少于一次……]]></resp>
+				<resp value="b"><![CDATA[宝贝视频的确让我笑得开心]]></resp>
+				<resp value="c"><![CDATA[很多次，这周很开心]]></resp>
+				<resp value="d"><![CDATA[太多次了，笑到我两颊酸痛啦！]]></resp>
 			</game>
 		</textField>
 		<button>
@@ -33,8 +33,8 @@
 		<videoUrl><![CDATA[03_11_matheo.mp4]]></videoUrl>
 		<textField>
 			<week><![CDATA[第3周]]></week>
-			<title><![CDATA[Build your physical<br>strength]]></title>
-			<subTitle><![CDATA[It's physical fitness time !<br>Here's to a week of endurance training, high performance<br>and pure pleasure… Are you ready ?]]></subTitle>
+			<title><![CDATA[加强你的身体能动力]]></title>
+			<subTitle><![CDATA[本周是运动体态的时间！我们要煅练你的耐力和体力，并带给你纯粹的运动乐趣……准备好流汗了吗？]]></subTitle>
 		</textField>
 		<button>
 			<bt><![CDATA[Go]]></bt>
@@ -43,54 +43,54 @@
 	<training1>
 		<videoUrl><![CDATA[03_21_jules.mp4]]></videoUrl>
 		<textField>
-			<title num="#1"><![CDATA[Happy training]]></title>
-			<subTitle><![CDATA[Build your physical strength]]></subTitle>
+			<title num="#1"><![CDATA[能动力训练]]></title>
+			<subTitle><![CDATA[加强你的身体能动力]]></subTitle>
 			<game>
-				<text><![CDATA[Make the most of your Facebook<br>breaks to work your abs]]></text>
-				<text><![CDATA[<textformat leading="-4"><font face="Chalet-LondonNineteenSixty" color="#616161">Start the exercise</font><font face="Chalet-NewYorkNineteenSixty" color="#616161"> right away: </font><br/><br/></textformat><textformat leading="1.5"><font face="Chalet-LondonNineteenSixty" color="#8E8E8E">With your chest at a slight incline, hold your<br>legs straight out in the air, feet crossed, for<br>30 seconds. Repeat this exercise 3 times.</textformat>]]></text>
-				<text><![CDATA[Continue regularly all week long to strengthen and<br>improve your happy outlook.]]></text>
+				<text><![CDATA[利用玩开心网的间隙时间作运动]]></text>
+				<text><![CDATA[<textformat leading="-4"><font color="#616161">立即</font><font color="#616161">开始练习：</font><br/><br/></textformat><textformat leading="1.5"><font color="#8E8E8E">胸部微微倾斜，两腿向前伸展，然后双脚交叉，保持这个姿势30秒，接着重复3次。</textformat>]]></text>
+				<text><![CDATA[请在这一周勤加练习哦，这有助你增强身体能动力，并获得纯粹的运动乐趣！]]></text>
 			</game>
 		</textField>
 		<button>
-			<bt><![CDATA[Start the exercise]]></bt>
-			<bt><![CDATA[Validate the exercise]]></bt>
-			<bt><![CDATA[Restart the exercise]]></bt>			
+			<bt><![CDATA[开始练习]]></bt>
+			<bt><![CDATA[确认结果]]></bt>
+			<bt><![CDATA[再练一次]]></bt>			
 		</button>
 	</training1>
 	<waveInfo>
 		<textField>
-			<title><![CDATA[Did you know that your muscles are<br>approximately 75% water?]]></title>
-			<text><![CDATA[Proper hydration helps renew the water in your muscles<br/>required for muscle function.]]></text>
+			<title><![CDATA[你是否知道，肌肉的75%由水构成。]]></title>
+			<text><![CDATA[饮用矿物质均衡的天然矿泉水，将有助更新肌肉水分，维系肌肉健康状态。]]></text>
 		</textField>
-		<button><![CDATA[Continue]]></button>
+		<button><![CDATA[继续]]></button>
 	</waveInfo>
 	<training2>
 		<videoUrl><![CDATA[03_51_jules.mp4]]></videoUrl>
 		<textField>
-			<title num="#2"><![CDATA[The chair exercise]]></title>
-			<subTitle><![CDATA[build your physical strength]]></subTitle>
+			<title num="#2"><![CDATA[座椅练习]]></title>
+			<subTitle><![CDATA[加强你的身体能动力]]></subTitle>
 			<game>
-				<text><![CDATA[Streamline your thighs]]></text>
-				<text><![CDATA[<textformat leading="-4"><font face="Chalet-LondonNineteenSixty" color="#616161">Start the exercise </font><font face="Chalet-NewYorkNineteenSixty" color="#616161">right away: </font><br/><br/></textformat><textformat leading="1.5"><font face="Chalet-LondonNineteenSixty" color="#8E8E8E">Keeping your back straight, let yourself slide down<br/>against a wall until you reach the "seated" position,<br/>as if on a chair. Hold this position for 30 seconds.<br/>Slide back up, shake your legs out and then<br/>start all over again.</textformat>]]></text>
-				<text><![CDATA[And continue regularly all week long to strengthen and<br/>improve your happy outlook.]]></text>
+				<text><![CDATA[让你的大腿更有型]]></text>
+				<text><![CDATA[<textformat leading="-4"><font color="#616161">立即</font><font color="#616161">开始练习： </font><br/><br/></textformat><textformat leading="1.5"><font color="#8E8E8E">挺直背部，身体贴墙壁向下下滑动，慢慢形成变成“坐姿”，对，就像在椅子上一样。保持此姿势30秒，然后恢复站姿，摆动腿部放松并重复上述过程。</textformat>]]></text>
+				<text><![CDATA[请在这一周勤加练习哦，这有助你增强身体能动力，并获得纯粹的运动乐趣！]]></text>
 			</game>
 		</textField>
 		<button>
-			<bt><![CDATA[Start the exercise]]></bt>
-			<bt><![CDATA[Validate the exercise]]></bt>
-			<bt><![CDATA[Restart the exercise]]></bt>		
+			<bt><![CDATA[开始练习]]></bt>
+			<bt><![CDATA[确认结果]]></bt>
+			<bt><![CDATA[再练一次]]></bt>			
 		</button>
 		<bubble>
-			<text><![CDATA[Your body is mostly water.<br/>And about every 7 weeks,<br/>that water is, mostly<br/>by what you drink.]]></text>
-			<text><![CDATA[Choose to be reborn<br/>by giving your body<br/>pure, refreshing evian<br/>natural spring water<br/>its unique, well balanced<br/>wmineral composition.]]></text>
+			<text><![CDATA[身体的60%由水构成，且每6周更新一次。饮用矿物质均衡的天然矿泉水，能让你的身体焕然一新。]]></text>
+			<text><![CDATA[饮用矿物质均衡的天然矿泉水，能让你的身体焕然一新。]]></text>
 		</bubble>
 	</training2>
 	
 	<congratulation>
 		<videoUrl><![CDATA[01_82_jules.mp4]]></videoUrl>
 		<textField>
-			<title><![CDATA[Congratulations,]]></title>
-			<subTitle><![CDATA[you've done a great job. But don't stop now...<br>Continue your efforts to boost your Youth Quotient while you<br>wait for the next series of exercises. Have a great week!]]></subTitle>
+			<title><![CDATA[你干得很棒，]]></title>
+			<subTitle><![CDATA[别停哦！下个练习前，继续提高你的年轻指数吧！希望你收获多多！]]></subTitle>
 		</textField>
 		<button>
 			<bt><![CDATA[我的资料]]></bt>
@@ -100,7 +100,7 @@
 		<textField gap="0">
 			<title1><![CDATA[我的]]></title1>
 			<title1><![CDATA[资料]]></title1>
-			<sub><![CDATA[Check your evolution along your Live Young Training.]]></sub>
+			<sub><![CDATA[训练营过程中随时检查你的进步]]></sub>
 			<bubble>
 				<text><![CDATA[你的年轻指数]]></text>
 				<text><![CDATA[岁]]></text>
@@ -140,8 +140,8 @@
 			<title><![CDATA[翻译]]></title>
 			<translate>
 				<word>
-					<ref><![CDATA[依云 Live Young 攻略]]></ref>
-					<trans><![CDATA[依云 Live Young 攻略]]></trans>
+					<ref><![CDATA[依云 Live Young 训练营]]></ref>
+					<trans><![CDATA[依云 Live Young 训练营]]></trans>
 				</word>
 			</translate>
 		</textField >

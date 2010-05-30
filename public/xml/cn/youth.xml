@@ -9,7 +9,13 @@
 			<trad><![CDATA[]]></trad>
 			<mentions><![CDATA[法律申明]]></mentions>
 			<evian><![CDATA[了解更多依云资讯]]></evian>
+			<sound on="sound on" off="sound off"><![CDATA[]]></sound>
 		</button>
+		<url>
+			<urlFan>http://www.facebook.com/evianUS</urlFan>
+			<urlInfo>http://www.evian.com/#/zh_CN/</urlInfo>
+		</url>
+		<curve_pinkLight></curve_pinkLight>
 	</footer>
 	<curve_pinkLight>
 		<textField>
@@ -67,7 +73,7 @@
 			</title>
 			<game>
 				<screen1>
-					<title><![CDATA[开始快速<br>反应游戏]]></title>
+					<title><![CDATA[开始快速反应游戏]]></title>
 					<text><![CDATA[首先，我们将考验一下你的记忆力。]]></text>
 					<bt><![CDATA[点击这里]]></bt>
 				</screen1>
@@ -151,7 +157,7 @@
 				<text><![CDATA[身体<br>能动力]]></text>
 			</title>
 			<text><![CDATA[接着，我们来测试你的肺活量]]></text>
-			<text><![CDATA[请站起来，手臂伸直，背部也挺直。现在弯曲膝盖，然后再站直。看看一口气能反复多少次？]]></text>
+			<text><![CDATA[请站起来，手臂伸直，背部也挺直。现在弯曲膝盖<br>然后再站直。看看一口气能反复多少次？]]></text>
 			<text_scroll name="flexion" >
 				<text><![CDATA[少于5次]]></text>
 				<text><![CDATA[5-10次]]></text>
@@ -171,8 +177,8 @@
 				<text><![CDATA[测试你的]]></text>
 				<text><![CDATA[年轻心态值]]></text>
 			</title>
-			<text><![CDATA[不只是体态，年轻也是一种心态，同意吗？]]></text>
-			<text><![CDATA[告诉我们，每天，你大概笑几次？]]></text>
+			<text><![CDATA[不只是体态年轻也是一种心态，同意吗？]]></text>
+			<text><![CDATA[告诉我们<br>每天你大概笑几次？]]></text>
 			<text_scroll name="Laught">
 				<text><![CDATA[没来由的笑？<br>我不喜欢]]></text>
 				<text><![CDATA[每天2次左右吧<br>周末能有3次哦]]></text>
@@ -191,7 +197,7 @@
 				<text><![CDATA[测试你的]]></text>
 				<text><![CDATA[年轻心态值]]></text>
 			</title>
-			<text><![CDATA[告诉我们，你上次许愿是在什么时候？]]></text>
+			<text><![CDATA[告诉我们<br>你上次许愿是在什么时候？]]></text>
 			<text><![CDATA[那是在...]]></text>
 			<text_scroll name="wish">
 				<text><![CDATA[这些玄乎乎的东西我才不感冒<br>我相信命运握在自己手中！]]></text>
@@ -226,16 +232,16 @@
 	<profil>
 		<textField >
 			<title><![CDATA[请在此填写你的个人讯息]]></title>
-			<text_scroll name="Height" min="140" max="210" incr="1" unity="cm"></text_scroll>
-			<text_scroll name="Weight"  min="45" max="115" incr="1" unity="kg"></text_scroll>
-			<text_scroll name="Gender">
+			<text_scroll name="身高" min="140" max="210" incr="1" unity="cm"></text_scroll>
+			<text_scroll name="体重"  min="45" max="115" incr="1" unity="kg"></text_scroll>
+			<text_scroll name="性别">
 				<text><![CDATA[男]]></text>
 				<text><![CDATA[女]]></text>
 				<text><![CDATA[孕妇]]></text>
 				<text><![CDATA[哺乳期妈妈]]></text>
 			</text_scroll>
-			<text_scroll name="Age" min="18" max="70" incr="1" unity="years old"></text_scroll>
-			<text_scroll name="Lifestyle">
+			<text_scroll name="年龄" min="18" max="70" incr="1" unity="岁"></text_scroll>
+			<text_scroll name="生活方式">
 				<text><![CDATA[久坐型]]></text>
 				<text><![CDATA[轻度活动型]]></text>
 				<text><![CDATA[适度运动型]]></text>
@@ -249,7 +255,7 @@
 	<drinks>
 		<textField >
 			<title><![CDATA[每日水分摄取量]]></title>
-			<drink info="choose">
+			<drink info="请选择">
 				<water><![CDATA[水]]></water>
 				<juice><![CDATA[果汁]]></juice>
 				<soda><![CDATA[碳酸饮料]]></soda>
@@ -269,7 +275,7 @@
 	<screen_result>
 		<videoUrl><![CDATA[01_91_noan.mp4]]></videoUrl>
 		<textField >
-			<title unity="years old"><![CDATA[你的年轻指数]]></title>
+			<title unity="岁"><![CDATA[你的年轻指数]]></title>
 			<text_bottle><![CDATA[思考敏锐度]]></text_bottle>
 			<text_bottle><![CDATA[身体能动力]]></text_bottle>
 			<text_bottle><![CDATA[年轻心态值]]></text_bottle>

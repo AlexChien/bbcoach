@@ -10,7 +10,13 @@
 			<trad><![CDATA[]]></trad>
 			<mentions><![CDATA[法律申明]]></mentions>
 			<evian><![CDATA[了解更多依云资讯]]></evian>
+			<sound on="sound on" off="sound off"><![CDATA[]]></sound>
 		</button>
+		<url>
+			<urlFan>http://www.facebook.com/evianUS</urlFan>
+			<urlInfo>http://www.evian.com/#/zh_CN/</urlInfo>
+		</url>
+		<curve_pinkLight></curve_pinkLight>
 	</footer>
 	<curve_pinkLight>
 	</curve_pinkLight>

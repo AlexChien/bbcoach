@@ -1,9 +1,15 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body>
+
 <pre>
-<h1>Log [ <?php echo $this->log; ?> ] display</h1>
+<h1>显示 [ <?php echo $this->log; ?> ]</h1>
 <table width="800" border="1" cellpadding="1" cellspacing="1" style="border: 1px solid black;">
   <tr>
-    <th width="30%">Date</th>
-    <th width="70%"><?php echo ($this->log == 'error') ? 'Erreurs':'Rapport'; ?></th>
+    <th width="30%">时间</th>
+    <th width="70%"><?php echo ($this->log == 'error') ? '错误':'报告'; ?></th>
   </tr>
   <?php foreach ($this->datas as $result): ?>
   <tr>
@@ -12,3 +18,5 @@
   </tr>
   <?php endforeach; ?>
 </table></pre>
+</body>
+</html>

@@ -1,6 +1,6 @@
 
 # This should be omitted in the production environment
-SetEnv APPLICATION_ENV development
+# SetEnv APPLICATION_ENV development
 
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} -s [OR]

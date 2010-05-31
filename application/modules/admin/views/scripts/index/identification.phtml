@@ -3,7 +3,10 @@
 </head>
 <body>
 <?php if($this->identity !== true): echo $this->form; else: ?>
-<a href="admin/upload/datas/">Télécharger</a>
+<!-- <a href="/training/admin/upload/datas/">Télécharger</a> -->
+<a href="/admin/upload/datas/">下载用户数据</a>
+<a href="/admin/logs/">查看日志</a><br/>
+<a href="/admin/emails/">手工群发邮件</a><br/>
 <?php endif; ?>
 </body>
 </html>

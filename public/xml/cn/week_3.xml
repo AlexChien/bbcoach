@@ -26,9 +26,9 @@
 			<title><![CDATA[告诉我们，上周你笑了几次？]]></title>
 			<game>
 				<resp value="a"><![CDATA[少于一次……]]></resp>
-				<resp value="b"><![CDATA[宝贝视频的确让我笑得开心]]></resp>
-				<resp value="c"><![CDATA[很多次，这周很开心]]></resp>
-				<resp value="d"><![CDATA[太多次了，笑到我两颊酸痛啦！]]></resp>
+				<resp value="b"><![CDATA[宝贝视频的确<br>让我笑得开心]]></resp>
+				<resp value="c"><![CDATA[很多次，<br>这周很开心]]></resp>
+				<resp value="d"><![CDATA[太多次了，<br>笑到我两颊酸痛啦！]]></resp>
 			</game>
 		</textField>
 		<button>
@@ -40,7 +40,7 @@
 		<textField>
 			<week><![CDATA[第3周]]></week>
 			<title><![CDATA[加强你的身体能动力]]></title>
-			<subTitle><![CDATA[本周是运动体态的时间！我们要煅练你的耐力和体力，并带给你纯粹的运动乐趣……准备好流汗了吗？]]></subTitle>
+			<subTitle><![CDATA[本周是运动体态的时间！我们要煅练你的耐力和体力，<br>并带给你纯粹的运动乐趣……准备好流汗了吗？]]></subTitle>
 		</textField>
 		<button>
 			<bt><![CDATA[Go]]></bt>
@@ -53,7 +53,7 @@
 			<subTitle><![CDATA[加强你的身体能动力]]></subTitle>
 			<game>
 				<text><![CDATA[利用玩开心网的间隙时间作运动]]></text>
-				<text><![CDATA[<textformat leading="-4"><font color="#616161">立即</font><font color="#616161">开始练习：</font><br/><br/></textformat><textformat leading="1.5"><font color="#8E8E8E">胸部微微倾斜，两腿向前伸展，然后双脚交叉，保持这个姿势30秒，接着重复3次。</textformat>]]></text>
+				<text><![CDATA[<textformat leading="-4"><font color="#616161">立即</font><font color="#616161">开始练习：</font><br/><br/></textformat><textformat leading="1.5"><font color="#8E8E8E">胸部微微倾斜，两腿向前伸展，然后双脚交叉，<br>保持这个姿势30秒，接着重复3次。</textformat>]]></text>
 				<text><![CDATA[请在这一周勤加练习哦，这有助你增强身体能动力，并获得纯粹的运动乐趣！]]></text>
 			</game>
 		</textField>
@@ -77,7 +77,7 @@
 			<subTitle><![CDATA[加强你的身体能动力]]></subTitle>
 			<game>
 				<text><![CDATA[让你的大腿更有型]]></text>
-				<text><![CDATA[<textformat leading="-4"><font color="#616161">立即</font><font color="#616161">开始练习： </font><br/><br/></textformat><textformat leading="1.5"><font color="#8E8E8E">挺直背部，身体贴墙壁向下下滑动，慢慢形成变成“坐姿”，对，就像在椅子上一样。保持此姿势30秒，然后恢复站姿，摆动腿部放松并重复上述过程。</textformat>]]></text>
+				<text><![CDATA[<textformat leading="-4"><font color="#616161">立即</font><font color="#616161">开始练习： </font><br/><br/></textformat><textformat leading="1.5"><font color="#8E8E8E">挺直背部，身体贴墙壁向下下滑动，<br>慢慢变成“坐姿”，对，就像在椅子上一样。<br>保持此姿势30秒，然后恢复站姿，<br>摆动腿部放松并重复上述过程。</textformat>]]></text>
 				<text><![CDATA[请在这一周勤加练习哦，这有助你增强身体能动力，并获得纯粹的运动乐趣！]]></text>
 			</game>
 		</textField>
@@ -87,8 +87,8 @@
 			<bt><![CDATA[再练一次]]></bt>			
 		</button>
 		<bubble>
-			<text><![CDATA[身体的60%由水构成，且每6周更新一次。饮用矿物质均衡的天然矿泉水，能让你的身体焕然一新。]]></text>
-			<text><![CDATA[饮用矿物质均衡的天然矿泉水，能让你的身体焕然一新。]]></text>
+			<text><![CDATA[身体的60%由水构成，<br>且每6周更新一次。]]></text>
+			<text><![CDATA[饮用矿物质均衡的天然矿泉水，<br>能让你的身体焕然一新。]]></text>
 		</bubble>
 	</training2>
 	
@@ -112,18 +112,18 @@
 				<text><![CDATA[岁]]></text>
 			</bubble>
 			<profil>
-				<sex male="male" female="female"><![CDATA[性别]]></sex>
+				<sex male="男" female="女"><![CDATA[性别]]></sex>
 				<age><![CDATA[岁]]></age>
 				<height><![CDATA[厘米]]></height>
 				<weight><![CDATA[公斤]]></weight>
-				<style title="Lifestyle">
-					<text><![CDATA[久坐型]]></text>
-				<text><![CDATA[轻度活动型]]></text>
-				<text><![CDATA[适度运动型]]></text>
-				<text><![CDATA[积极运动型]]></text>
+				<style title="生活方式">
+					<kind><![CDATA[久坐型]]></kind>
+					<kind><![CDATA[轻度活动型]]></kind>
+					<kind><![CDATA[适度运动型]]></kind>
+					<kind><![CDATA[积极运动型]]></kind>
 				</style>
 			</profil>
-			<graphic year="years old">
+			<graphic year="岁">
 				<week0><![CDATA[开始]]></week0>
 				<week1><![CDATA[第1周]]></week1>
 				<week2><![CDATA[第2周]]></week2>

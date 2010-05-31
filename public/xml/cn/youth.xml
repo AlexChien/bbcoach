@@ -343,7 +343,7 @@
 				<text><![CDATA[岁]]></text>
 			</bubble>
 			<profil>
-				<sex male="male" female="female"><![CDATA[性别]]></sex>
+				<sex male="男" female="女"><![CDATA[性别]]></sex>
 				<age><![CDATA[岁]]></age>
 				<style><![CDATA[生活方式]]></style>
 			</profil>

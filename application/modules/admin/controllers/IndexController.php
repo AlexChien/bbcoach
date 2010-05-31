@@ -19,6 +19,8 @@ class Admin_IndexController extends Enterprise_Controller {
 	public function identificationAction() {
 		$formConfig = new Zend_Config_Ini(APPLICATION_PATH . '/configs/forms/identification.ini');
 		$form = new Zend_Form($formConfig);
+    $action_path = $this->view->webhost.$formConfig->action;
+    $form->setAction($action_path)->setMethod('post');
 		if($this->_request->isPost()) {
 			$username = $this->_request->getParam('username');
 			$password = $this->_request->getParam('password');

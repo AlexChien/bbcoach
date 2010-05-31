@@ -1,39 +1,11 @@
 <html>
 <head>
-<title><?php
-if(empty($this->title)) :
-	?>Babies Coaches - Evian
-
-<?php
-else :
-	echo $this->title;
-endif;
-?></title>
-<base href="<?php
-echo $this->webhost;
-?>" />
+<title><?php if(empty($this->title)) {echo "依云 Live young 训练营 - Baby Coaches";} else {echo $this->title;} ?></title>
+<base href="<?php echo $this->webhost; ?>" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="language"
-	content="<?php
-	if(empty($this->lang)) :
-		?>fr
-
-	<?php
-	else :
-		echo $this->lang;
-	endif;
-	?>" />
-<meta name="description"
-	content="<?php
-	if(empty($this->metaname)) :
-		?>accueil
-
-	<?php
-	else :
-		echo $this->metaname;
-	endif;
-	?>" />
-<meta name="keywords" content="" />
+<meta name="language" content="<?php if(empty($this->lang)) {echo "CN";} else {echo $this->lang;} ?>" />
+<meta name="description" content="<?php if(empty($this->metaname)) {echo "依云Live Young训练营";} else {echo $this->metaname;} ?>" />
+<meta name="keywords" content="依云 Live Young 训练营 Baby Coach 婴儿教练 轮滑宝宝 年轻指数" />
 <link rel="image_src" href="<?php echo $this->webhost;?>/<?php echo $this->fbimg; ?>" />
 <style type="text/css">
 body {
@@ -48,9 +20,8 @@ body {
 <body>
     <div class="minimum_size">
         <div id="altContent"  class="swfcontainer">
-            <h1>Live Young Training</h1>
+            <h1>依云 Live Young 训练营</h1>
                  <p>Alternative content</p>
-                 <img src="<?php echo $this->img; ?>" border="0" />
                  <p><a href="http://www.adobe.com/go/getflashplayer"><img
                  src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif"
                  alt="Get Adobe Flash player" /></a></p>

@@ -1,12 +1,14 @@
-<html><head>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />  
 <base href="<?php echo $this->webhost; ?>" />
 </head>
 <body>
 <?php if($this->identity !== true): echo $this->form; else: ?>
 <!-- <a href="/training/admin/upload/datas/">Télécharger</a> -->
-<a href="/admin/upload/datas/">下载用户数据</a>
-<a href="/admin/logs/">查看日志</a><br/>
-<a href="/admin/emails/">手工群发邮件</a><br/>
+<a href="<?php echo $this->webhost; ?>/admin/upload/datas/">下载用户数据</a>
+<a href="<?php echo $this->webhost; ?>/admin/logs/">查看日志</a><br/>
+<a href="<?php echo $this->webhost; ?>/admin/emails/">手工群发邮件</a><br/>
 <?php endif; ?>
 </body>
 </html>

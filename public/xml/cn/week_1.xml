@@ -3,14 +3,14 @@
 	<footer>
 		<textField>
 			<fb><![CDATA[分享到]]></fb>
-			<fan><![CDATA[加入依云俱乐部]]></fan>
+			<fan><![CDATA[成为依云粉丝]]></fan>
 		</textField>
 		<button>
 			<profil><![CDATA[我的资料]]></profil>
 			<trad><![CDATA[]]></trad>
 			<mentions><![CDATA[法律申明]]></mentions>
 			<evian><![CDATA[了解更多依云资讯]]></evian>
-			<sound on="sound on" off="sound off"><![CDATA[]]></sound>
+			<sound on="音乐:开" off="音乐:关"><![CDATA[]]></sound>
 		</button>
 		<url>
 			<urlFan>http://www.facebook.com/evianUS</urlFan>
@@ -23,8 +23,8 @@
 	<confirmation>
 		<videoUrl><![CDATA[02_01_jules.mp4]]></videoUrl>
 		<textField>
-			<title><![CDATA[现在，你已完成了“年轻指数”测试，]]></title>
-			<subTitle><![CDATA[该开始进行几周训练了.<br>你将轻松的提升你的“年轻指数”<br>这样感谢这些简单有趣的联系<br>让我们先从头脑联系开始吧！]]></subTitle>
+			<title><![CDATA[现在，你已完成了<br>“年轻指数”测试，]]></title>
+			<subTitle><![CDATA[该开始进行几周训练了.<br>通过这些简单有趣的练习，你将轻松地提升“年轻指数”。<br>让我们先从头脑练习开始吧！]]></subTitle>
 		</textField>
 		<button>
 			<bt><![CDATA[开始训练]]></bt>
@@ -44,9 +44,9 @@
 	<aquaBox>
 		<textField >
 			<title num="#1">
-				<text><![CDATA[活力宝盒 ]]></text>
+				<text><![CDATA[活力宝盒]]></text>
 				<sub><![CDATA[训练你的思考敏锐度]]></sub>
-				<sub><![CDATA[敏锐度]]></sub>
+				<sub><![CDATA[]]></sub>
 			</title>
 			<game><![CDATA[计算进出宝盒的瓶子数量，<br>然后告诉我们，<br>盒中剩下的瓶子数量是多少？]]></game>
 			<box>
@@ -75,7 +75,7 @@
 			<game><![CDATA[]]></game>
 			<dropGame>
 				<intro>
-					<text><![CDATA[提升你的快速反应力：控制水滴，别<br>让它与外部的污染源接触。用键盘上的方向箭头来控制移动]]></text>
+					<text><![CDATA[提升你的快速反应力：控制水滴，<br>别让它与外部的污染源接触。用键盘上的方向箭头来控制移动]]></text>
 					<bt><![CDATA[Go!]]></bt>
 				</intro>
 				<game>
@@ -166,8 +166,8 @@
 			</graphic>
 			<bottles>
 				<text_bottle><![CDATA[思考敏锐度]]></text_bottle>
-			<text_bottle><![CDATA[身体能动力]]></text_bottle>
-			<text_bottle><![CDATA[年轻心态值]]></text_bottle>
+				<text_bottle><![CDATA[身体能动力]]></text_bottle>
+				<text_bottle><![CDATA[年轻心态值]]></text_bottle>
 			</bottles>
 		</textField>
 		<button>

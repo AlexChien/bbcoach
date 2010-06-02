@@ -3,13 +3,13 @@
 	<footer>
 		<textField>
 			<fb><![CDATA[分享到]]></fb>
-			<fan><![CDATA[加入依云俱乐部]]></fan>
+			<fan><![CDATA[成为依云粉丝]]></fan>
 		</textField>
 		<button>
 			<trad><![CDATA[]]></trad>
 			<mentions><![CDATA[法律申明]]></mentions>
 			<evian><![CDATA[了解更多依云资讯]]></evian>
-			<sound on="sound on" off="sound off"><![CDATA[]]></sound>
+			<sound on="音乐:开" off="音乐:关"><![CDATA[]]></sound>
 		</button>
 		<url>
 			<urlFan>http://www.facebook.com/evianUS</urlFan>
@@ -26,11 +26,11 @@
 		<textField >
 			<win>
 				<title><![CDATA[恭喜你！]]></title>
-				<text><![CDATA[你赢了。]]></text>
+				<text><![CDATA[答对啦。]]></text>
 			</win>
 			<lose>
 				<title><![CDATA[对不起！]]></title>
-				<text><![CDATA[你输了。]]></text>
+				<text><![CDATA[答错啦。]]></text>
 			</lose>
 		</textField>
 		<button>
@@ -43,7 +43,7 @@
 			<text><![CDATA[测试你的年轻指数]]></text>
 			<text><![CDATA[为活出年轻，有些事永远值得遵循！<br>譬如：保持头脑和思考的敏捷，让身体活力充沛，让童心永驻！<br>在教你如何活出年轻之前，让我们先测试下你现在的年轻指数！]]></text>
 			<text_bottle><![CDATA[思考<br>敏锐度]]></text_bottle>
-			<text_bottle><![CDATA[身体能动力<br>能动力]]></text_bottle>
+			<text_bottle><![CDATA[身体<br>能动力]]></text_bottle>
 			<text_bottle><![CDATA[年轻<br>心态值]]></text_bottle>
 		</textField>
 		<button>
@@ -69,7 +69,7 @@
 		<textField >
 			<title num="#1" quotient="2/3">
 				<text><![CDATA[测试你的]]></text>
-				<text><![CDATA[身体能动力<br>能动力]]></text>
+				<text><![CDATA[身体<br>能动力]]></text>
 			</title>
 			<game>
 				<screen1>
@@ -175,9 +175,9 @@
 		<textField >
 			<title num="#3" quotient="1/3">
 				<text><![CDATA[测试你的]]></text>
-				<text><![CDATA[年轻心态值]]></text>
+				<text><![CDATA[年轻<br>心态值]]></text>
 			</title>
-			<text><![CDATA[不只是体态年轻也是一种心态，同意吗？]]></text>
+			<text><![CDATA[不只是，体态年轻也是一种心态，同意吗？]]></text>
 			<text><![CDATA[告诉我们<br>每天你大概笑几次？]]></text>
 			<text_scroll name="Laught">
 				<text><![CDATA[没来由的笑？<br>我不喜欢]]></text>
@@ -195,7 +195,7 @@
 		<textField >
 			<title num="#3" quotient="2/3">
 				<text><![CDATA[测试你的]]></text>
-				<text><![CDATA[年轻心态值]]></text>
+				<text><![CDATA[年轻<br>心态值]]></text>
 			</title>
 			<text><![CDATA[告诉我们<br>你上次许愿是在什么时候？]]></text>
 			<text><![CDATA[那是在...]]></text>
@@ -215,7 +215,7 @@
 		<textField >
 			<title num="#3" quotient="3/3">
 				<text><![CDATA[测试你的]]></text>
-				<text><![CDATA[年轻心态值]]></text>
+				<text><![CDATA[年轻<br>心态值]]></text>
 			</title>
 			<text><![CDATA[玩个小游戏吧！]]></text>
 			<text><![CDATA[现在请你伸出舌头，看看能否用它碰到鼻尖呢？]]></text>
@@ -279,6 +279,11 @@
 			<text_bottle><![CDATA[思考敏锐度]]></text_bottle>
 			<text_bottle><![CDATA[身体能动力]]></text_bottle>
 			<text_bottle><![CDATA[年轻心态值]]></text_bottle>
+			<info><![CDATA[加入依云Live Young训练营来改善你的年轻指数！<br>你将很快收到一封确认邮件。<br>在接下来的4周中，你的头脑，身体以及幽默感都将获得全面提升！]]></info> 
+			<bubble> 
+				<text><![CDATA[你是否知道体内保水状态，<br>对维系高水平的体态机能至关重要？]]></text>
+				<bt><![CDATA[了解更多体内保水状态的讯息]]></bt>
+			</bubble>
 		</textField>
 		<button>
 			<bt><![CDATA[分享到]]></bt>
@@ -325,13 +330,14 @@
 			</response>
 		</textField>
 		<button>
-			<bt><![CDATA[开始训练营]]></bt>
+			<bt><![CDATA[开始训练]]></bt>
 		</button>
 	</login>
 	<profil_hydr>
 		<textField gap="0">
 			<title1><![CDATA[了解你的体内]]></title1>
-			<title1><![CDATA[体内保水状态]]></title1>
+			<title1><![CDATA[保水状态]]></title1>
+			<alcohol><![CDATA[滥用酒精对健康是威胁。请适量饮用。]]></alcohol>
 			<sub>
 				<good><![CDATA[恭喜]]></good>
 				<good><![CDATA[看起来，你已为身体补充了足量的水分！]]></good>
@@ -347,18 +353,30 @@
 				<age><![CDATA[岁]]></age>
 				<style><![CDATA[生活方式]]></style>
 			</profil>
-			<explain unity="L">
+			<explain unity="升">
 				<title><![CDATA[你的体内保水状态讯息：]]></title>
 				<line1><![CDATA[你的液体摄取量大约为：]]></line1>
 				<line1><![CDATA[]]></line1>
-				<line2><![CDATA[由食物中摄取的水分含量（升）]]></line2>
-				<line2><![CDATA[大约为]]></line2>
-				<line3><![CDATA[身体流失的水分（升）]]></line3>
+				<line2><![CDATA[由食物中摄取的水分含量（升）：]]></line2>
+				<line2><![CDATA[]]></line2>
+				<line3><![CDATA[身体流失的水分（升）：]]></line3>
 				<line3><![CDATA[]]></line3>
 				<good><![CDATA[你身体补充的水分充足]]></good>
 				<bad><![CDATA[你身体补充的水分不足]]></bad>
-				<line5><![CDATA[你理想的饮水摄入量（升）]]></line5>
-				<line5><![CDATA[每日]]></line5>
+				<line4><![CDATA[你每日理想的饮水摄入量（升）：]]></line4>
+				<line4><![CDATA[]]></line4>
+				<result>
+					<good_hydr><![CDATA[你饮用了足量的液体]]></good_hydr>
+					<bad_hydr><![CDATA[看起来你需要喝更多的水，]]></bad_hydr>
+					<good_hydr_perfect><![CDATA[秘诀是保持健康的饮水习惯，<br>这才是建立健康持久的生活方式简单而有效的方法。]]></good_hydr_perfect>
+					<good_hydr_bad_Alco><![CDATA[但是，你需要减少酒精饮料摄取。]]></good_hydr_bad_Alco>
+					<good_hydr_bad_sug><![CDATA[但是，你需要减少从液体中摄取的卡路里。]]></good_hydr_bad_sug>
+					<good_hydr_bad_Alco_sug><![CDATA[但是，你需要减少酒精和含糖饮料摄取。]]></good_hydr_bad_Alco_sug>
+					<bad_hydr_perfect><![CDATA[糟糕，看起来你需要喝更多的水。]]></bad_hydr_perfect>
+					<bad_hydr_bad_Alco><![CDATA[但是，你需要控制酒精摄取。]]></bad_hydr_bad_Alco>
+					<bad_hydr_bad_sug><![CDATA[但是，你需要控制从饮料中摄取的卡路里。]]></bad_hydr_bad_sug>
+					<bad_hydr_bad_Alco_sug><![CDATA[但是，你需要控制酒精和含糖饮料摄取。]]></bad_hydr_bad_Alco_sug>
+				</result>
 			</explain>
 		</textField>
 		<button>

@@ -3,14 +3,14 @@
 	<footer>
 		<textField>
 			<fb><![CDATA[分享到]]></fb>
-			<fan><![CDATA[加入依云俱乐部]]></fan>
+			<fan><![CDATA[成为依云粉丝]]></fan>
 		</textField>
 		<button>
 			<profil><![CDATA[我的资料]]></profil>
 			<trad><![CDATA[]]></trad>
 			<mentions><![CDATA[法律申明]]></mentions>
 			<evian><![CDATA[了解更多依云资讯]]></evian>
-			<sound on="sound on" off="sound off"><![CDATA[]]></sound>
+			<sound on="音乐:开" off="音乐:关"><![CDATA[]]></sound>
 		</button>
 		<url>
 			<urlFan>http://www.facebook.com/evianUS</urlFan>
@@ -77,7 +77,7 @@
 			<subTitle><![CDATA[加强你的身体能动力]]></subTitle>
 			<game>
 				<text><![CDATA[让你的大腿更有型]]></text>
-				<text><![CDATA[<textformat leading="-4"><font color="#616161">立即</font><font color="#616161">开始练习： </font><br/><br/></textformat><textformat leading="1.5"><font color="#8E8E8E">挺直背部，身体贴墙壁向下下滑动，<br>慢慢变成“坐姿”，对，就像在椅子上一样。<br>保持此姿势30秒，然后恢复站姿，<br>摆动腿部放松并重复上述过程。</textformat>]]></text>
+				<text><![CDATA[<textformat leading="-4"><font color="#616161">立即</font><font color="#616161">开始练习： </font><br/><br/></textformat><textformat leading="1.5"><font color="#8E8E8E">挺直背部，身体贴墙壁向下滑动，<br>慢慢变成“坐姿”，对，就像在椅子上一样。<br>保持此姿势30秒，然后恢复站姿，<br>摆动腿部放松并重复上述过程。</textformat>]]></text>
 				<text><![CDATA[请在这一周勤加练习哦，这有助你增强身体能动力，并获得纯粹的运动乐趣！]]></text>
 			</game>
 		</textField>

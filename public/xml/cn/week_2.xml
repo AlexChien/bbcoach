@@ -3,14 +3,14 @@
 	<footer>
 		<textField>
 			<fb><![CDATA[分享到]]></fb>
-			<fan><![CDATA[加入依云俱乐部]]></fan>
+			<fan><![CDATA[成为依云粉丝]]></fan>
 		</textField>
 		<button>
 			<profil><![CDATA[我的资料]]></profil>
 			<trad><![CDATA[]]></trad>
 			<mentions><![CDATA[法律申明]]></mentions>
 			<evian><![CDATA[了解更多依云资讯]]></evian>
-			<sound on="sound on" off="sound off"><![CDATA[]]></sound>
+			<sound on="音乐:开" off="音乐:关"><![CDATA[]]></sound>
 		</button>
 		<url>
 			<urlFan>http://www.facebook.com/evianUS</urlFan>
@@ -25,7 +25,7 @@
 		<textField>
 			<week><![CDATA[第2周]]></week>
 			<title><![CDATA[提升年轻心态值]]></title>
-			<subTitle><![CDATA[本周的重点是养成年轻的心态！着眼在生活中阳光的一面，或许这就是拥有年轻心态的关键吧。<br>所以，本周的任务与笑有关！准备好笑出年轻了吗？]]></subTitle>
+			<subTitle><![CDATA[本周的重点是养成年轻的心态！<br>着眼在生活中阳光的一面，或许这就是拥有年轻心态的关键吧。<br>所以，本周的任务与笑有关！准备好笑出年轻了吗？]]></subTitle>
 		</textField>
 		<button>
 			<bt><![CDATA[Go]]></bt>
@@ -37,7 +37,7 @@
 				<text><![CDATA[活力欢乐周]]></text>
 				<text><![CDATA[提升年轻心态值]]></text>
 			</title>
-			<game><![CDATA[试着让宝贝笑起来， 用你的鼠标挠他痒痒！看看他哪里最敏感，开始挠吧！<br>相信吗，笑是会传染的……<font color="#E72562" >本周请注意察看邮箱，也许我们会有惊喜给你哦！</font>]]></game>
+			<game><![CDATA[试着让宝贝笑起来， 用你的鼠标挠他痒痒！看看他哪里最敏感，开始挠吧！<br>相信吗，笑是会传染的……<br><br><font color="#E72562" >本周请注意察看邮箱，也许我们会有惊喜给你哦！</font>]]></game>
 		</textField>
 		<button>
 			<bt><![CDATA[下一步]]></bt>

@@ -3,14 +3,14 @@
 	<footer>
 		<textField>
 			<fb><![CDATA[分享到]]></fb>
-			<fan><![CDATA[加入依云俱乐部]]></fan>
+			<fan><![CDATA[成为依云粉丝]]></fan>
 		</textField>
 		<button>
 			<profil><![CDATA[我的资料]]></profil>
 			<trad><![CDATA[]]></trad>
 			<mentions><![CDATA[法律申明]]></mentions>
 			<evian><![CDATA[了解更多依云资讯]]></evian>
-			<sound on="sound on" off="sound off"><![CDATA[]]></sound>
+			<sound on="音乐:开" off="音乐:关"><![CDATA[]]></sound>
 		</button>
 		<url>
 			<urlFan>http://www.facebook.com/evianUS</urlFan>
@@ -127,7 +127,7 @@
 			</win>
 			<lose>
 				<title><![CDATA[对不起！]]></title>
-				<text><![CDATA[你输了。]]></text>
+				<text><![CDATA[答错啦。]]></text>
 				<text><![CDATA[你的年轻指数是]]></text>
 				<unity><![CDATA[岁]]></unity>
 			</lose>

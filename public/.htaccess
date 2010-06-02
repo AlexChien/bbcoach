@@ -3,6 +3,7 @@
 
 # This should be omitted in the production environment
 # SetEnv APPLICATION_ENV development
+# AddType audio/mpeg son
 
 RewriteEngine On
 RewriteRule ^(.+)\.son$ $1.mp3 [NC,L]

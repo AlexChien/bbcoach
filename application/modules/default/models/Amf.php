@@ -18,6 +18,10 @@ class Default_Model_Amf extends Enterprise_Model {
 	public function __construct() {
 		parent::__construct();
 		$this->amfObject = new stdClass();
+		
+		
+		// $this->writer = new Zend_Log_Writer_Stream('/var/log/php-scripts.log');
+		// $this->logger = new Zend_Log($this->writer);
 	}
 
 	/**
@@ -120,8 +124,20 @@ class Default_Model_Amf extends Enterprise_Model {
 		$this->registerWeek($datas, $datas['userId']);
 		$id = 'id = ' . $params->userId;
 		$datas = (array) $params->db;
-		$affectedRows = $this->_db->update('user', $datas, $id);
+		
+		// modified by [Alex]
+		//affectedRow can't be relied on update action
+		//it might return 0 if data is same and nothing to be updated
+		$bind = array(':userId' => $params->userId, ':week' => 0);
+		$query = "select count(*) from profile WHERE userId = :userId AND week = :week";
+		$affectedRows = $this->_db->fetchOne($query, $bind);
+		
+		$this->_db->update('user', $datas, $id);
+		// $affectedRows = $this->_db->update('user', $datas, $id);
+		
 		$this->amfObject->success = ($affectedRows == 1) ? true : false;
+		// $this->logger->info('$params->userId: '.$params->userId);
+		// $this->logger->info('week0::$affectedRows: '.$affectedRows);
 		return $this->amfObject;
 	}
 
@@ -266,6 +282,7 @@ class Default_Model_Amf extends Enterprise_Model {
 	 * @return object $this->amfObject
 	 */
 	public function registration($params) {
+		
 		$isId = (empty($params->userId)) ? false : true;
 		# added ->registration for correct MySQL timestamp when inserting in `user` table
 		switch ($isId) {
@@ -273,6 +290,9 @@ class Default_Model_Amf extends Enterprise_Model {
 				$query = "SELECT COUNT(*) FROM user WHERE email = :email";
 				$bind = array(':email' => $params->email);
 				$result = $this->_db->fetchOne($query, $bind);
+				
+				// $this->logger->info('$result: '.$result);
+				
 				if($result == 0) {
 					$aParams = (array) $params;
 					$aParams['registration'] = null;
@@ -282,6 +302,7 @@ class Default_Model_Amf extends Enterprise_Model {
 				else {
 					$committed = 0;
 				}
+				// $this->logger->info('$committed: '.$committed);
 				if($committed == 1) {
 					$datas = array();
 					$this->amfObject->userId = $this->_db->lastInsertId();
@@ -292,8 +313,7 @@ class Default_Model_Amf extends Enterprise_Model {
 					$this->_db->update('user', $datas, $id);
 
 					self::sendNotification($params, $datas['loginDirect']);
-				}
-				else {
+				} else {
 					$this->amfObject->success = false;
 					$this->amfObject->error = true;
 				}
@@ -309,7 +329,7 @@ class Default_Model_Amf extends Enterprise_Model {
 				if($this->_db->update('user', $aParams, $id)) {
 					$this->amfObject->userId = $params->userId;
 					$this->amfObject->success = true;
-					self::sendNotification($params, $aParams['loginDirect']);
+					// self::sendNotification($params, $aParams['loginDirect']);
 				}
 				else {
 					$this->amfObject->success = false;
@@ -317,6 +337,7 @@ class Default_Model_Amf extends Enterprise_Model {
 				}
 				break;
 		}
+		// $this->logger->info('$amfObject to return: '.var_dump($this->amfObject));
 		return $this->amfObject;
 	}
 

@@ -3,7 +3,7 @@
 	<home>
 		<textField name="依云Live young训练营">
 			<text><![CDATA[很难想象，世上有比年轻更珍贵难得的东西，不是吗。但幸运的是，我们可以通过学习和训练来活出年轻！<br>现在，让依云宝贝们来教你如何养成并久久维系住年轻活力。]]></text>
-			<logMsg><![CDATA[已经注册了？]]></logMsg>
+			<logMsg><![CDATA[已经完成年轻指数测试了？]]></logMsg>
 			<mail><![CDATA[电子邮件]]></mail>
 			<pass><![CDATA[密码]]></pass>
 			<mailUnvalid><![CDATA[请输入正确的邮件地址。]]></mailUnvalid>

@@ -14,7 +14,8 @@ array_pop($explodedPath);
 $realpath = implode('/', $explodedPath);
 //define('APPLICATION_PATH', $realpath . '/application');
 // define('APPLICATION_PATH', '/data/www/Preview/Evian_BabiesCoaches/application');
-define('APPLICATION_PATH', $realpath . '/application');
+define('APPLICATION_PATH', ' D:\training\application');
+// define('APPLICATION_PATH', $realpath . '/application');
 
 set_include_path(implode(PATH_SEPARATOR, array($realpath . '/library', get_include_path())));
 set_include_path(APPLICATION_PATH . '/modules/cli/models' . PATH_SEPARATOR . get_include_path());

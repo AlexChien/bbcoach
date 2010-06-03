@@ -16,7 +16,6 @@ relance.every     = 10
 
 mail.scriptsPath  = APPLICATION_PATH "/modules/default/views/scripts/email/"
 mail.helpersPath  = APPLICATION_PATH "/modules/default/views/helpers/"
-
 mail.addressFrom = "webmaster@evian-liveyoung.com"
 mail.labelFrom   = "evian Live Young"
 mail.smtp        = "mail.evian-liveyoung.com"

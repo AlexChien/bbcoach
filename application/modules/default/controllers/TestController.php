@@ -118,13 +118,13 @@ class TestController extends Enterprise_Controller {
 	}
 
 	public function massAction() {
-		$mail = new Enterprise_Mailer();
+		$mail = new Enterprise_Mailer('UTF-8');
 		$mailDatas = new stdClass();
-		$mailDatas->lang = 'fr';
+		$mailDatas->lang = 'cn';
 		$mailDatas->scriptName = 'youtube';
-		$mailDatas->view->email = 'avialet@gmail.fr';
+		$mailDatas->view->email = 'alex.chien@koocaa.com';
 		$mailDatas->view->password = 'password';
-		$mailDatas->view->userKey = 'abc';
+		$mailDatas->view->userKey = 'password';
 		$mail->build();
 		$mail->render($mailDatas);
 		die();
@@ -137,27 +137,27 @@ class TestController extends Enterprise_Controller {
 		
 		if ($this->_request->getParam('week') == '1') {
 			
-			echo '<br />--------------- envoit de mail ---------------<br />';
+			echo '<br />--------------- 发送邮件 : 第一周 ---------------<br />';
 			
-			$mail = new Enterprise_Mailer();
+			$mail = new Enterprise_Mailer('UTF-8');
 			$mailDatas = new stdClass();
-			$mailDatas->lang = 'fr';
+			$mailDatas->lang = 'cn';
 			$mailDatas->scriptName = 'monitoring';
-			$mailDatas->view->semaine = 'semaine 1';
-			$mailDatas->view->email = array('romain.calmon@betc.eurorscg.fr', 'thomas.beaumanoir@betc.eurorscg.fr', 'eric.boismard@betc.eurorscg.fr');
+			$mailDatas->view->semaine = 'Monitoring: 第一周';
+			$mailDatas->view->email = array('alex.chien@koocaa.com', 'alexchien97@gmail.com', 'johnsonqu@gmail.com');
 			$mail->build();
 			$mail->render($mailDatas);
 			
 		} else {
 			
-            echo '<br />--------------- envoit de mail ---------------<br />';
+            echo '<br />--------------- 发送邮件 : 空周 ---------------<br />';
             
-            $mail = new Enterprise_Mailer();
+            $mail = new Enterprise_Mailer('UTF-8');
             $mailDatas = new stdClass();
-            $mailDatas->lang = 'fr';
+            $mailDatas->lang = 'cn';
             $mailDatas->scriptName = 'monitoring';
-            $mailDatas->view->semaine = 'semaine vide';
-            $mailDatas->view->email = array('romain.calmon@betc.eurorscg.fr', 'thomas.beaumanoir@betc.eurorscg.fr', 'eric.boismard@betc.eurorscg.fr');
+            $mailDatas->view->semaine = 'Monitoring: 空周';
+            $mailDatas->view->email = array('alex.chien@koocaa.com', 'alexchien97@gmail.com', 'johnsonqu@gmail.com');
             $mail->build();
             $mail->render($mailDatas);			
 			

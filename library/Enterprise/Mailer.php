@@ -7,8 +7,8 @@ class Enterprise_Mailer extends Zend_Mail {
 	protected $_document;
 	protected $_scriptName;
 	
-	public function init() {
-		parent::init();
+	public function init($opt) {
+		parent::init($opt);
 	}
 
 	public function build() {
@@ -61,7 +61,7 @@ class Enterprise_Mailer extends Zend_Mail {
 
 		$this->setHeaderEncoding(Zend_Mime::ENCODING_BASE64);
 		// $this->setSubject(utf8_decode($texts->subject));
-		$this->setSubject($texts->subject);
+		$this->setSubject($texts->subject, 'utf-8');
 		$this->setBodyHtml($this->_document, 'utf-8');
 		$this->addTo($datas->view->email);
 

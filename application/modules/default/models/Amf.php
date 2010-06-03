@@ -341,7 +341,7 @@ class Default_Model_Amf extends Enterprise_Model {
 	}
 
 	private static function sendNotification($datas, $loginDirect) {
-		$mail = new Enterprise_Mailer();
+		$mail = new Enterprise_Mailer('UTF-8');
 		$mailDatas = new stdClass();
 		$mailDatas->lang = $datas->lang;
 		$mailDatas->scriptName = 'confirmation';

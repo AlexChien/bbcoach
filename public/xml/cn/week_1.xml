@@ -23,8 +23,8 @@
 	<confirmation>
 		<videoUrl><![CDATA[02_01_jules.mp4]]></videoUrl>
 		<textField>
-			<title><![CDATA[现在，你已完成了<br>“年轻指数”测试，]]></title>
-			<subTitle><![CDATA[该开始进行几周训练了.<br>通过这些简单有趣的练习，你将轻松地提升“年轻指数”。<br>让我们先从头脑练习开始吧！]]></subTitle>
+			<title><![CDATA[现在，你已完成了<br>年轻指数测试，]]></title>
+			<subTitle><![CDATA[该开始进行几周训练了.<br>通过这些简单有趣的练习，你将轻松地提升年轻指数。<br>让我们先从头脑练习开始吧！]]></subTitle>
 		</textField>
 		<button>
 			<bt><![CDATA[开始训练]]></bt>

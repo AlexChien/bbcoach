@@ -118,7 +118,7 @@ class TestController extends Enterprise_Controller {
 	}
 
 	public function massAction() {
-		$mail = new Enterprise_Mailer();
+		$mail = new Enterprise_Mailer('UTF-8');
 		$mailDatas = new stdClass();
 		$mailDatas->lang = 'fr';
 		$mailDatas->scriptName = 'youtube';

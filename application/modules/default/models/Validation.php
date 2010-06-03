@@ -33,7 +33,7 @@ class Default_Model_Validation extends Enterprise_Model {
 	 * @return boolean
 	 */
 	private static function sendNotification($result) {
-		$mail = new Enterprise_Mailer();
+		$mail = new Enterprise_Mailer('UTF-8');
 		$mailDatas = new stdClass();
 		$mailDatas->lang = $result->lang;
 		$mailDatas->scriptName = 'semaine-1';

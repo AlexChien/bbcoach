@@ -13,6 +13,10 @@
 			<sound on="音乐:开" off="音乐:关"><![CDATA[]]></sound>
 		</button>
 		<url>
+			<kaixinfunc><![CDATA[add2Kaixin001]]></kaixinfunc>
+			<kaixintitle><![CDATA[依云Live Young训练营]]></kaixintitle>
+			<kaixincontent><![CDATA[我已经参加了依云Live Young训练营年轻指数测试测试，你也来试试吧。]]></kaixincontent>
+			<kaixincontent2><![CDATA[我已经参加了依云Live Young训练营年轻指数测试测试，我的年轻指数是$age岁，你也来试试吧。]]></kaixincontent2>
 			<urlFan>http://www.facebook.com/evianUS</urlFan>
 			<urlInfo>http://www.evian.com/#/zh_CN/</urlInfo>
 		</url>
@@ -26,7 +30,7 @@
 			<title><![CDATA[相信在上周，你已经和训练营的同学打成一片了]]></title>
 			<subTitle><![CDATA[那么你的身体能动力提升的怎样呢？]]></subTitle>
 			<game>
-				<resp value="a"><![CDATA[恩……还是没有时间<br>参加任何运动啊]]></resp>
+				<resp value="a"><![CDATA[恩，还是没有时间<br>参加任何运动啊]]></resp>
 				<resp value="b"><![CDATA[进行了一些<br>小练习的]]></resp>
 				<resp value="c"><![CDATA[我有坚持哦，但运动时<br>肌肉还是会感到疼痛啊]]></resp>
 				<resp value="d"><![CDATA[效果大大超过<br>我的预期！]]></resp>
@@ -41,7 +45,7 @@
 		<textField>
 			<week><![CDATA[第4周]]></week>
 			<title><![CDATA[训练你的思考敏锐度]]></title>
-			<subTitle><![CDATA[这里有一整周的脑力训练……一定会激发你的思考敏锐度哦！]]></subTitle>
+			<subTitle><![CDATA[这里有一整周的脑力训练，一定会激发你的思考敏锐度哦！]]></subTitle>
 		</textField>
 		<button>
 			<bt><![CDATA[Go]]></bt>

@@ -13,6 +13,10 @@
 			<sound on="音乐:开" off="音乐:关"><![CDATA[]]></sound>
 		</button>
 		<url>
+			<kaixinfunc><![CDATA[add2Kaixin001]]></kaixinfunc>
+			<kaixintitle><![CDATA[依云Live Young训练营]]></kaixintitle>
+			<kaixincontent><![CDATA[我已经参加了依云Live Young训练营年轻指数测试测试，你也来试试吧。]]></kaixincontent>
+			<kaixincontent2><![CDATA[我已经参加了依云Live Young训练营年轻指数测试测试，我的年轻指数是$age岁，你也来试试吧。]]></kaixincontent2>
 			<urlFan>http://www.facebook.com/evianUS</urlFan>
 			<urlInfo>http://www.evian.com/#/zh_CN/</urlInfo>
 		</url>
@@ -25,7 +29,7 @@
 		<textField >
 			<title><![CDATA[告诉我们，上周你笑了几次？]]></title>
 			<game>
-				<resp value="a"><![CDATA[少于一次……]]></resp>
+				<resp value="a"><![CDATA[少于一次.]]></resp>
 				<resp value="b"><![CDATA[宝贝视频的确<br>让我笑得开心]]></resp>
 				<resp value="c"><![CDATA[很多次，<br>这周很开心]]></resp>
 				<resp value="d"><![CDATA[太多次了，<br>笑到我两颊酸痛啦！]]></resp>
@@ -52,8 +56,8 @@
 			<title num="#1"><![CDATA[能动力训练]]></title>
 			<subTitle><![CDATA[加强你的身体能动力]]></subTitle>
 			<game>
-				<text><![CDATA[利用玩开心网的间隙时间作运动]]></text>
-				<text><![CDATA[<textformat leading="-4"><font color="#616161">立即</font><font color="#616161">开始练习：</font><br/><br/></textformat><textformat leading="1.5"><font color="#8E8E8E">胸部微微倾斜，两腿向前伸展，然后双脚交叉，<br>保持这个姿势30秒，接着重复3次。</textformat>]]></text>
+				<text><![CDATA[利用玩开心网的间隙时间做运动]]></text>
+				<text><![CDATA[<textformat leading="-4"><font color="#616161">立即</font><font color="#616161">开始练习：</font><br/><br/></textformat><textformat leading="1.5"><font color="#8E8E8E">坐在椅子上，胸部微微倾斜，两腿向前伸展，<br>然后双脚交叉，保持这个姿势30秒，接着重复3次。</textformat>]]></text>
 				<text><![CDATA[请在这一周勤加练习哦，这有助你增强身体能动力，并获得纯粹的运动乐趣！]]></text>
 			</game>
 		</textField>
@@ -96,7 +100,7 @@
 		<videoUrl><![CDATA[01_82_jules.mp4]]></videoUrl>
 		<textField>
 			<title><![CDATA[你干得很棒，]]></title>
-			<subTitle><![CDATA[别停哦！下个练习前，继续提高你的年轻指数吧！希望你收获多多！]]></subTitle>
+			<subTitle><![CDATA[别停哦！下个练习前，继续提高你的年轻指数吧！希望你收获多多！<br>我们将会通过邮件与你联系,在下周发送新的练习.]]></subTitle>
 		</textField>
 		<button>
 			<bt><![CDATA[我的资料]]></bt>

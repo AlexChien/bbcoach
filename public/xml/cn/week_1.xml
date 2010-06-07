@@ -13,6 +13,10 @@
 			<sound on="音乐:开" off="音乐:关"><![CDATA[]]></sound>
 		</button>
 		<url>
+			<kaixinfunc><![CDATA[add2Kaixin001]]></kaixinfunc>
+			<kaixintitle><![CDATA[依云Live Young训练营]]></kaixintitle>
+			<kaixincontent><![CDATA[我已经参加了依云Live Young训练营年轻指数测试测试，你也来试试吧。]]></kaixincontent>
+			<kaixincontent2><![CDATA[我已经参加了依云Live Young训练营年轻指数测试测试，我的年轻指数是$age岁，你也来试试吧。]]></kaixincontent2>
 			<urlFan>http://www.facebook.com/evianUS</urlFan>
 			<urlInfo>http://www.evian.com/#/zh_CN/</urlInfo>
 		</url>
@@ -108,7 +112,7 @@
 		<videoUrl><![CDATA[01_82_jules.mp4]]></videoUrl>
 		<textField >
 			<title><![CDATA[你干得很棒，]]></title>
-			<subTitle><![CDATA[别停哦！下个练习前，继续提高你的年轻指数吧！希望你收获多多！]]></subTitle>
+			<subTitle><![CDATA[别停哦！下个练习前，继续提高你的年轻指数吧！希望你收获多多！<br>我们将会通过邮件与你联系,在下周发送新的练习.]]></subTitle>
 		</textField>
 		<button>
 			<bt><![CDATA[我的资料]]></bt>

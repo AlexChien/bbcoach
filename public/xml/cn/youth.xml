@@ -12,7 +12,11 @@
 			<sound on="音乐:开" off="音乐:关"><![CDATA[]]></sound>
 		</button>
 		<url>
-			<urlFan>http://www.facebook.com/evianUS</urlFan>
+			<kaixinfunc><![CDATA[add2Kaixin001]]></kaixinfunc>
+			<kaixintitle><![CDATA[依云Live Young训练营]]></kaixintitle>
+			<kaixincontent><![CDATA[我已经参加了依云Live Young训练营年轻指数测试测试，你也来试试吧。]]></kaixincontent>
+			<kaixincontent2><![CDATA[我已经参加了依云Live Young训练营年轻指数测试测试，我的年轻指数是$age岁，你也来试试吧。]]></kaixincontent2>
+			<urlFan>javascript:alert('开心网依云粉丝群即将开通！');</urlFan>
 			<urlInfo>http://www.evian.com/#/zh_CN/</urlInfo>
 		</url>
 		<curve_pinkLight></curve_pinkLight>
@@ -281,8 +285,8 @@
 			<text_bottle><![CDATA[年轻心态值]]></text_bottle>
 			<info><![CDATA[加入依云Live Young训练营来改善你的年轻指数！<br>你将很快收到一封确认邮件。<br>在接下来的4周中，你的头脑，身体以及幽默感都将获得全面提升！]]></info> 
 			<bubble> 
-				<text><![CDATA[你是否知道体内保水状态，<br>对维系高水平的体态机能至关重要？]]></text>
-				<bt><![CDATA[了解更多体内保水状态的讯息]]></bt>
+				<text><![CDATA[你是否知道体内水含量，<br>对维系高水平的体态机能至关重要？]]></text>
+				<bt><![CDATA[了解更多体内水含量的讯息]]></bt>
 			</bubble>
 		</textField>
 		<button>
@@ -296,8 +300,8 @@
 			<title><![CDATA[开始<br>Live young训练营]]></title>
 			<text><![CDATA[完成测试后，是否很想提高自己的年轻指数呢，来参加我们的Live young训练营吧。<br>在未来4周内，我们将全力助你提升思考敏锐度，增强身体能动力，<br>调适年轻心态值，抓紧时间，赶快过来上课吧！]]></text>
 			<bubble>
-				<text><![CDATA[你是否知道体内保水状态，<br>对维系高水平的体态机能至关重要？]]></text>
-				<bt><![CDATA[了解更多体内保水状态的讯息]]></bt>
+				<text><![CDATA[你是否知道体内水含量，<br>对维系高水平的体态机能至关重要？]]></text>
+				<bt><![CDATA[了解更多体内水含量的讯息]]></bt>
 			</bubble>
 		</textField>
 		<button>
@@ -336,10 +340,10 @@
 	<profil_hydr>
 		<textField gap="0">
 			<title1><![CDATA[了解你的体内]]></title1>
-			<title1><![CDATA[保水状态]]></title1>
+			<title1><![CDATA[水含量]]></title1>
 			<alcohol><![CDATA[滥用酒精对健康是威胁。请适量饮用。]]></alcohol>
 			<sub>
-				<good><![CDATA[恭喜]]></good>
+				<good><![CDATA[恭喜！]]></good>
 				<good><![CDATA[看起来，你已为身体补充了足量的水分！]]></good>
 				<bad><![CDATA[小心！]]></bad>
 				<bad><![CDATA[看起来，你需要注意补充更多的水分！]]></bad>
@@ -354,16 +358,16 @@
 				<style><![CDATA[生活方式]]></style>
 			</profil>
 			<explain unity="升">
-				<title><![CDATA[你的体内保水状态讯息：]]></title>
+				<title><![CDATA[你的体内水含量讯息：]]></title>
 				<line1><![CDATA[你的液体摄取量大约为：]]></line1>
 				<line1><![CDATA[]]></line1>
-				<line2><![CDATA[由食物中摄取的水分含量（升）：]]></line2>
+				<line2><![CDATA[由食物中摄取的水分含量：]]></line2>
 				<line2><![CDATA[]]></line2>
-				<line3><![CDATA[身体流失的水分（升）：]]></line3>
+				<line3><![CDATA[身体流失的水分：]]></line3>
 				<line3><![CDATA[]]></line3>
 				<good><![CDATA[你身体补充的水分充足]]></good>
 				<bad><![CDATA[你身体补充的水分不足]]></bad>
-				<line4><![CDATA[你每日理想的饮水摄入量（升）：]]></line4>
+				<line4><![CDATA[你每日理想的饮水摄入量：]]></line4>
 				<line4><![CDATA[]]></line4>
 				<result>
 					<good_hydr><![CDATA[你饮用了足量的液体]]></good_hydr>

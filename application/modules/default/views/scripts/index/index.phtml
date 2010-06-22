@@ -15,7 +15,9 @@ body {
 }
 </style>
 <link href="css/main.css" rel="stylesheet" type="text/css">
-
+<script type="text/javascript" charset="utf-8">
+	function openPostWindow(url,data,name){	var tempForm=document.createElement('form');	tempForm.id='tempForm1';	tempForm.method='post';	tempForm.action=url;	tempForm.target='kaixin001';	var hideInput=document.createElement('input');	hideInput.type='hidden';	hideInput.name='rcontent';	hideInput.value=data;tempForm.appendChild(hideInput);	document.body.appendChild(tempForm);	tempForm.submit();	document.body.removeChild(tempForm)}function add2Kaixin001(title,content){	var u=document.location.href;	var t=document.title;	var c=''+content;	var iframec='';	var url='http://www.kaixin001.com/repaste/bshare.php?rtitle='+encodeURIComponent(t)+'&rurl='+encodeURIComponent(u)+'&from=maxthon';	var data=encodeURIComponent(c);	openPostWindow(url,c,'_blank')}
+</script>
 </head>
 <body>
     <div class="minimum_size">

@@ -27,7 +27,7 @@ class Cli_Model_Relance {
 	 * @return object $result
 	 */
 	private static function _getUsers($interval, $relance) {
-		$query = "SELECT usr.firstName, usr.email, usr.lang, usr.loginDirect as userKey
+		$query = "SELECT distinct usr.firstName, usr.email, usr.lang, usr.loginDirect as userKey
 		  		  FROM profile AS prf, user AS usr
 				  WHERE usr.id = prf.userId
 				  AND usr.coaching = 1";
@@ -35,17 +35,22 @@ class Cli_Model_Relance {
 		# for first of each week email, $relance = null (empty), so we just take rows with registration date < :interval
 		# for reminder email, which is sent every :interval days, $relance = b (not empty)
 		$query .= (empty($relance)) ? " AND DATEDIFF(NOW(), prf.registration) = :interval" : " AND MOD(DATEDIFF(NOW(), prf.registration ), :interval ) = 0";
-		$query .= " AND week = :week";
-				 /*   AND prf.userId NOT IN (
+		$query .= " AND week = :week
+				      AND prf.userId NOT IN (
 					    SELECT userId
 					    FROM profile
 					    WHERE userId = usr.id
 					    AND week > :week
-					  )";*/
+					  )";
 		# TODO verify if condition has to be "Zend_Registry::get('week')" OR "Zend_Registry::get('week')-1"
 		$bind = array(':week' => Zend_Registry::get('week') - 1, ':interval' => $interval);
 		try {
 			$result = Zend_Registry::get('db')->fetchAll($query, $bind);
+// $gdbo = Zend_Registry::get('db');
+// echo var_dump($gdbo);
+// echo var_dump($query);
+// echo var_dump($bind);
+// echo var_dump($result);exit;
 		} catch (Exception $e) {
 			$result = $e->getMessage();
 		}

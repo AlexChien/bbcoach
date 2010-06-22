@@ -22,6 +22,8 @@ class Default_Model_Amf extends Enterprise_Model {
 		
 		// $this->writer = new Zend_Log_Writer_Stream('/var/log/php-scripts.log');
 		// $this->logger = new Zend_Log($this->writer);
+		$this->writer = new Zend_Log_Writer_Firebug();
+		$this->logger = new Zend_Log($this->writer);
 	}
 
 	/**
@@ -231,6 +233,7 @@ class Default_Model_Amf extends Enterprise_Model {
 				  AND usr.id = :userId
 				  AND  prf.week = ";
 		$query .= $params->week;
+				 /*original comment*/
 				 /* IN (
 					SELECT MAX( week )
 					FROM profile
@@ -262,17 +265,26 @@ class Default_Model_Amf extends Enterprise_Model {
 				  week = :week";
 		$bind = array(':userId' => $userId, ':week' => $datas['week']);
 		$result = $this->_db->fetchOne($query, $bind);
-		if($result == 1) {
+		
+		$this->logger->info('$params->userId: '.$userId);
+		$this->logger->info('$params->week: '.$datas['week']);
+		$this->logger->info('result: '.$result);
+		$this->logger->info('datas: '.var_export($datas,true));
+		
+		if ($result == 1) {
 			$where[] = 'userId =' . $userId;
 			$where[] = 'week =' . $datas['week'];
 			$a = $this->_db->update('profile', $datas, $where);
-		}
-		else {
+			$this->logger->info('update action >> ');
+		} else {
 			$datas['userId'] = $userId;
 			$datas['registration'] = null;
-			$this->_db->insert('profile', $datas);
-
+			$a = $this->_db->insert('profile', $datas);
+			$this->logger->info('insert action >> ');
 		}
+		
+		
+		$this->logger->info('action return: '.var_export($a,true));
 
 		return;
 	}

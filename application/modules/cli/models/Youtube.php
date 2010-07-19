@@ -37,7 +37,7 @@ class Cli_Model_Youtube {
 		  		  FROM profile AS prf, user AS usr
 				  WHERE usr.id = prf.userId
 				  AND usr.coaching = 1
-				  AND DATEDIFF( NOW( ) , prf.registration ) = :day
+				  AND DATEDIFF( NOW( ) , prf.registration ) = :week
 				  AND week = 2
 				  AND prf.userId NOT IN (
 					  SELECT userId

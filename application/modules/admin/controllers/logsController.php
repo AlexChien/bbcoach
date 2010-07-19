@@ -23,6 +23,8 @@ class Admin_logsController extends Enterprise_Controller {
 
 	public function displaylogAction() {
 		$this->view->log = $this->_getParam('log');
+		// print var_dump($this->_getParam('log'));
+		// print var_dump(new Admin_Model_Logs($this->_getParam('log')));
 		$this->view->datas = new Admin_Model_Logs($this->_getParam('log'));
 	}
 

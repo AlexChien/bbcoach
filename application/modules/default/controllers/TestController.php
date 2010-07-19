@@ -156,6 +156,7 @@ class TestController extends Enterprise_Controller {
             $mailDatas = new stdClass();
             $mailDatas->lang = 'cn';
             $mailDatas->scriptName = 'monitoring';
+			// $mailDatas->scriptName = 'semaine-1b';
             $mailDatas->view->semaine = 'Monitoring: 空周';
             $mailDatas->view->email = array('alex.chien@koocaa.com', 'alexchien97@gmail.com', 'johnsonqu@gmail.com');
             $mail->build();

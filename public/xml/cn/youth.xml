@@ -17,7 +17,7 @@
 			<kaixincontent><![CDATA[我已经参加了依云Live Young训练营年轻指数测试测试，你也来试试吧。]]></kaixincontent>
 			<kaixincontent2><![CDATA[我已经参加了依云Live Young训练营年轻指数测试测试，我的年轻指数是$age岁，你也来试试吧。]]></kaixincontent2>
 			<urlFan>http://www.kaixin001.com/evian</urlFan>
-			<urlInfo>http://www.evian.com/#/zh_CN/</urlInfo>
+			<urlInfo>http://liveyoung.evian.cn</urlInfo>
 		</url>
 		<curve_pinkLight></curve_pinkLight>
 	</footer>
@@ -181,7 +181,7 @@
 				<text><![CDATA[测试你的]]></text>
 				<text><![CDATA[年轻<br>心态值]]></text>
 			</title>
-			<text><![CDATA[不只是，体态年轻也是一种心态，同意吗？]]></text>
+			<text><![CDATA[不只是体态，年轻也是一种心态，同意吗？]]></text>
 			<text><![CDATA[告诉我们<br>每天你大概笑几次？]]></text>
 			<text_scroll name="Laught">
 				<text><![CDATA[没来由的笑？<br>我不喜欢]]></text>

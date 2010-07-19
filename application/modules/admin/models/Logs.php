@@ -17,6 +17,7 @@ class Admin_Model_Logs {
 			$e = explode(';', $line);
 			$table[] = array('date' => $e[0], 'content' => $e[1]);
 		}
+		// print var_dump($table);exit;
 		return $table;
 	}
 

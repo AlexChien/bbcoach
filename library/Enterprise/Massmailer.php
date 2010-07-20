@@ -102,9 +102,17 @@ class Enterprise_Massmailer {
 			break;
 		}
 		//	selection de la video si template youtube
-		if ($this->_scriptName == 'youtube') {
-			$view->urlVideo = $view->texts->{video.$this->_day};
-			$view->day = $this->_day;
+    if ($this->_scriptName == 'youtube') {
+      if ($this->_day){
+        $view->urlVideo = $view->texts->{video.$this->_day};
+        $view->day = $this->_day;
+      }
+      else{
+        $day = Zend_Registry::get('week');
+        $video = 'video'.$day;
+        $view->urlVideo = $view->texts->$video;
+        $view->day = $day;
+      }
 		}
 
 		$view->assign((array) $datas);
